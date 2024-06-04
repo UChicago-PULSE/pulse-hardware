@@ -8,4 +8,4 @@ PULSE-A is almost entirely developed within Autodesk Fusion360, which does not p
 Everything in `artemis-hardware/` is just a copy of material gathered from HSFL, who have helped us greatly in making this project possible.
 
 ## Pulse KiCad Files
-All KiCad files related to avionics development
+All KiCad files related to PULSE-A Hardware development

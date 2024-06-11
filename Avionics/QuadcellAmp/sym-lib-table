@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Quadcell")(type "KiCad")(uri "${KIPRJMOD}/Quadcell.kicad_sym")(options "")(descr ""))
+)

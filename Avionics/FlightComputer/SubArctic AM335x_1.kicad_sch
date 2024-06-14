@@ -1,0 +1,2597 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a853bd2f-42f1-489e-bce5-2f10da157fcb")
+	(paper "A3")
+	(lib_symbols
+		(symbol "SubArctic AM335x:SubArctic_AM335x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 113.03 -121.2849 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 113.03 -121.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SubArctic_AM335x_1_1"
+				(rectangle
+					(start 74.93 -6.35)
+					(end 109.22 -184.15)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 109.22 -12.7 0)
+					(length 2.54)
+					(name "NRESET_INOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -40.64 0)
+					(length 2.54)
+					(name "TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -38.1 0)
+					(length 2.54)
+					(name "TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -22.86 0)
+					(length 2.54)
+					(name "EVENT_INTR0/TIMER4/CLKOUT1/SPI1_CS1/PR1PRU1R31_16/EMU2/GPIO0_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -24.13 0)
+					(length 2.54)
+					(name "OSC1_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -26.67 0)
+					(length 2.54)
+					(name "VSS_RTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -20.32 0)
+					(length 2.54)
+					(name "OSC1_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -44.45 0)
+					(length 2.54)
+					(name "DDR_A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -30.48 0)
+					(length 2.54)
+					(name "NTRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -35.56 0)
+					(length 2.54)
+					(name "TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -45.72 0)
+					(length 2.54)
+					(name "EMU1/GPIO3_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -10.16 0)
+					(length 2.54)
+					(name "PORZn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -20.32 0)
+					(length 2.54)
+					(name "NNMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -140.97 0)
+					(length 2.54)
+					(name "DDR_WEn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -77.47 0)
+					(length 2.54)
+					(name "DDR_BA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -15.24 0)
+					(length 2.54)
+					(name "RTC_PORZn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -54.61 0)
+					(length 2.54)
+					(name "DDR_A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -33.02 0)
+					(length 2.54)
+					(name "TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -43.18 0)
+					(length 2.54)
+					(name "EMU0/GPIO3_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -41.91 0)
+					(length 2.54)
+					(name "DDR_A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -39.37 0)
+					(length 2.54)
+					(name "DDR_A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -72.39 0)
+					(length 2.54)
+					(name "DDR_BA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -128.27 0)
+					(length 2.54)
+					(name "DDR_NCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -25.4 0)
+					(length 2.54)
+					(name "EVENT_INTR1/TCLKIN/CLKOUT2/TIMER7/PR1PRU0_PRUR31_16/EMU3/GPIO0_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -125.73 0)
+					(length 2.54)
+					(name "DDR_CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -69.85 0)
+					(length 2.54)
+					(name "DDR_A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -52.07 0)
+					(length 2.54)
+					(name "DDR_A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -46.99 0)
+					(length 2.54)
+					(name "DDR_A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -74.93 0)
+					(length 2.54)
+					(name "DDR_BA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -49.53 0)
+					(length 2.54)
+					(name "DDR_A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -62.23 0)
+					(length 2.54)
+					(name "DDR_A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -36.83 0)
+					(length 2.54)
+					(name "DDR_A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -135.89 0)
+					(length 2.54)
+					(name "DDR_CASN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -177.8 0)
+					(length 2.54)
+					(name "MMC0_DAT3/GPMC_A20/UART4_CTSN/TIMER5/UART1_DCDN/PR1_PRU0_PRU_R30_8/PR1_PRU0_PRU_R31_8/GPIO2_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -175.26 0)
+					(length 2.54)
+					(name "MMC0_DAT2/GPMC_A21/UART4_RTSN/TIMER6/UART1_DSRN/PR1_PRU0_PRU_R30_9/PR1_PRU0_PRU_R31_9/GPIO2_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -59.69 0)
+					(length 2.54)
+					(name "DDR_A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -31.75 0)
+					(length 2.54)
+					(name "DDR_A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -57.15 0)
+					(length 2.54)
+					(name "DDR_A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -163.83 0)
+					(length 2.54)
+					(name "DDR_ODT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -172.72 0)
+					(length 2.54)
+					(name "MMC0_DAT1/GPMC_A22/UART5_CTSN/UART3_RXD/UART1_DTRN/PR1_PRU0_PRU_R30_10/PR1_PRU0_PRU_R31_10/GPIO2_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -170.18 0)
+					(length 2.54)
+					(name "MMC0_DAT0/GPMC_A23/UART5_RTSN/UART3_TXD/UART1_RIN/PR1_PRU0_PRU_R30_11/PR1_PRU0_PRU_R31_11/GPIO2_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -165.1 0)
+					(length 2.54)
+					(name "MMC0_CLK/GPMC_A24/UART3_CTSN/UART2_RXD/DCAN1_TX/PR1_PRU0_PRU_R30_12/PR1_PRU0_PRU_R31_12/GPIO2_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -167.64 0)
+					(length 2.54)
+					(name "MMC0_CMD/GPMC_A25/UART3_RTSN/UART2_TXD/DCAN1_RX/PR1_PRU0_PRU_R30_13/PR1_PRU0_PRU_R31_13/GPIO2_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -166.37 0)
+					(length 2.54)
+					(name "DDR_RESETN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -130.81 0)
+					(length 2.54)
+					(name "DDR_CKE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -138.43 0)
+					(length 2.54)
+					(name "DDR_RASN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -34.29 0)
+					(length 2.54)
+					(name "DDR_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -133.35 0)
+					(length 2.54)
+					(name "DDR_CSN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -64.77 0)
+					(length 2.54)
+					(name "DDR_A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -67.31 0)
+					(length 2.54)
+					(name "DDR_A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -102.87 0)
+					(length 2.54)
+					(name "DDR_D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -153.67 0)
+					(length 2.54)
+					(name "DDR_DQM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -168.91 0)
+					(length 2.54)
+					(name "DDR_VTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -173.99 0)
+					(length 2.54)
+					(name "VREFSSTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -105.41 0)
+					(length 2.54)
+					(name "DDR_D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -107.95 0)
+					(length 2.54)
+					(name "DDR_D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -110.49 0)
+					(length 2.54)
+					(name "DDR_D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -113.03 0)
+					(length 2.54)
+					(name "DDR_D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -156.21 0)
+					(length 2.54)
+					(name "DDR_DQS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -158.75 0)
+					(length 2.54)
+					(name "DDR_DQSN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -115.57 0)
+					(length 2.54)
+					(name "DDR_D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -118.11 0)
+					(length 2.54)
+					(name "DDR_D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -120.65 0)
+					(length 2.54)
+					(name "DDR_D15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -146.05 0)
+					(length 2.54)
+					(name "DDR_DQM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -82.55 0)
+					(length 2.54)
+					(name "DDR_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -85.09 0)
+					(length 2.54)
+					(name "DDR_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -87.63 0)
+					(length 2.54)
+					(name "DDR_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -90.17 0)
+					(length 2.54)
+					(name "DDR_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -92.71 0)
+					(length 2.54)
+					(name "DDR_D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -95.25 0)
+					(length 2.54)
+					(name "DDR_D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -148.59 0)
+					(length 2.54)
+					(name "DDR_DQS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -151.13 0)
+					(length 2.54)
+					(name "DDR_DQSN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -97.79 0)
+					(length 2.54)
+					(name "DDR_D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -100.33 0)
+					(length 2.54)
+					(name "DDR_D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -116.84 0)
+					(length 2.54)
+					(name "GPMC_AD13/LCD_DATA18/MMC1_DAT5/MMC2_DAT1/EQEP2B_IN/PR1_MII0_TXD1/PR1_PRU0_PRU_R30_15/GPIO1_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -128.27 0)
+					(length 2.54)
+					(name "GPMC_A0/GMII2_TXEN/RGMII2_TCTL/RMII2_TXEN/GPMC_A16/PR1_MII_MT1_CLK/EHRPWM1_TRIPZONE_INPUT/GPIO1_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -138.43 0)
+					(length 2.54)
+					(name "GPMC_A4/GMII2_TXD1/RGMII2_TD1/RMII2_TXD1/GPMC_A20/PR1_MII1_TXD0/EQEP1A_IN/GPIO1_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -68.58 0)
+					(length 2.54)
+					(name "GPMC_ADVN_ALE/TIMER4/GPIO2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -88.9 0)
+					(length 2.54)
+					(name "GPMC_AD2/MMC1_DAT2//////GPIO1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -99.06 0)
+					(length 2.54)
+					(name "GPMC_AD6/MMC1_DAT6//////GPIO1_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -106.68 0)
+					(length 2.54)
+					(name "GPMC_AD9/LCD_DATA22/MMC1_DAT1/MMC2_DAT5/EHRPWM2B/PR1_MII0_CRS//GPIO0_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -109.22 0)
+					(length 2.54)
+					(name "GPMC_AD10/LCD_DATA21/MMC1_DAT2/MMC2_DAT6/EHRPWM2_TRIPZONE_INPUT/PR1_MII0_TXEN//GPIO0_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -114.3 0)
+					(length 2.54)
+					(name "GPMC_AD12/LCD_DATA19/MMC1_DAT4/MMC2_DAT0/EQEP2A_IN/PR1_MII0_TXD2/PR1_PRU0_PRU_R30_14/GPIO1_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -60.96 0)
+					(length 2.54)
+					(name "GPMC_CSN3/MMC2_CMD/PR1_MDIO_DATA/GPIO2_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -135.89 0)
+					(length 2.54)
+					(name "GPMC_A3/GMII2_TXD2/RGMII2_TD2/MMC2_DAT2/GPMC_A19/PR1_MII1_TXD1/EHRPWM1B/GPIO1_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -146.05 0)
+					(length 2.54)
+					(name "GPMC_A7/GMII2_RXCLK/RGMII2_RCLK/MMC2_DAT5/GPMC_A23/PR1_MII1_RXD1/EQEP1_STROBE/GPIO1_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -153.67 0)
+					(length 2.54)
+					(name "GPMC_A10/GMII2_RXD1/RGMII2_RD1/RMII2_RXD1/GPMC_A26/PR1_MII1_CRS/MCASP0_AXR0/GPIO1_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -76.2 0)
+					(length 2.54)
+					(name "GPMC_WAIT0/GM112_CRS/GPMC_CSN4/RMII2_CRS_DV/MMC1_SDCD/PR1_MII1_RXDV/UART4_RXD/GPIO0_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -71.12 0)
+					(length 2.54)
+					(name "GPMC_BE0N_CLE/TIMER5/GPIO2_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -66.04 0)
+					(length 2.54)
+					(name "GPMC_OEN_REN/TIMER7/EMU4/GPIO2_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -91.44 0)
+					(length 2.54)
+					(name "GPMC_AD3/MMC1_DAT3//////GPIO1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -101.6 0)
+					(length 2.54)
+					(name "GPMC_AD7/MMC1_DAT7//////GPIO1_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -104.14 0)
+					(length 2.54)
+					(name "GPMC_AD8/LCD_DATA23/MMC1_DAT0/MMC2_DAT4/EHRPWM2A/PR1_MII_MT0_CLK//GPIO0_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -13.97 0)
+					(length 2.54)
+					(name "OSC0_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -111.76 0)
+					(length 2.54)
+					(name "GPMC_AD11/LCD_DATA20/MMC1_DAT3/MMC2_DAT7/EHRPWM2_SYNCI_O/PR1_MII0_TXD3//GPIO0_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -121.92 0)
+					(length 2.54)
+					(name "GPMC_AD15/LCD_DATA16/MMC1_DAT7/MMC2_DAT3/EQEP2_STROBE/PR1_ECAP0_ECAP_CAPIN_APWM_O/PR1_PRU0_PRU_R31_15/GPIO1_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -133.35 0)
+					(length 2.54)
+					(name "GPMC_A2/GMII2_TXD3/RGMII2_TD3/MMC2_DAT1/GPMC_A18/PR1_MII1_TXD2/EHRPWM1A/GPIO1_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -143.51 0)
+					(length 2.54)
+					(name "GPMC_A6/GMII2_TXCLK/RGMII2_TCLK/MMC2_DAT4/GPMC_A22/PR1_MII1_RXD2/EQEP1_INDEX/GPIO1_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -151.13 0)
+					(length 2.54)
+					(name "GPMC_A9/GMII2_RXD2/RGMII2_RD2/MMC2_DAT7/GPMC_A25/PR1_MII_MR1_CLK/MCASP0_FSX/GPIO1_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -78.74 0)
+					(length 2.54)
+					(name "GPMC_WPN/GMII2_RXERR/GPMC_CSN5/RMII2_RXERR/MMC2_SDCD/PR1_MDIO_MDCLK/UART4_TXD/GPIO0_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -73.66 0)
+					(length 2.54)
+					(name "GPMC_BE1N/GMII2_COL/GPMC_CSN6/MMC2_DAT3/GPMC_DIR/PR1_MII1_RXLINK/MCASP0_ACLKR/GPIO1_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -63.5 0)
+					(length 2.54)
+					(name "GPMC_WEN/TIMER6/GPIO2_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -83.82 0)
+					(length 2.54)
+					(name "GPMC_AD0/MMC1_DAT0//////GPIO1_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -93.98 0)
+					(length 2.54)
+					(name "GPMC_AD4/MMC1_DAT4//////GPIO1_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -55.88 0)
+					(length 2.54)
+					(name "GPMC_CSN1/GPMC_CLK/MMC1_CLK/PRT1EDIO_DATA_IN6/PRT1_EDIO_DATA_OUT6/PR1_PRU1_PRU_R30_12/PR1_PRU1_PRU_R31_12/GPIO1_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -10.16 0)
+					(length 2.54)
+					(name "OSC0_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 74.93 -16.51 0)
+					(length 2.54)
+					(name "VSS_OSC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -50.8 0)
+					(length 2.54)
+					(name "GPMC_CLK/LCD_MEM_CLK/GPMC_WAIT1/MMC2_CLK/PRT1_MII1_TXEN/MCASP0_FSR/GPIO2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -119.38 0)
+					(length 2.54)
+					(name "GPMC_AD14/LCD_DATA17/MMC1_DAT6/MMC2_DAT2/EQEP2_INDEX/PR1_MII0_TXD0/PR1_PRU0_PRU_R31_14/GPIO1_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -130.81 0)
+					(length 2.54)
+					(name "GPMC_A1/GMII2_RXDV/RGMII2_RCTL/MMC2_DAT0/GPMC_A17/PR1_MII1_TXD3/EHRPWM1_SYNCI_O/GPIO1_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -140.97 0)
+					(length 2.54)
+					(name "GPMC_A5/GMII2_TXD0/RGMII2_TD0/RMII2_TXD0/GPMC_A21/PR1_MII1_RXD3/EQEP1B_IN/GPIO1_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -148.59 0)
+					(length 2.54)
+					(name "GPMC_A8/GMII2_RXD3/RGMII2_RD3/MMC2_DAT6/GPMC_A24/PR1_MII1_RXD0/MCASP0_ACLKX/GPIO1_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -156.21 0)
+					(length 2.54)
+					(name "GPMC_A11/GMII2_RXD0/RGMII2_RD0/RMII2_RXD0/GPMC_A27/PR1_MII1_RXER/MCASP0_AXR1/GPIO1_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -53.34 0)
+					(length 2.54)
+					(name "GPMC_CSN0/GPIO1_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -86.36 0)
+					(length 2.54)
+					(name "GPMC_AD1/MMC1_DAT1//////GPIO1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -96.52 0)
+					(length 2.54)
+					(name "GPMC_AD5/MMC1_DAT5//////GPIO1_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 109.22 -58.42 0)
+					(length 2.54)
+					(name "GPMC_CSN2/GPMC_BE1N/MMC1_CMD/PR1_EDIO_DATA_IN7/PR1_EDIO_DATA_OUT7/PR1_PRU1_PRU_R30_13/PR1_PRU1_PRU_R31_13/GPIO1_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SubArctic AM335x:SubArctic_AM335x")
+		(at 34.29 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526f30de-f89c-4ab8-919c-8a8a743b9ff7")
+		(property "Reference" "U2"
+			(at 147.32 159.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "U18"
+			(uuid "3f2c3fd8-7319-41d2-bdaa-e4b4c7e7c13e")
+		)
+		(pin "U6"
+			(uuid "04280a6f-568f-4ce9-92ef-75f4d0b71df7")
+		)
+		(pin "U7"
+			(uuid "796207b3-4ec4-4a46-ab58-57279805bc45")
+		)
+		(pin "U8"
+			(uuid "8f56e44a-377c-48f2-a813-484f76d668e4")
+		)
+		(pin "U9"
+			(uuid "24dcc406-e7a4-4f39-b0e7-e946dd574299")
+		)
+		(pin "A10"
+			(uuid "246e8805-fbef-4fee-af16-0d0247e8ad55")
+		)
+		(pin "A11"
+			(uuid "c0e6ce5e-956b-4674-949d-f9b75bccc1a0")
+		)
+		(pin "A12"
+			(uuid "0964ba43-9c43-4d41-9888-3e5ed15cc0ac")
+		)
+		(pin "A15"
+			(uuid "1630b001-b1db-4f3d-a8dc-23adf9a30fc8")
+		)
+		(pin "B10"
+			(uuid "cea12072-6af1-475f-a1fb-f68623576eba")
+		)
+		(pin "B11"
+			(uuid "dbb86897-2d46-48ad-a05b-9fa04ee5f72e")
+		)
+		(pin "B14"
+			(uuid "2f0661f0-7e4b-4b7a-8f7f-624980c43283")
+		)
+		(pin "B15"
+			(uuid "4c95d030-4b3e-4dd6-a876-82fd3311e554")
+		)
+		(pin "B18"
+			(uuid "a5107313-60a8-45c9-9c10-5cb28c2dc0bf")
+		)
+		(pin "R14"
+			(uuid "3cb79239-8d08-4975-aa18-62160b44406e")
+		)
+		(pin "R7"
+			(uuid "bad05da7-7eaf-4c40-a4be-2d079ee9603b")
+		)
+		(pin "R8"
+			(uuid "f5de3e63-550b-4f0c-a021-b42bc87d20ce")
+		)
+		(pin "R9"
+			(uuid "3b81391a-4895-467e-b356-bc93a17d6b76")
+		)
+		(pin "T10"
+			(uuid "9968a62f-0a19-4997-b321-eaa807e93311")
+		)
+		(pin "T11"
+			(uuid "ff3fc99e-4ec6-4c72-85e1-b635d53351e3")
+		)
+		(pin "V12"
+			(uuid "57f7a8bb-b204-46df-87b6-db5409aba002")
+		)
+		(pin "V13"
+			(uuid "7f111ea6-73e6-4b74-a418-0b5cd3d22ab7")
+		)
+		(pin "U13"
+			(uuid "81b207cb-6aae-4eb5-bc9d-3c1c69e82fd5")
+		)
+		(pin "U14"
+			(uuid "aef6c21d-c6c6-489b-8a48-81e8b0b786e2")
+		)
+		(pin "T12"
+			(uuid "f33843d3-4bf6-4b4d-8ebb-db2ca33ed80e")
+		)
+		(pin "T13"
+			(uuid "026ec1cb-a3d1-46af-926e-579608c395b7")
+		)
+		(pin "T14"
+			(uuid "38086fc7-85d3-41d9-ac54-06e08277a2e5")
+		)
+		(pin "V8"
+			(uuid "3f09f356-9ed4-4a84-99c7-78b44c217f88")
+		)
+		(pin "V9"
+			(uuid "952e21e0-349c-4be0-b1d3-2cc65e1cf44d")
+		)
+		(pin "V14"
+			(uuid "e27c45f2-99d0-49a2-9fe4-bea56f91463c")
+		)
+		(pin "V15"
+			(uuid "e64dbdc3-59bb-4922-afba-ff8e37116daf")
+		)
+		(pin "V16"
+			(uuid "c4f2d40f-99a8-419e-8b9a-a9444a6a45f0")
+		)
+		(pin "V17"
+			(uuid "d0ee53d9-414e-4278-8214-b89b35d6fdac")
+		)
+		(pin "V7"
+			(uuid "885479d7-a819-4e4f-9147-60f556e16ab9")
+		)
+		(pin "T15"
+			(uuid "9e851949-89c3-4e3b-88e2-4b327a4f47aa")
+		)
+		(pin "T16"
+			(uuid "efbf51f0-21dc-40dd-a3c8-6dcea07a3d43")
+		)
+		(pin "T17"
+			(uuid "3beccb7b-b242-452b-8044-de3bd2aa4dfa")
+		)
+		(pin "T6"
+			(uuid "0a7c822b-a9c7-490a-bfd5-0d32420421df")
+		)
+		(pin "T7"
+			(uuid "4290de82-cd96-4046-b03a-38585927a483")
+		)
+		(pin "T8"
+			(uuid "e8a9d945-f823-4351-9d6d-1fc058b2c521")
+		)
+		(pin "T9"
+			(uuid "43220a1b-b681-4940-836e-7da603df6201")
+		)
+		(pin "U10"
+			(uuid "8915d759-3d9f-40a4-b47f-38d39a815989")
+		)
+		(pin "U12"
+			(uuid "3ae47a56-9477-499e-b1f4-3d56b60691df")
+		)
+		(pin "U15"
+			(uuid "5b6fe61d-95a2-4bfd-ad1a-311595ecabb9")
+		)
+		(pin "U16"
+			(uuid "98f18115-eb59-4d7a-8ec7-c6a9bca7ef43")
+		)
+		(pin "U17"
+			(uuid "553db7b0-8ed1-4ff9-91a2-cce28f1ae25a")
+		)
+		(pin "V6"
+			(uuid "c75ea2ad-afe3-461f-b542-fb604d67c6b7")
+		)
+		(pin "B5"
+			(uuid "c4a8daab-3e81-460d-91bf-46956df1bf23")
+		)
+		(pin "C11"
+			(uuid "96047805-236f-4b00-923d-49db02d09b2d")
+		)
+		(pin "C14"
+			(uuid "9233fdd4-ea8d-4ee0-8fe5-e094f0bc6975")
+		)
+		(pin "D14"
+			(uuid "b34eb538-6081-4968-af90-c78e70bce562")
+		)
+		(pin "F17"
+			(uuid "71f157ae-79cb-45d2-8003-1bc36996b1d0")
+		)
+		(pin "F18"
+			(uuid "bececab1-31c7-49d0-8f98-e59ebed53fcf")
+		)
+		(pin "G15"
+			(uuid "bfb61c0c-7540-4b3a-9ab9-89e836193c3f")
+		)
+		(pin "G16"
+			(uuid "085be49d-9c7d-41de-9212-e929158f00af")
+		)
+		(pin "G17"
+			(uuid "17c8e3a4-0630-4569-95e0-5cfc34ee268d")
+		)
+		(pin "G18"
+			(uuid "85485058-e5b4-45a8-abc3-36f2aa551667")
+		)
+		(pin "R12"
+			(uuid "83347e4d-afff-488f-9c23-86db47efca06")
+		)
+		(pin "R13"
+			(uuid "ccff11ff-788f-41db-8aae-0cb4162bd004")
+		)
+		(pin "V10"
+			(uuid "7f25c836-73c7-4900-93f7-d763f572a2a0")
+		)
+		(pin "V11"
+			(uuid "64ece16b-9755-45d4-9e62-b3a094417080")
+		)
+		(pin "L2"
+			(uuid "7721a68a-6f0c-475f-8f82-5f94e859038e")
+		)
+		(pin "L3"
+			(uuid "00aa0692-c7bf-487e-95c5-134f98b500dc")
+		)
+		(pin "L4"
+			(uuid "fe7a4065-339f-47d2-adb1-33edfa72832f")
+		)
+		(pin "M1"
+			(uuid "16e814f9-7d7c-4632-83b7-131becd0bcbb")
+		)
+		(pin "M2"
+			(uuid "42ba8062-c994-4223-ab56-c96e9ff14a21")
+		)
+		(pin "M3"
+			(uuid "c1db6a6e-70f8-46dd-888f-4b476d1147b2")
+		)
+		(pin "N1"
+			(uuid "738587bf-6dcc-4f18-83bb-ecc855c4bec0")
+		)
+		(pin "N2"
+			(uuid "5372b51f-1e46-4878-af72-ffe3629cfe28")
+		)
+		(pin "N3"
+			(uuid "4a369080-3b5a-4298-adb8-7fdf6ac0250f")
+		)
+		(pin "N4"
+			(uuid "1622c893-c392-4724-aae6-b13baca7cb3e")
+		)
+		(pin "P1"
+			(uuid "7d98f517-9289-45e0-bd25-5f79b03d68e2")
+		)
+		(pin "P2"
+			(uuid "452f966d-6bd2-4d2a-b7e6-c77f8710b4b7")
+		)
+		(pin "P3"
+			(uuid "4249b4ad-1646-4a9c-8a83-19e129aaee13")
+		)
+		(pin "P4"
+			(uuid "772c6398-936d-4b5d-aa46-638932c40968")
+		)
+		(pin "U11"
+			(uuid "c7339b74-108c-4103-8ad1-78694eaa22ce")
+		)
+		(pin "J4"
+			(uuid "5e92c8aa-374a-4acc-a843-76054cc71a3f")
+		)
+		(pin "K1"
+			(uuid "d3255f84-bf83-4bb4-acef-5d4205986d89")
+		)
+		(pin "K2"
+			(uuid "7c012019-e4bc-4421-b0fd-f583ae061724")
+		)
+		(pin "K3"
+			(uuid "00784307-4650-4e0f-9422-fa2a185c6caf")
+		)
+		(pin "K4"
+			(uuid "3de1672a-cfb2-4244-aca0-81992e95a0c8")
+		)
+		(pin "L1"
+			(uuid "9780970e-e755-4ba6-80cf-33a780585ad7")
+		)
+		(pin "J1"
+			(uuid "d0570523-e8e9-4b15-a830-ba4e91573868")
+		)
+		(pin "J2"
+			(uuid "682a5461-9070-40aa-8258-073664ee7e3e")
+		)
+		(pin "J3"
+			(uuid "25f0e8be-a884-489e-8773-ee5503cc99e8")
+		)
+		(pin "G2"
+			(uuid "0e9c9a95-05bf-4f3a-9a17-227c6ae38b39")
+		)
+		(pin "G3"
+			(uuid "0f0b85bb-ea2e-4ef8-b999-49f752195fff")
+		)
+		(pin "G4"
+			(uuid "817e1d8d-ad02-480b-ab70-04f233be663b")
+		)
+		(pin "H1"
+			(uuid "bac73715-df59-4670-8c8a-0e0825fb333f")
+		)
+		(pin "F2"
+			(uuid "8598d292-9002-4872-a821-c953def9fafb")
+		)
+		(pin "F3"
+			(uuid "880008a9-de8e-4e2b-8436-a16169fee5b5")
+		)
+		(pin "F4"
+			(uuid "b5f74d1f-ae5f-4108-a755-27b548370cbe")
+		)
+		(pin "G1"
+			(uuid "a2e34859-3d2d-49e7-8468-31de97548cb5")
+		)
+		(pin "A4"
+			(uuid "41a27592-5594-4998-bb17-f7ea6ee834fa")
+		)
+		(pin "A5"
+			(uuid "5c2a0b45-ff48-491d-9eee-bb363a6faebc")
+		)
+		(pin "A6"
+			(uuid "a0ead34f-0b76-4465-8721-feaa94fdbf15")
+		)
+		(pin "B1"
+			(uuid "ed3c0c29-432a-4172-82fa-ad44e75c9719")
+		)
+		(pin "B2"
+			(uuid "ce04d1d9-a377-4184-8a91-93c591c7d603")
+		)
+		(pin "B3"
+			(uuid "39d1e9f6-959d-44d6-a59b-1073bc743af1")
+		)
+		(pin "C1"
+			(uuid "97c15859-3762-4836-97f1-0d61d864a635")
+		)
+		(pin "C2"
+			(uuid "037bb4a6-7ffe-444e-9339-9c28805a6396")
+		)
+		(pin "C3"
+			(uuid "a3c819ab-531a-4708-97cb-29978ebbd468")
+		)
+		(pin "C4"
+			(uuid "a3c305c2-f213-44e9-a07a-2886a80f1d65")
+		)
+		(pin "D1"
+			(uuid "821deee4-6d1b-4cc9-b567-860dd9c4a8b6")
+		)
+		(pin "D2"
+			(uuid "84af90c2-3b1b-49cc-8c73-4177d19b19e5")
+		)
+		(pin "D3"
+			(uuid "e651eb93-71f0-46f5-85c8-5c5191510b95")
+		)
+		(pin "D4"
+			(uuid "70c6e2cd-b66a-4db9-9b06-6b13d9fe5ec1")
+		)
+		(pin "D5"
+			(uuid "dcd43f38-de9a-42fc-88dd-c9002f4279af")
+		)
+		(pin "E1"
+			(uuid "583dd850-52ff-4b0c-9a51-6721c130d367")
+		)
+		(pin "E2"
+			(uuid "007eb50a-9eac-4720-8f67-cb0110ac0116")
+		)
+		(pin "E3"
+			(uuid "0c7078ed-cc9f-4a32-91d3-18abf806bee2")
+		)
+		(pin "E4"
+			(uuid "d9018837-3027-48de-a5b0-ae8b0b7da552")
+		)
+		(pin "F1"
+			(uuid "44c5c1a5-9d9b-4ce1-b5ad-c6d518b3ede5")
+		)
+		(pin "M4"
+			(uuid "f6587945-7f10-46ff-b7fd-8999f16f8d13")
+		)
+		(pin "H2"
+			(uuid "e2f161f9-0a42-4159-a19d-207c510228cd")
+		)
+		(pin "H3"
+			(uuid "a380e217-d5a6-4651-a30d-863bd4486802")
+		)
+		(pin "H4"
+			(uuid "10a3944a-15b0-4c1f-9eeb-fa354353ebc1")
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc/740ad13c-4f21-4e12-9acd-ab77d23651b5"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -4207,6 +4207,28 @@
 		)
 		(uuid f9e43549-460c-4b49-9792-3cb0dba052af)
 	)
+	(text "Flight computer \"Erebus\" - V1.1 - Ian Goldberg\n\n"
+		(exclude_from_sim no)
+		(at 216.408 191.008 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "12f2fda9-fe54-4571-9c05-427e09f5b876")
+	)
+	(text "6.15.24\n"
+		(exclude_from_sim no)
+		(at 210.312 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cdf59b17-54dd-4d5c-9cfd-8938dc103cc1")
+	)
 	(global_label "PWR_BUT"
 		(shape input)
 		(at 55.88 88.9 180)
@@ -9057,8 +9079,8 @@
 		)
 	)
 	(sheet
-		(at 34.29 143.51)
-		(size 29.21 26.67)
+		(at 19.05 144.78)
+		(size 33.02 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9069,7 +9091,7 @@
 		)
 		(uuid "740ad13c-4f21-4e12-9acd-ab77d23651b5")
 		(property "Sheetname" "SubArctic AM335x_1"
-			(at 34.29 142.7984 0)
+			(at 19.05 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9100,7 @@
 			)
 		)
 		(property "Sheetfile" "SubArctic AM335x_1.kicad_sch"
-			(at 34.29 170.7646 0)
+			(at 19.05 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,8 +9117,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 139.7)
-		(size 29.21 27.94)
+		(at 55.88 144.78)
+		(size 31.75 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9106,8 +9128,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c5e904a4-2847-4436-9451-ebfcdeead27c")
-		(property "Sheetname" "SubArcticSheet2"
-			(at 71.12 138.9884 0)
+		(property "Sheetname" "SubArctic AM335x_2"
+			(at 55.88 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,8 +9137,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Subarcticsheet2.kicad_sch"
-			(at 71.12 168.2246 0)
+		(property "Sheetfile" "SubArctic AM335x_2.kicad_sch"
+			(at 55.88 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9147,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 71.12 139.7 0)
+			(at 55.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

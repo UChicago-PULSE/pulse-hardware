@@ -4207,7 +4207,7 @@
 		)
 		(uuid f9e43549-460c-4b49-9792-3cb0dba052af)
 	)
-	(text "Flight computer \"Erebus\" - V1.1 - Ian Goldberg\n\n"
+	(text "Flight computer \"Erebos\" - V1.1 - Ian Goldberg\n\n"
 		(exclude_from_sim no)
 		(at 216.408 191.008 0)
 		(effects

@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4940c63c-65b5-4f17-bae9-f8f159cf243f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 135.255 28.575)
+		(size 23.495 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47cf8364-7cb1-45f1-a1a1-847da3dbbd13")
+		(property "Sheetname" "H3_H4"
+			(at 135.255 27.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 135.255 49.4796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOBPrototype"
+				(path "/4940c63c-65b5-4f17-bae9-f8f159cf243f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 26.67)
+		(size 26.035 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8565e455-f7ea-42e8-a03d-8e52cce57ce9")
+		(property "Sheetname" "H1-H12.11.10"
+			(at 227.33 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H1-H12.11.10.kicad_sch"
+			(at 227.33 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOBPrototype"
+				(path "/4940c63c-65b5-4f17-bae9-f8f159cf243f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 77.47)
+		(size 24.765 20.955)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0d97237-010b-4515-a540-1f1751837c63")
+		(property "Sheetname" "H1-H14.13"
+			(at 85.09 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H1-H14.13.kicad_sch"
+			(at 85.09 99.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOBPrototype"
+				(path "/4940c63c-65b5-4f17-bae9-f8f159cf243f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 29.21)
+		(size 20.955 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3a209f1-4fb0-4513-99f1-d3bb0f427cd9")
+		(property "Sheetname" "H2-H12.11.10"
+			(at 32.385 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H2-H12.11.10.kicad_sch"
+			(at 32.385 48.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOBPrototype"
+				(path "/4940c63c-65b5-4f17-bae9-f8f159cf243f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.865 74.295)
+		(size 24.765 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8d011fc-6e0f-4dac-b9fe-7bf9bfd451d2")
+		(property "Sheetname" "H2-H14.13"
+			(at 189.865 73.5834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H2-H14.13.kicad_sch"
+			(at 189.865 97.7396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOBPrototype"
+				(path "/4940c63c-65b5-4f17-bae9-f8f159cf243f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

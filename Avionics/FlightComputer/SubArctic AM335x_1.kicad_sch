@@ -9273,23 +9273,23 @@
 		)
 	)
 	(global_label "GPIO3_20"
-		(shape output)
-		(at 429.26 83.82 180)
+		(shape bidirectional)
+		(at 417.83 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e7573c4c-376c-485e-99d7-3295b1ad0e4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 417.2034 83.82 0)
+			(at 430.9979 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

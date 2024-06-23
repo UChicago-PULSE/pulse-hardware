@@ -424,7 +424,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SubArcticAM335X"
-				(at 163.322 -53.594 0)
+				(at 181.102 -53.594 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,7 +434,7 @@
 				)
 			)
 			(property "Value" "~"
-				(at 166.37 -121.92 0)
+				(at 184.15 -121.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			(symbol "SubArctic_AM335x_2_1_1"
 				(rectangle
 					(start 19.05 -5.08)
-					(end 160.02 -182.88)
+					(end 177.8 -182.88)
 					(stroke
 						(width 0)
 						(type default)
@@ -1538,7 +1538,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -10.16 180)
+					(at 180.34 -10.16 180)
 					(length 2.54)
 					(name "NRESET_INOUT"
 						(effects
@@ -1556,7 +1556,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -38.1 180)
+					(at 180.34 -38.1 180)
 					(length 2.54)
 					(name "TDO"
 						(effects
@@ -1574,7 +1574,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -35.56 180)
+					(at 180.34 -35.56 180)
 					(length 2.54)
 					(name "TCK"
 						(effects
@@ -1592,7 +1592,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -17.78 180)
+					(at 180.34 -17.78 180)
 					(length 2.54)
 					(name "EVENT_INTR0/TIMER4/CLKOUT1/SPI1_CS1/PR1PRU1R31_16/EMU2/GPIO0_19"
 						(effects
@@ -1610,7 +1610,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -27.94 180)
+					(at 180.34 -27.94 180)
 					(length 2.54)
 					(name "NTRST"
 						(effects
@@ -1628,7 +1628,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -33.02 180)
+					(at 180.34 -33.02 180)
 					(length 2.54)
 					(name "TDI"
 						(effects
@@ -1646,7 +1646,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -43.18 180)
+					(at 180.34 -43.18 180)
 					(length 2.54)
 					(name "EMU1/GPIO3_8"
 						(effects
@@ -1664,7 +1664,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -7.62 180)
+					(at 180.34 -7.62 180)
 					(length 2.54)
 					(name "PORZn"
 						(effects
@@ -1682,7 +1682,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -15.24 180)
+					(at 180.34 -15.24 180)
 					(length 2.54)
 					(name "NNMI"
 						(effects
@@ -1700,7 +1700,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -12.7 180)
+					(at 180.34 -12.7 180)
 					(length 2.54)
 					(name "RTC_PORZn"
 						(effects
@@ -1718,7 +1718,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -30.48 180)
+					(at 180.34 -30.48 180)
 					(length 2.54)
 					(name "TMS"
 						(effects
@@ -1736,7 +1736,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -40.64 180)
+					(at 180.34 -40.64 180)
 					(length 2.54)
 					(name "EMU0/GPIO3_7"
 						(effects
@@ -1754,7 +1754,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -20.32 180)
+					(at 180.34 -20.32 180)
 					(length 2.54)
 					(name "EVENT_INTR1/TCLKIN/CLKOUT2/TIMER7/PR1PRU0_PRUR31_16/EMU3/GPIO0_20"
 						(effects
@@ -1772,7 +1772,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -177.8 180)
+					(at 180.34 -177.8 180)
 					(length 2.54)
 					(name "MMC0_DAT3/GPMC_A20/UART4_CTSN/TIMER5/UART1_DCDN/PR1_PRU0_PRU_R30_8/PR1_PRU0_PRU_R31_8/GPIO2_26"
 						(effects
@@ -1790,7 +1790,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -175.26 180)
+					(at 180.34 -175.26 180)
 					(length 2.54)
 					(name "MMC0_DAT2/GPMC_A21/UART4_RTSN/TIMER6/UART1_DSRN/PR1_PRU0_PRU_R30_9/PR1_PRU0_PRU_R31_9/GPIO2_27"
 						(effects
@@ -1808,7 +1808,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -172.72 180)
+					(at 180.34 -172.72 180)
 					(length 2.54)
 					(name "MMC0_DAT1/GPMC_A22/UART5_CTSN/UART3_RXD/UART1_DTRN/PR1_PRU0_PRU_R30_10/PR1_PRU0_PRU_R31_10/GPIO2_28"
 						(effects
@@ -1826,7 +1826,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -170.18 180)
+					(at 180.34 -170.18 180)
 					(length 2.54)
 					(name "MMC0_DAT0/GPMC_A23/UART5_RTSN/UART3_TXD/UART1_RIN/PR1_PRU0_PRU_R30_11/PR1_PRU0_PRU_R31_11/GPIO2_29"
 						(effects
@@ -1844,7 +1844,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -165.1 180)
+					(at 180.34 -165.1 180)
 					(length 2.54)
 					(name "MMC0_CLK/GPMC_A24/UART3_CTSN/UART2_RXD/DCAN1_TX/PR1_PRU0_PRU_R30_12/PR1_PRU0_PRU_R31_12/GPIO2_30"
 						(effects
@@ -1862,7 +1862,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -167.64 180)
+					(at 180.34 -167.64 180)
 					(length 2.54)
 					(name "MMC0_CMD/GPMC_A25/UART3_RTSN/UART2_TXD/DCAN1_RX/PR1_PRU0_PRU_R30_13/PR1_PRU0_PRU_R31_13/GPIO2_31"
 						(effects
@@ -1880,7 +1880,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -116.84 180)
+					(at 180.34 -116.84 180)
 					(length 2.54)
 					(name "GPMC_AD13/LCD_DATA18/MMC1_DAT5/MMC2_DAT1/EQEP2B_IN/PR1_MII0_TXD1/PR1_PRU0_PRU_R30_15/GPIO1_13"
 						(effects
@@ -1898,7 +1898,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -128.27 180)
+					(at 180.34 -128.27 180)
 					(length 2.54)
 					(name "GPMC_A0/GMII2_TXEN/RGMII2_TCTL/RMII2_TXEN/GPMC_A16/PR1_MII_MT1_CLK/EHRPWM1_TRIPZONE_INPUT/GPIO1_16"
 						(effects
@@ -1916,7 +1916,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -138.43 180)
+					(at 180.34 -138.43 180)
 					(length 2.54)
 					(name "GPMC_A4/GMII2_TXD1/RGMII2_TD1/RMII2_TXD1/GPMC_A20/PR1_MII1_TXD0/EQEP1A_IN/GPIO1_20"
 						(effects
@@ -1934,7 +1934,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -66.04 180)
+					(at 180.34 -66.04 180)
 					(length 2.54)
 					(name "GPMC_ADVN_ALE/TIMER4/GPIO2_2"
 						(effects
@@ -1952,7 +1952,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -88.9 180)
+					(at 180.34 -88.9 180)
 					(length 2.54)
 					(name "GPMC_AD2/MMC1_DAT2//////GPIO1_2"
 						(effects
@@ -1970,7 +1970,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -99.06 180)
+					(at 180.34 -99.06 180)
 					(length 2.54)
 					(name "GPMC_AD6/MMC1_DAT6//////GPIO1_6"
 						(effects
@@ -1988,7 +1988,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -106.68 180)
+					(at 180.34 -106.68 180)
 					(length 2.54)
 					(name "GPMC_AD9/LCD_DATA22/MMC1_DAT1/MMC2_DAT5/EHRPWM2B/PR1_MII0_CRS//GPIO0_23"
 						(effects
@@ -2006,7 +2006,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -109.22 180)
+					(at 180.34 -109.22 180)
 					(length 2.54)
 					(name "GPMC_AD10/LCD_DATA21/MMC1_DAT2/MMC2_DAT6/EHRPWM2_TRIPZONE_INPUT/PR1_MII0_TXEN//GPIO0_26"
 						(effects
@@ -2024,7 +2024,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -114.3 180)
+					(at 180.34 -114.3 180)
 					(length 2.54)
 					(name "GPMC_AD12/LCD_DATA19/MMC1_DAT4/MMC2_DAT0/EQEP2A_IN/PR1_MII0_TXD2/PR1_PRU0_PRU_R30_14/GPIO1_12"
 						(effects
@@ -2042,7 +2042,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -58.42 180)
+					(at 180.34 -58.42 180)
 					(length 2.54)
 					(name "GPMC_CSN3/MMC2_CMD/PR1_MDIO_DATA/GPIO2_0"
 						(effects
@@ -2060,7 +2060,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -135.89 180)
+					(at 180.34 -135.89 180)
 					(length 2.54)
 					(name "GPMC_A3/GMII2_TXD2/RGMII2_TD2/MMC2_DAT2/GPMC_A19/PR1_MII1_TXD1/EHRPWM1B/GPIO1_19"
 						(effects
@@ -2078,7 +2078,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -146.05 180)
+					(at 180.34 -146.05 180)
 					(length 2.54)
 					(name "GPMC_A7/GMII2_RXCLK/RGMII2_RCLK/MMC2_DAT5/GPMC_A23/PR1_MII1_RXD1/EQEP1_STROBE/GPIO1_23"
 						(effects
@@ -2096,7 +2096,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -153.67 180)
+					(at 180.34 -153.67 180)
 					(length 2.54)
 					(name "GPMC_A10/GMII2_RXD1/RGMII2_RD1/RMII2_RXD1/GPMC_A26/PR1_MII1_CRS/MCASP0_AXR0/GPIO1_26"
 						(effects
@@ -2114,7 +2114,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -73.66 180)
+					(at 180.34 -73.66 180)
 					(length 2.54)
 					(name "GPMC_WAIT0/GM112_CRS/GPMC_CSN4/RMII2_CRS_DV/MMC1_SDCD/PR1_MII1_RXDV/UART4_RXD/GPIO0_30"
 						(effects
@@ -2132,7 +2132,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -68.58 180)
+					(at 180.34 -68.58 180)
 					(length 2.54)
 					(name "GPMC_BE0N_CLE/TIMER5/GPIO2_5"
 						(effects
@@ -2150,7 +2150,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -63.5 180)
+					(at 180.34 -63.5 180)
 					(length 2.54)
 					(name "GPMC_OEN_REN/TIMER7/EMU4/GPIO2_3"
 						(effects
@@ -2168,7 +2168,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -91.44 180)
+					(at 180.34 -91.44 180)
 					(length 2.54)
 					(name "GPMC_AD3/MMC1_DAT3//////GPIO1_3"
 						(effects
@@ -2186,7 +2186,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -101.6 180)
+					(at 180.34 -101.6 180)
 					(length 2.54)
 					(name "GPMC_AD7/MMC1_DAT7//////GPIO1_7"
 						(effects
@@ -2204,7 +2204,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -104.14 180)
+					(at 180.34 -104.14 180)
 					(length 2.54)
 					(name "GPMC_AD8/LCD_DATA23/MMC1_DAT0/MMC2_DAT4/EHRPWM2A/PR1_MII_MT0_CLK//GPIO0_22"
 						(effects
@@ -2222,7 +2222,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -111.76 180)
+					(at 180.34 -111.76 180)
 					(length 2.54)
 					(name "GPMC_AD11/LCD_DATA20/MMC1_DAT3/MMC2_DAT7/EHRPWM2_SYNCI_O/PR1_MII0_TXD3//GPIO0_27"
 						(effects
@@ -2240,7 +2240,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -121.92 180)
+					(at 180.34 -121.92 180)
 					(length 2.54)
 					(name "GPMC_AD15/LCD_DATA16/MMC1_DAT7/MMC2_DAT3/EQEP2_STROBE/PR1_ECAP0_ECAP_CAPIN_APWM_O/PR1_PRU0_PRU_R31_15/GPIO1_15"
 						(effects
@@ -2258,7 +2258,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -133.35 180)
+					(at 180.34 -133.35 180)
 					(length 2.54)
 					(name "GPMC_A2/GMII2_TXD3/RGMII2_TD3/MMC2_DAT1/GPMC_A18/PR1_MII1_TXD2/EHRPWM1A/GPIO1_18"
 						(effects
@@ -2276,7 +2276,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -143.51 180)
+					(at 180.34 -143.51 180)
 					(length 2.54)
 					(name "GPMC_A6/GMII2_TXCLK/RGMII2_TCLK/MMC2_DAT4/GPMC_A22/PR1_MII1_RXD2/EQEP1_INDEX/GPIO1_22"
 						(effects
@@ -2294,7 +2294,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -151.13 180)
+					(at 180.34 -151.13 180)
 					(length 2.54)
 					(name "GPMC_A9/GMII2_RXD2/RGMII2_RD2/MMC2_DAT7/GPMC_A25/PR1_MII_MR1_CLK/MCASP0_FSX/GPIO1_25"
 						(effects
@@ -2312,7 +2312,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -76.2 180)
+					(at 180.34 -76.2 180)
 					(length 2.54)
 					(name "GPMC_WPN/GMII2_RXERR/GPMC_CSN5/RMII2_RXERR/MMC2_SDCD/PR1_MDIO_MDCLK/UART4_TXD/GPIO0_31"
 						(effects
@@ -2330,7 +2330,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -71.12 180)
+					(at 180.34 -71.12 180)
 					(length 2.54)
 					(name "GPMC_BE1N/GMII2_COL/GPMC_CSN6/MMC2_DAT3/GPMC_DIR/PR1_MII1_RXLINK/MCASP0_ACLKR/GPIO1_28"
 						(effects
@@ -2348,7 +2348,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -60.96 180)
+					(at 180.34 -60.96 180)
 					(length 2.54)
 					(name "GPMC_WEN/TIMER6/GPIO2_4"
 						(effects
@@ -2366,7 +2366,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -83.82 180)
+					(at 180.34 -83.82 180)
 					(length 2.54)
 					(name "GPMC_AD0/MMC1_DAT0//////GPIO1_0"
 						(effects
@@ -2384,7 +2384,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -93.98 180)
+					(at 180.34 -93.98 180)
 					(length 2.54)
 					(name "GPMC_AD4/MMC1_DAT4//////GPIO1_4"
 						(effects
@@ -2402,7 +2402,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -53.34 180)
+					(at 180.34 -53.34 180)
 					(length 2.54)
 					(name "GPMC_CSN1/GPMC_CLK/MMC1_CLK/PRT1EDIO_DATA_IN6/PRT1_EDIO_DATA_OUT6/PR1_PRU1_PRU_R30_12/PR1_PRU1_PRU_R31_12/GPIO1_30"
 						(effects
@@ -2420,7 +2420,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -48.26 180)
+					(at 180.34 -48.26 180)
 					(length 2.54)
 					(name "GPMC_CLK/LCD_MEM_CLK/GPMC_WAIT1/MMC2_CLK/PRT1_MII1_TXEN/MCASP0_FSR/GPIO2_1"
 						(effects
@@ -2438,7 +2438,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -119.38 180)
+					(at 180.34 -119.38 180)
 					(length 2.54)
 					(name "GPMC_AD14/LCD_DATA17/MMC1_DAT6/MMC2_DAT2/EQEP2_INDEX/PR1_MII0_TXD0/PR1_PRU0_PRU_R31_14/GPIO1_14"
 						(effects
@@ -2456,7 +2456,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -130.81 180)
+					(at 180.34 -130.81 180)
 					(length 2.54)
 					(name "GPMC_A1/GMII2_RXDV/RGMII2_RCTL/MMC2_DAT0/GPMC_A17/PR1_MII1_TXD3/EHRPWM1_SYNCI_O/GPIO1_17"
 						(effects
@@ -2474,7 +2474,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -140.97 180)
+					(at 180.34 -140.97 180)
 					(length 2.54)
 					(name "GPMC_A5/GMII2_TXD0/RGMII2_TD0/RMII2_TXD0/GPMC_A21/PR1_MII1_RXD3/EQEP1B_IN/GPIO1_21"
 						(effects
@@ -2492,7 +2492,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -148.59 180)
+					(at 180.34 -148.59 180)
 					(length 2.54)
 					(name "GPMC_A8/GMII2_RXD3/RGMII2_RD3/MMC2_DAT6/GPMC_A24/PR1_MII1_RXD0/MCASP0_ACLKX/GPIO1_24"
 						(effects
@@ -2510,7 +2510,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -156.21 180)
+					(at 180.34 -156.21 180)
 					(length 2.54)
 					(name "GPMC_A11/GMII2_RXD0/RGMII2_RD0/RMII2_RXD0/GPMC_A27/PR1_MII1_RXER/MCASP0_AXR1/GPIO1_27"
 						(effects
@@ -2528,7 +2528,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -50.8 180)
+					(at 180.34 -50.8 180)
 					(length 2.54)
 					(name "GPMC_CSN0/GPIO1_29"
 						(effects
@@ -2546,7 +2546,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -86.36 180)
+					(at 180.34 -86.36 180)
 					(length 2.54)
 					(name "GPMC_AD1/MMC1_DAT1//////GPIO1_1"
 						(effects
@@ -2564,7 +2564,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -96.52 180)
+					(at 180.34 -96.52 180)
 					(length 2.54)
 					(name "GPMC_AD5/MMC1_DAT5//////GPIO1_5"
 						(effects
@@ -2582,7 +2582,7 @@
 					)
 				)
 				(pin input line
-					(at 162.56 -55.88 180)
+					(at 180.34 -55.88 180)
 					(length 2.54)
 					(name "GPMC_CSN2/GPMC_BE1N/MMC1_CMD/PR1_EDIO_DATA_IN7/PR1_EDIO_DATA_OUT7/PR1_PRU1_PRU_R30_13/PR1_PRU1_PRU_R31_13/GPIO1_31"
 						(effects
@@ -6190,423 +6190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SubArctic AM335x:SubArctic_AM335x_2")
-		(at 127 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dae4d7c-80ee-4858-bbe0-2ce8e5629c6c")
-		(property "Reference" "SubArcticAM335X2"
-			(at 290.322 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 293.37 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G4"
-			(uuid "cf94e7ce-47eb-4355-8c49-3fed128480da")
-		)
-		(pin "B14"
-			(uuid "bc306f74-e7ba-4e29-b301-84d0e4e5dc62")
-		)
-		(pin "B15"
-			(uuid "e6fa5cd2-eb02-4420-87a9-5b9c6db1f6d7")
-		)
-		(pin "B10"
-			(uuid "f6026b0f-95cf-486c-bca9-a1c6535066a8")
-		)
-		(pin "B11"
-			(uuid "ebdbc8a6-8352-447d-b76c-074d426077bf")
-		)
-		(pin "A4"
-			(uuid "962e4ae8-d03e-4b1e-8704-77a2aee4d027")
-		)
-		(pin "U7"
-			(uuid "0ce556ec-f633-4e8b-ab05-b847c4f85908")
-		)
-		(pin "U8"
-			(uuid "09e4af49-bc3f-4184-9257-67138c07a144")
-		)
-		(pin "U9"
-			(uuid "4296a020-8e8c-4967-a639-1bee49d33a08")
-		)
-		(pin "V12"
-			(uuid "7763c380-b498-4032-82b6-c1b47b514a06")
-		)
-		(pin "V13"
-			(uuid "1d374ff4-1a42-4232-98c2-5b348f5beeca")
-		)
-		(pin "V14"
-			(uuid "f310569c-1238-4bf1-a47c-1fb401f9e84a")
-		)
-		(pin "V15"
-			(uuid "2a8b9ee5-6a82-448f-a2e5-5d4139a9de22")
-		)
-		(pin "V16"
-			(uuid "5ca716ab-3e41-48a0-9ae0-96e17a516ed9")
-		)
-		(pin "V17"
-			(uuid "4d352a85-0cea-4867-a43d-e744288e1628")
-		)
-		(pin "V6"
-			(uuid "446c5e63-81ff-4889-975a-594c5e757206")
-		)
-		(pin "V7"
-			(uuid "76a9a227-5d75-4470-ae21-a055701f5035")
-		)
-		(pin "V8"
-			(uuid "12051b00-ea65-450e-ac36-154a77d89eea")
-		)
-		(pin "V9"
-			(uuid "7e5f4907-87f1-46be-9a3f-33d9771f1d11")
-		)
-		(pin "G15"
-			(uuid "e658666c-b4c0-4ba8-abf1-e1b1178d2d23")
-		)
-		(pin "A10"
-			(uuid "9cd38cbd-2e49-489f-863b-68847d2eb79f")
-		)
-		(pin "A11"
-			(uuid "85ac74a4-7f82-4447-87d2-a60a83fd577e")
-		)
-		(pin "G1"
-			(uuid "291e6f64-ab23-4027-b25a-f86d266e2799")
-		)
-		(pin "C11"
-			(uuid "264f2193-a0c3-45c6-84f9-3ae6b2af6414")
-		)
-		(pin "C14"
-			(uuid "b751174a-6e41-46ea-9947-255c2cc79f39")
-		)
-		(pin "V10"
-			(uuid "79e08315-0094-4366-8574-e5b1d96ea11f")
-		)
-		(pin "V11"
-			(uuid "afb7578c-7dde-4070-bf58-819f79233de5")
-		)
-		(pin "P4"
-			(uuid "1d52ef45-fb9b-4b7a-af3c-23bc20ac94b9")
-		)
-		(pin "U11"
-			(uuid "1eb29e49-3fb5-40c3-bed1-b38087d6f444")
-		)
-		(pin "K4"
-			(uuid "9593d602-3269-40f8-9acc-a78209e68826")
-		)
-		(pin "L1"
-			(uuid "b21e598f-f40e-4dc4-8e20-c32304073760")
-		)
-		(pin "R13"
-			(uuid "dc929238-6be1-4928-bc46-65408a7b078a")
-		)
-		(pin "G18"
-			(uuid "5ecb9a1e-4670-4790-9b60-f612b635a46f")
-		)
-		(pin "M2"
-			(uuid "7a358a39-570c-4d9b-a627-955c0369571e")
-		)
-		(pin "M3"
-			(uuid "843d62c1-31bc-4c3c-a599-fbddc07fd9e3")
-		)
-		(pin "G17"
-			(uuid "e3a7456c-21c6-4efb-a531-77d89a44a8b5")
-		)
-		(pin "D14"
-			(uuid "881269bf-72bf-42d8-b6fb-dc28219f481f")
-		)
-		(pin "F17"
-			(uuid "9b62a371-fabc-4774-8fe5-3be124e1b527")
-		)
-		(pin "P2"
-			(uuid "b24471e9-dbc1-4770-bb6d-0c643267f339")
-		)
-		(pin "P3"
-			(uuid "4072a6de-8cdd-46e8-90b1-35986decf200")
-		)
-		(pin "N4"
-			(uuid "fb0b8e14-eccb-47b5-9bc4-14f6376c1649")
-		)
-		(pin "P1"
-			(uuid "ef8a47da-dce0-4985-948d-48b07aba5fe1")
-		)
-		(pin "K2"
-			(uuid "46b2c69e-05ef-4b58-866b-9c46d9d98552")
-		)
-		(pin "K3"
-			(uuid "59265ea3-2c45-4832-95d7-d02147598b6b")
-		)
-		(pin "D2"
-			(uuid "9c432129-77f6-492c-8f1d-5df553447b86")
-		)
-		(pin "N2"
-			(uuid "e587eeee-026e-4af2-a7e6-d61252a7c758")
-		)
-		(pin "N3"
-			(uuid "7226bc5f-b6a5-41b7-8477-8ae7348068dc")
-		)
-		(pin "L4"
-			(uuid "ac6483ef-0ef5-4a56-9fe5-19005e924648")
-		)
-		(pin "M1"
-			(uuid "c2d1c2c5-3a79-4d22-aee2-176b6cde8f84")
-		)
-		(pin "M4"
-			(uuid "51574c39-c469-4ab9-ba9b-bcf1c18f06a2")
-		)
-		(pin "N1"
-			(uuid "c32b73e3-1cc5-436b-95e1-a039d46455f1")
-		)
-		(pin "A5"
-			(uuid "a855d340-770e-414a-85a1-1d14058b8cc3")
-		)
-		(pin "G3"
-			(uuid "62af2a77-4a85-4c61-aeae-015908508e53")
-		)
-		(pin "G16"
-			(uuid "03ba375d-1fdf-4725-81c6-e4dc1a7f7416")
-		)
-		(pin "J1"
-			(uuid "f6e81571-d25b-4b54-97f9-15c69404cc2f")
-		)
-		(pin "B18"
-			(uuid "30e51f3b-089e-4252-a642-65a5358b875c")
-		)
-		(pin "B5"
-			(uuid "f39ea5d7-81fb-48bc-a00e-e71b5657e6c1")
-		)
-		(pin "H3"
-			(uuid "aee1ada8-0391-4881-a377-e8733fcca092")
-		)
-		(pin "A12"
-			(uuid "37c636e9-d2f3-4774-b2d8-ee1f7a6e003c")
-		)
-		(pin "A15"
-			(uuid "3e4c40c1-73d7-427f-9b89-2ae696bb89a4")
-		)
-		(pin "T11"
-			(uuid "9f78be67-a7f8-4edd-97fa-d74e58ffff44")
-		)
-		(pin "T12"
-			(uuid "1d27a976-7f33-4070-8afe-5e5d46016d41")
-		)
-		(pin "T17"
-			(uuid "3a57607e-abf1-48b1-b63a-e387779b1862")
-		)
-		(pin "T6"
-			(uuid "b7c9fb21-238e-48dc-b44d-1687860cb600")
-		)
-		(pin "T7"
-			(uuid "88ad5fd9-e489-47c2-857f-fccf26dafc83")
-		)
-		(pin "T8"
-			(uuid "9bd9fc3b-6f92-4124-a4a0-bb229418358c")
-		)
-		(pin "T9"
-			(uuid "35386150-1938-4097-b944-3d7887363de1")
-		)
-		(pin "U10"
-			(uuid "6f321a9d-4e64-4436-9be5-0770f7be193c")
-		)
-		(pin "U12"
-			(uuid "79de94e5-e332-4cec-aa17-7a37214e4f2b")
-		)
-		(pin "T13"
-			(uuid "64cdd22b-4311-4bda-b3a9-a3598e7a413b")
-		)
-		(pin "T14"
-			(uuid "f80c72b9-78f5-4d68-b7b2-4d02c0a5faf5")
-		)
-		(pin "T15"
-			(uuid "32716dc4-7b3b-42c2-b138-247239ff839f")
-		)
-		(pin "T16"
-			(uuid "3be953d8-e037-4e97-a03f-11c2cc0394dc")
-		)
-		(pin "J4"
-			(uuid "c9a76faa-80a8-4348-9617-096763bd8e62")
-		)
-		(pin "K1"
-			(uuid "4820a920-d5e7-4501-9bb0-a790e3e64150")
-		)
-		(pin "U13"
-			(uuid "e2120182-010a-4afa-b386-c2840cc6d65c")
-		)
-		(pin "U14"
-			(uuid "56e1ca31-e7d0-4848-a958-00ea14dcf6e5")
-		)
-		(pin "U15"
-			(uuid "470f685e-0728-4935-87f2-e341870d798f")
-		)
-		(pin "U16"
-			(uuid "36650976-6d90-462a-9d85-c2f161e4c807")
-		)
-		(pin "U17"
-			(uuid "ef6da8e2-a558-493b-ad6a-c0bcfc2786bb")
-		)
-		(pin "U18"
-			(uuid "058b03dd-2162-441b-b960-f77aa89687e0")
-		)
-		(pin "U6"
-			(uuid "eaca3220-cde3-4df5-9146-0c39714bb478")
-		)
-		(pin "R14"
-			(uuid "1d909220-bd04-4f65-b185-db40de1bbd2e")
-		)
-		(pin "R7"
-			(uuid "ca231081-c162-420a-9842-87ae9247f7d1")
-		)
-		(pin "R8"
-			(uuid "6fa332e6-7615-4c7d-84c9-bbd6e3c9b87d")
-		)
-		(pin "R9"
-			(uuid "418bce6c-c10a-4025-b357-3f5849538760")
-		)
-		(pin "T10"
-			(uuid "cd67b8c5-1170-465f-a945-8d536b504ac5")
-		)
-		(pin "C4"
-			(uuid "f50ed56c-34d7-4509-9d2e-314e5de7c35a")
-		)
-		(pin "D1"
-			(uuid "96d0b26b-3239-4a87-9c8e-af41f8aad174")
-		)
-		(pin "F3"
-			(uuid "5c5fb21d-9b91-4b5f-b648-86440bc24663")
-		)
-		(pin "F2"
-			(uuid "74a07d39-854c-4837-8737-1030a525ef42")
-		)
-		(pin "E3"
-			(uuid "56fd9b3c-4dbf-4b98-8f29-1b4e0e01c0ac")
-		)
-		(pin "E4"
-			(uuid "c20c1378-230b-491b-8274-810f7147a91b")
-		)
-		(pin "F1"
-			(uuid "902058a1-7fda-4169-8a6b-de4b13dc8a44")
-		)
-		(pin "C2"
-			(uuid "198bdcdb-1788-4efe-ad78-9b43b23fc771")
-		)
-		(pin "C3"
-			(uuid "1866ee65-4878-4ba3-a4f8-2075233372f0")
-		)
-		(pin "E2"
-			(uuid "f8946945-2cb6-48c8-9339-3a74f67a050e")
-		)
-		(pin "B3"
-			(uuid "e98c5675-51d3-44d9-8ac6-9acacc8a085e")
-		)
-		(pin "C1"
-			(uuid "4036734d-37aa-41c6-8de3-fa430dc50a21")
-		)
-		(pin "D4"
-			(uuid "2ab75859-293e-47e0-8b01-2fb1e9b3f50a")
-		)
-		(pin "D3"
-			(uuid "16e4451d-da03-43bb-ae62-6fce27f87c69")
-		)
-		(pin "B1"
-			(uuid "19552438-8838-4b7e-8025-d6db681a293d")
-		)
-		(pin "A6"
-			(uuid "e515a847-cd47-4064-9180-335be17f9627")
-		)
-		(pin "E1"
-			(uuid "b550b3d2-d688-45b9-8b5c-0cf2774534e9")
-		)
-		(pin "D5"
-			(uuid "23f95eee-80e7-4f85-b4c9-b6b141313a44")
-		)
-		(pin "B2"
-			(uuid "25120f65-4e1b-4f70-b701-c3efdd0b2734")
-		)
-		(pin "H1"
-			(uuid "f8a1da5e-c1b4-47a9-9600-6b14b13c62b5")
-		)
-		(pin "F18"
-			(uuid "59174467-5148-4c48-9b00-29d3321eca55")
-		)
-		(pin "G2"
-			(uuid "9ef8b097-fd5f-4baf-b1cc-39441d3ac633")
-		)
-		(pin "R12"
-			(uuid "7a2c0c5e-b488-404c-91e5-a63e19264d38")
-		)
-		(pin "F4"
-			(uuid "80046ec9-10fa-497f-97a2-6fc35881dcad")
-		)
-		(pin "H2"
-			(uuid "0e0dee13-eacf-4a1b-afd3-edcbd868b9c2")
-		)
-		(pin "L2"
-			(uuid "b96e3397-9669-448c-85f6-4831cbc0df1c")
-		)
-		(pin "L3"
-			(uuid "2503260b-6fd4-4dab-a318-420903e51b18")
-		)
-		(pin "H4"
-			(uuid "a0045ebc-d59f-40f9-b988-89b66935d40a")
-		)
-		(pin "J2"
-			(uuid "90a0769c-c736-4d63-9542-cb9f555a0666")
-		)
-		(pin "J3"
-			(uuid "3b0735f3-5713-40c3-be82-6c2e73110f40")
-		)
-		(instances
-			(project "FlightComputer"
-				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc/c5e904a4-2847-4436-9451-ebfcdeead27c"
-					(reference "SubArcticAM335X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 336.55 0)
 		(unit 1)
@@ -6667,6 +6250,423 @@
 			(project "FlightComputer"
 				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc/c5e904a4-2847-4436-9451-ebfcdeead27c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SubArctic AM335x:SubArctic_AM335x_2")
+		(at 148.59 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22067da-7bad-4fd2-8883-b865e8c0d552")
+		(property "Reference" "SubArcticAM335X2"
+			(at 329.692 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 332.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "M4"
+			(uuid "d0e2c537-2b33-4eed-8f22-de14084698a1")
+		)
+		(pin "N1"
+			(uuid "d8b2e506-a8b0-4b5c-ba6e-6d20f0cc7eb6")
+		)
+		(pin "F2"
+			(uuid "ae6f5b64-e2b1-4f56-aecf-a47467638494")
+		)
+		(pin "D3"
+			(uuid "fae70e91-d35a-4b80-8068-9df6e8b7d54a")
+		)
+		(pin "N2"
+			(uuid "16596309-ca6d-4c2d-9a54-281cb170fe70")
+		)
+		(pin "N3"
+			(uuid "3fc9b8b7-6d67-4a4a-9b7e-1f1cb43d6be4")
+		)
+		(pin "T7"
+			(uuid "60b89063-2bb8-4652-a806-c22f24787436")
+		)
+		(pin "T8"
+			(uuid "e7293458-5500-4358-b2ab-1ef9d2f65f3c")
+		)
+		(pin "T11"
+			(uuid "d643d918-077d-4f5b-b840-6f324e4ea008")
+		)
+		(pin "G2"
+			(uuid "47d30f40-fb3d-4f84-8b3c-c61af41ea455")
+		)
+		(pin "U13"
+			(uuid "15f7b6d5-a34a-427d-8d43-d44d8bac8fd1")
+		)
+		(pin "M1"
+			(uuid "65b22690-2aeb-4afb-bdf5-490fc1b8de10")
+		)
+		(pin "V14"
+			(uuid "c378cf32-53c8-4a13-a1d4-8dcd13dd7da9")
+		)
+		(pin "V15"
+			(uuid "52df53c8-520b-45f9-b829-fc3d8a4e80af")
+		)
+		(pin "R7"
+			(uuid "d68026b4-3013-4f4b-b3f9-176ba011f52e")
+		)
+		(pin "R8"
+			(uuid "b9424c4f-6343-47b0-9af9-1041928ff260")
+		)
+		(pin "L2"
+			(uuid "2f53f026-8edf-4bb6-ac41-f65529dd6182")
+		)
+		(pin "H4"
+			(uuid "0798f974-fd08-4cfe-944d-f73e9bb4fd26")
+		)
+		(pin "T9"
+			(uuid "cfd612b0-4061-4e32-9b03-d1d6a3529de2")
+		)
+		(pin "U10"
+			(uuid "ecbfba6b-2822-46ea-b782-92bdc503749d")
+		)
+		(pin "R9"
+			(uuid "5d0007e4-298c-44e7-9a9f-06893151896b")
+		)
+		(pin "T10"
+			(uuid "628f8b1d-4c12-4405-9f8c-1d437b4708c5")
+		)
+		(pin "C3"
+			(uuid "ea79555d-2070-484f-9ee1-47513f1a60ac")
+		)
+		(pin "R13"
+			(uuid "9ff53321-53d8-4736-8584-955d4d343edf")
+		)
+		(pin "A6"
+			(uuid "2ec67cda-2dc4-4ba4-badf-ddc83303cde9")
+		)
+		(pin "G4"
+			(uuid "25f1fc80-12fb-4551-aec7-e1b22d4466f0")
+		)
+		(pin "H1"
+			(uuid "3dbd5caa-a59e-47f3-b313-425cfd66b7f3")
+		)
+		(pin "T12"
+			(uuid "7120f38b-ba45-462b-824d-5b436fe542ae")
+		)
+		(pin "T13"
+			(uuid "5fe16ab3-e918-4bae-bc8b-16f0b38a3713")
+		)
+		(pin "T14"
+			(uuid "78690aeb-cff2-468e-a7d8-88b1d0d968e1")
+		)
+		(pin "V13"
+			(uuid "a3029ea8-7102-4761-9045-edd1a7ddc928")
+		)
+		(pin "R14"
+			(uuid "29229e49-dde9-4959-8c36-f84c73a85ca0")
+		)
+		(pin "D5"
+			(uuid "07290a59-7406-4d6e-b326-4f45f00ef784")
+		)
+		(pin "G1"
+			(uuid "8c224cc1-01fe-42b6-8e1b-44fde103bcbc")
+		)
+		(pin "U17"
+			(uuid "6e6950f0-73b5-49cc-a1f3-d01f096ea7af")
+		)
+		(pin "V10"
+			(uuid "aad55516-40f1-4bf3-bc27-a60f4e67a1d3")
+		)
+		(pin "V11"
+			(uuid "473ec4bc-2b1a-4736-8814-36d0266a1c23")
+		)
+		(pin "B14"
+			(uuid "b4258a16-1e59-4054-ab29-299ae5cc1f06")
+		)
+		(pin "B15"
+			(uuid "d756841e-3ab1-40ce-a7e6-1e54314bb685")
+		)
+		(pin "C2"
+			(uuid "7db861a8-8574-4de7-a2d8-56a0ec4361d8")
+		)
+		(pin "F1"
+			(uuid "1146394e-bc24-41b9-87b5-67c335853241")
+		)
+		(pin "P4"
+			(uuid "dde77fa9-d1e2-4a98-bdb6-562bbbc08fb0")
+		)
+		(pin "U11"
+			(uuid "db5c18b5-d988-441c-a3ea-3d3f380c5725")
+		)
+		(pin "F17"
+			(uuid "b8ba4da8-9c65-48db-843e-55a3be42d95b")
+		)
+		(pin "F18"
+			(uuid "21ca2f11-9f8f-48aa-a56d-ecd6cf53fbee")
+		)
+		(pin "A10"
+			(uuid "108ffee2-f39b-4537-b97c-f820e066feab")
+		)
+		(pin "A11"
+			(uuid "daf790b7-8ce7-4519-84d8-60956f806a05")
+		)
+		(pin "T15"
+			(uuid "cc787464-eb32-4e32-bc35-3b7a855a623b")
+		)
+		(pin "A5"
+			(uuid "60e5a6ac-a98c-48b9-a83c-3911a3baba8c")
+		)
+		(pin "G18"
+			(uuid "18fee3da-452d-42f8-8b70-32fe3386775a")
+		)
+		(pin "M2"
+			(uuid "dd3f6051-0e92-4c61-91d1-a91284a9f21d")
+		)
+		(pin "A4"
+			(uuid "d01b8b3f-82fc-4af6-a319-2e3fabd1c834")
+		)
+		(pin "C14"
+			(uuid "c4753fa6-85b8-47eb-986f-9f2fe0eb8b64")
+		)
+		(pin "D14"
+			(uuid "0a8b3e38-b0e8-4177-876f-b1d0c5920556")
+		)
+		(pin "G15"
+			(uuid "68d612de-64db-48ff-8985-2920020c9069")
+		)
+		(pin "G16"
+			(uuid "d83fe3b2-f95b-4dc3-8a7f-4a8d6bd3e1b4")
+		)
+		(pin "V7"
+			(uuid "c2fb47eb-1a37-4a58-b756-499f34f12a43")
+		)
+		(pin "V8"
+			(uuid "63994d15-b364-456f-aa2f-4ca7544b1f0e")
+		)
+		(pin "V9"
+			(uuid "caf8612a-7641-4f12-aa8c-2d2a7e33416b")
+		)
+		(pin "M3"
+			(uuid "97900bd5-cd3f-4281-947a-74b07efa7f0e")
+		)
+		(pin "T6"
+			(uuid "f05e5a3b-07ba-48e0-a96a-b2ea6f72b702")
+		)
+		(pin "B5"
+			(uuid "5a03b37b-747a-4f22-9e6d-60048ea025cc")
+		)
+		(pin "C11"
+			(uuid "e3187521-ca08-4d4d-9252-503f2673fe02")
+		)
+		(pin "T17"
+			(uuid "3d7efb0a-7a2f-4d65-8a87-1e5325cb7923")
+		)
+		(pin "J4"
+			(uuid "2cd07a4f-745f-41d3-89dd-cd8abb4d3c69")
+		)
+		(pin "P2"
+			(uuid "f8159110-1666-4eeb-bfa8-3d6f03ce7732")
+		)
+		(pin "P3"
+			(uuid "55e5fcef-6f86-449c-905b-e57cda2fdd34")
+		)
+		(pin "E4"
+			(uuid "26037b0d-3e31-4872-b629-621e3e1e398e")
+		)
+		(pin "N4"
+			(uuid "95508d5a-b5c6-4ab5-ac39-894d31f70089")
+		)
+		(pin "P1"
+			(uuid "a0da2651-6d4b-44f3-b0d5-8df1a215b959")
+		)
+		(pin "U14"
+			(uuid "d9970058-e23e-4c1a-9795-a5e1a4166a60")
+		)
+		(pin "H3"
+			(uuid "2f1f9308-632b-41ff-9431-6812251347f9")
+		)
+		(pin "U8"
+			(uuid "3529121a-ca37-44da-9b42-39566b020302")
+		)
+		(pin "U9"
+			(uuid "4878332f-b57f-4438-8878-7b46eae0e92c")
+		)
+		(pin "K3"
+			(uuid "984c0a4c-522c-40a9-9898-58915153b5ab")
+		)
+		(pin "G17"
+			(uuid "eccdbe9e-ff40-420a-9a20-b0b68958f7b8")
+		)
+		(pin "J3"
+			(uuid "72ca60ae-b424-4f0b-90c3-58931faba551")
+		)
+		(pin "K2"
+			(uuid "a8c05abe-74e8-4d20-8db5-75c3d33d97d4")
+		)
+		(pin "K1"
+			(uuid "41838ec3-77c5-4c67-b236-ea04c9dd962e")
+		)
+		(pin "G3"
+			(uuid "f09aa7bc-2db7-45f4-a134-8ab8c276180d")
+		)
+		(pin "R12"
+			(uuid "18bf4970-8273-4cdf-a8d2-adff290323c6")
+		)
+		(pin "B18"
+			(uuid "ffb8dac8-d472-4435-8e5f-c7cc0cab6806")
+		)
+		(pin "C1"
+			(uuid "f4b32632-a843-4cf1-9102-93973c463076")
+		)
+		(pin "B3"
+			(uuid "25d7a3ed-f715-4022-9472-04a8f3ee98d2")
+		)
+		(pin "B2"
+			(uuid "43bffad9-af6d-41a3-ae35-7de351615659")
+		)
+		(pin "B1"
+			(uuid "6447cbc7-a654-437f-be92-24abd0247c32")
+		)
+		(pin "F3"
+			(uuid "14dad68f-7c2d-4b28-84e5-621a9faa62fe")
+		)
+		(pin "A12"
+			(uuid "47d24c00-9d11-4699-819c-fe8a324d086b")
+		)
+		(pin "A15"
+			(uuid "1e2cc89d-630a-45ae-8c55-afe96cdde08d")
+		)
+		(pin "E2"
+			(uuid "ce99c349-812d-4096-aeb8-94a4335f0eb0")
+		)
+		(pin "U15"
+			(uuid "090b54e5-31e1-47ee-b7a3-561828259ef0")
+		)
+		(pin "L1"
+			(uuid "32761c23-556e-4595-b7cf-1d549746f9bd")
+		)
+		(pin "D1"
+			(uuid "eaa69cb9-4d7b-4b9f-9aff-b3d1e5cf12cf")
+		)
+		(pin "F4"
+			(uuid "f0857b27-686e-4984-b3d7-528103b21519")
+		)
+		(pin "D4"
+			(uuid "df9bd7f2-a604-460a-b8c2-496881452b01")
+		)
+		(pin "E3"
+			(uuid "90cf0d0a-910d-4fd7-845f-8b1f76bba0be")
+		)
+		(pin "U12"
+			(uuid "9adf5ff6-ebbe-4e9f-8a6d-7b6aff55e801")
+		)
+		(pin "L3"
+			(uuid "576f478b-891d-43cf-a49f-399494a81840")
+		)
+		(pin "D2"
+			(uuid "b1eb2168-d13d-412c-9ece-82abc2c24ba7")
+		)
+		(pin "J2"
+			(uuid "1944e9b2-5a17-4d85-aa42-6da11c06d5d5")
+		)
+		(pin "L4"
+			(uuid "e17a3657-2104-4ff3-8caa-3146c4fb7f96")
+		)
+		(pin "V17"
+			(uuid "a93850a5-8297-4529-87d3-bda1d43584dd")
+		)
+		(pin "V6"
+			(uuid "e09dc9aa-7eea-4a8f-9050-5ec088684483")
+		)
+		(pin "V16"
+			(uuid "43b46c8b-816b-4d61-bd0a-c0cc7499d14c")
+		)
+		(pin "B10"
+			(uuid "e4f52c4a-8dcc-413b-a5ae-f7700895abf1")
+		)
+		(pin "B11"
+			(uuid "9597c1a1-4dcf-4c79-88a7-83d7d11aead2")
+		)
+		(pin "U6"
+			(uuid "b1278177-5777-43d7-9e93-a524697ff80f")
+		)
+		(pin "U7"
+			(uuid "ed07b9dd-9a6e-406e-8ac6-94e7a11718fc")
+		)
+		(pin "U18"
+			(uuid "af5d4d98-71c6-42ab-ad1f-3d5059b0800e")
+		)
+		(pin "H2"
+			(uuid "db7ec7a6-77c9-4ced-a8f8-d79a1f435419")
+		)
+		(pin "U16"
+			(uuid "9c0292a9-0ae3-4434-94fe-a7f5cc98a561")
+		)
+		(pin "C4"
+			(uuid "24330320-5f0c-4912-a4fa-f1dd2d9278ab")
+		)
+		(pin "E1"
+			(uuid "ada0b3c8-91d2-484b-90a8-d2e8128bed8b")
+		)
+		(pin "V12"
+			(uuid "4c1bc77d-75df-4b53-823d-88491acc42a1")
+		)
+		(pin "T16"
+			(uuid "e082d1dc-7907-4dbf-82d2-75bca292cc2f")
+		)
+		(pin "K4"
+			(uuid "0b7c1ef4-cc8c-470c-b870-3775e398cb8d")
+		)
+		(pin "J1"
+			(uuid "f6299646-4480-48d3-ad97-4bf3ac024a40")
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc/c5e904a4-2847-4436-9451-ebfcdeead27c"
+					(reference "SubArcticAM335X2")
 					(unit 1)
 				)
 			)

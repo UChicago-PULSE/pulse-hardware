@@ -6,16 +6,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "U1"
+			(at 9.525 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "~"
+			(at 9.525 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "TPS65217CRSLR_1_1"
 			(rectangle
-				(start 0 67.31)
-				(end 19.05 0)
+				(start 2.54 67.31)
+				(end 27.94 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -63,15 +63,7 @@
 				)
 			)
 			(text "TPS65217CRSLR\n"
-				(at 9.398 65.278 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "TPS65217CRSLR\n"
-				(at 9.652 68.326 0)
+				(at 15.24 68.58 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -79,7 +71,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 2.54 0)
+				(at 30.48 2.54 180)
 				(length 2.54)
 				(name "VLD02"
 					(effects
@@ -97,7 +89,7 @@
 				)
 			)
 			(pin input line
-				(at 0 50.8 180)
+				(at 0 50.8 0)
 				(length 2.54)
 				(name "AC"
 					(effects
@@ -115,7 +107,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 50.8 0)
+				(at 30.48 53.34 180)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -133,7 +125,7 @@
 				)
 			)
 			(pin input line
-				(at 0 48.26 180)
+				(at 0 48.26 0)
 				(length 2.54)
 				(name "USB"
 					(effects
@@ -151,7 +143,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 38.1 0)
+				(at 30.48 40.64 180)
 				(length 2.54)
 				(name "WAKEUP"
 					(effects
@@ -169,7 +161,7 @@
 				)
 			)
 			(pin input line
-				(at 0 35.56 180)
+				(at 0 35.56 0)
 				(length 2.54)
 				(name "MUX_IN"
 					(effects
@@ -187,7 +179,7 @@
 				)
 			)
 			(pin input line
-				(at 0 43.18 180)
+				(at 0 43.18 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -205,7 +197,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 48.26 0)
+				(at 30.48 50.8 180)
 				(length 2.54)
 				(name "MUX_OUT"
 					(effects
@@ -223,7 +215,7 @@
 				)
 			)
 			(pin input line
-				(at 0 45.72 180)
+				(at 0 45.72 0)
 				(length 2.54)
 				(name "NC1"
 					(effects
@@ -241,7 +233,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 45.72 0)
+				(at 30.48 48.26 180)
 				(length 2.54)
 				(name "VIO"
 					(effects
@@ -259,7 +251,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 22.86 0)
+				(at 30.48 22.86 180)
 				(length 2.54)
 				(name "VDCDC1"
 					(effects
@@ -277,7 +269,7 @@
 				)
 			)
 			(pin input line
-				(at 0 2.54 180)
+				(at 0 2.54 0)
 				(length 2.54)
 				(name "VINLDO"
 					(effects
@@ -295,7 +287,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 5.08 0)
+				(at 30.48 5.08 180)
 				(length 2.54)
 				(name "VLD01"
 					(effects
@@ -313,7 +305,25 @@
 				)
 			)
 			(pin input line
-				(at 0 15.24 180)
+				(at 30.48 25.4 180)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 15.24 0)
 				(length 2.54)
 				(name "VIN_DCDC1"
 					(effects
@@ -331,7 +341,7 @@
 				)
 			)
 			(pin input line
-				(at 0 12.7 180)
+				(at 0 12.7 0)
 				(length 2.54)
 				(name "VIN_DCDC2"
 					(effects
@@ -349,7 +359,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 20.32 0)
+				(at 30.48 20.32 180)
 				(length 2.54)
 				(name "L2"
 					(effects
@@ -367,7 +377,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 17.78 0)
+				(at 30.48 17.78 180)
 				(length 2.54)
 				(name "VDCDC2"
 					(effects
@@ -385,7 +395,7 @@
 				)
 			)
 			(pin input line
-				(at 0 27.94 180)
+				(at 0 27.94 0)
 				(length 2.54)
 				(name "PB_IN"
 					(effects
@@ -403,7 +413,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 43.18 0)
+				(at 30.48 45.72 180)
 				(length 2.54)
 				(name "PGOOD"
 					(effects
@@ -421,7 +431,7 @@
 				)
 			)
 			(pin input line
-				(at 0 22.86 180)
+				(at 0 22.86 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -439,7 +449,7 @@
 				)
 			)
 			(pin input line
-				(at 0 25.4 180)
+				(at 0 25.4 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -457,7 +467,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 12.7 0)
+				(at 30.48 12.7 180)
 				(length 2.54)
 				(name "VDCDC3"
 					(effects
@@ -475,7 +485,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 0 270)
+				(at 15.24 -2.54 90)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -493,7 +503,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 15.24 0)
+				(at 30.48 15.24 180)
 				(length 2.54)
 				(name "L3"
 					(effects
@@ -511,7 +521,7 @@
 				)
 			)
 			(pin input line
-				(at 0 10.16 180)
+				(at 0 10.16 0)
 				(length 2.54)
 				(name "VIN_DCDC3"
 					(effects
@@ -529,7 +539,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 30.48 0)
+				(at 30.48 33.02 180)
 				(length 2.54)
 				(name "ISINK2"
 					(effects
@@ -547,7 +557,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 33.02 0)
+				(at 30.48 35.56 180)
 				(length 2.54)
 				(name "ISINK1"
 					(effects
@@ -565,7 +575,7 @@
 				)
 			)
 			(pin input line
-				(at 0 17.78 180)
+				(at 0 17.78 0)
 				(length 2.54)
 				(name "ISET1"
 					(effects
@@ -583,7 +593,7 @@
 				)
 			)
 			(pin input line
-				(at 0 20.32 180)
+				(at 0 20.32 0)
 				(length 2.54)
 				(name "ISET2"
 					(effects
@@ -601,7 +611,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 25.4 0)
+				(at 30.48 27.94 180)
 				(length 2.54)
 				(name "L4"
 					(effects
@@ -619,7 +629,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 27.94 0)
+				(at 30.48 30.48 180)
 				(length 2.54)
 				(name "FB_WLED"
 					(effects
@@ -637,7 +647,7 @@
 				)
 			)
 			(pin input line
-				(at 0 7.62 180)
+				(at 0 7.62 0)
 				(length 2.54)
 				(name "LDO3_IN"
 					(effects
@@ -655,7 +665,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 58.42 0)
+				(at 30.48 60.96 180)
 				(length 2.54)
 				(name "BAT1"
 					(effects
@@ -673,7 +683,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 10.16 0)
+				(at 30.48 10.16 180)
 				(length 2.54)
 				(name "LD03"
 					(effects
@@ -691,7 +701,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 0 270)
+				(at 12.7 -2.54 90)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -709,7 +719,7 @@
 				)
 			)
 			(pin input line
-				(at 0 5.08 180)
+				(at 0 5.08 0)
 				(length 2.54)
 				(name "LDO4_IN"
 					(effects
@@ -727,7 +737,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 7.62 0)
+				(at 30.48 7.62 180)
 				(length 2.54)
 				(name "LD04"
 					(effects
@@ -745,7 +755,7 @@
 				)
 			)
 			(pin input line
-				(at 0 30.48 180)
+				(at 0 30.48 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -763,7 +773,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 35.56 0)
+				(at 30.48 38.1 180)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -781,7 +791,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 40.64 0)
+				(at 30.48 43.18 180)
 				(length 2.54)
 				(name "LDO_PGOOD"
 					(effects
@@ -799,7 +809,7 @@
 				)
 			)
 			(pin input line
-				(at 0 38.1 180)
+				(at 0 38.1 0)
 				(length 2.54)
 				(name "BYPASS"
 					(effects
@@ -817,7 +827,7 @@
 				)
 			)
 			(pin input line
-				(at 0 40.64 180)
+				(at 0 40.64 0)
 				(length 2.54)
 				(name "INT_LDO"
 					(effects
@@ -835,7 +845,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 0 270)
+				(at 17.78 -2.54 90)
 				(length 2.54)
 				(name "PPAD"
 					(effects
@@ -853,7 +863,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 55.88 0)
+				(at 30.48 58.42 180)
 				(length 2.54)
 				(name "BAT2"
 					(effects
@@ -871,7 +881,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 53.34 0)
+				(at 30.48 55.88 180)
 				(length 2.54)
 				(name "BAT_SENSE"
 					(effects
@@ -889,7 +899,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 63.5 0)
+				(at 30.48 66.04 180)
 				(length 2.54)
 				(name "SYS1"
 					(effects
@@ -907,7 +917,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 60.96 0)
+				(at 30.48 63.5 180)
 				(length 2.54)
 				(name "SYS2"
 					(effects
@@ -925,7 +935,7 @@
 				)
 			)
 			(pin input line
-				(at 0 33.02 180)
+				(at 0 33.02 0)
 				(length 2.54)
 				(name "PWR_EN"
 					(effects

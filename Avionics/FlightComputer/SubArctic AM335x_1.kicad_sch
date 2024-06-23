@@ -7764,6 +7764,18 @@
 		)
 		(uuid "0a60e4f5-12c4-4e49-9379-04c2c7b31935")
 	)
+	(text "Flight computer \"Erebos\" - V1.1 - Ian Goldberg\n\n"
+		(exclude_from_sim no)
+		(at 503.682 379.73 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5643d9bc-445d-47bd-9692-d9afe514b7de")
+	)
 	(text "JTAG_TRSTn\nJTAG_TMS\nJTAG_TDI\nJTAG_TCK\nJTAG_TDO\nJTAG_EMU0\nJTAG_EMU1"
 		(exclude_from_sim no)
 		(at 305.308 91.44 0)

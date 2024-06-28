@@ -2376,7 +2376,7 @@
 		)
 		(uuid "f3ee8482-b4d3-42d1-a9ec-3fd5d6dde821")
 	)
-	(global_label "Battery?"
+	(global_label "5V"
 		(shape input)
 		(at 165.1 57.15 0)
 		(fields_autoplaced yes)
@@ -2388,7 +2388,7 @@
 		)
 		(uuid "00fa8f75-d00c-4ee2-9a5e-9f5d760f0afd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8866 57.15 0)
+			(at 170.3833 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			)
 		)
 	)
-	(global_label "Battery"
+	(global_label "5V"
 		(shape input)
 		(at 129.54 34.29 0)
 		(fields_autoplaced yes)
@@ -2410,29 +2410,7 @@
 		)
 		(uuid "bbbc6e96-edde-4ba2-9bb2-0641f43b3800")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.238 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Battery"
-		(shape input)
-		(at 129.54 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d198dcd0-c0f9-4e84-be50-6e5d276bbc15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.238 34.29 0)
+			(at 134.8233 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

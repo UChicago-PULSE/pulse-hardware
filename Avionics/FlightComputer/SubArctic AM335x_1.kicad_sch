@@ -1402,7 +1402,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SubArcticAM335X"
+			(property "Reference" "SubArcticAM335X1"
 				(at 224.282 -66.294 0)
 				(effects
 					(font
@@ -1459,6 +1459,15 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(text "SubArctic AM335X_1\n"
+					(at 63.5 -16.002 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+							(bold yes)
+						)
 					)
 				)
 				(pin input line
@@ -7764,7 +7773,7 @@
 		)
 		(uuid "0a60e4f5-12c4-4e49-9379-04c2c7b31935")
 	)
-	(text "Flight computer \"Erebos\" - V1.1 - Ian Goldberg\n\n"
+	(text "Flight computer - V1.1 - Ian Goldberg\n\n"
 		(exclude_from_sim no)
 		(at 503.682 379.73 0)
 		(effects
@@ -7809,19 +7818,6 @@
 			(justify left bottom)
 		)
 		(uuid "23137582-1ecf-48de-a7b6-2e318f1d772a")
-	)
-	(label "SubArctic AM335x"
-		(at 158.75 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.6096)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e0f4bc7-3306-4120-9a47-d60b938bd725")
 	)
 	(label "AM3358BZCZ100"
 		(at 129.54 241.3 0)

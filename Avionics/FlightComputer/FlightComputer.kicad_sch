@@ -2478,12 +2478,6 @@
 		(uuid "41a31398-fd02-43a3-91a7-81257b3fa872")
 	)
 	(junction
-		(at 143.51 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e04810e-829a-4088-b985-e4e1b9ee5746")
-	)
-	(junction
 		(at 213.36 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2536,12 +2530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88341590-7b78-4e42-ba1c-0aba15a17a39")
-	)
-	(junction
-		(at 140.97 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b54cd4c-862a-4604-8ac3-d3630d2cf5ea")
 	)
 	(junction
 		(at 83.82 104.14)
@@ -2616,12 +2604,6 @@
 		(uuid "be699cba-4120-4a88-9ca8-b36750895743")
 	)
 	(junction
-		(at 146.05 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c28cdde8-1227-4255-81f1-9421747cd7a8")
-	)
-	(junction
 		(at 115.57 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,10 +2664,6 @@
 	(no_connect
 		(at 128.27 86.36)
 		(uuid "6abed2ed-110c-4037-b7dd-c2657d9bba00")
-	)
-	(no_connect
-		(at 44.45 156.21)
-		(uuid "6ef89f53-ddbe-445c-803e-eabbe7a10954")
 	)
 	(no_connect
 		(at 128.27 81.28)
@@ -3541,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 119.38) (xy 143.51 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cebfbf-25ea-4b24-829b-612e5f9cfaae")
-	)
-	(wire
-		(pts
 			(xy 175.26 129.54) (xy 175.26 147.32)
 		)
 		(stroke
@@ -4041,16 +4009,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 119.38) (xy 140.97 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7900e6e-0249-423c-a43d-af8892e4f10d")
-	)
-	(wire
-		(pts
 			(xy 193.04 137.16) (xy 227.33 137.16)
 		)
 		(stroke
@@ -4241,7 +4199,7 @@
 		)
 		(uuid f9e43549-460c-4b49-9792-3cb0dba052af)
 	)
-	(text "Flight computer \"Erebos\" - V1.1 - Ian Goldberg\n\n"
+	(text "Flight computer - V1.1 - Ian Goldberg\n\n"
 		(exclude_from_sim no)
 		(at 216.408 191.008 0)
 		(effects
@@ -9114,7 +9072,45 @@
 		)
 	)
 	(sheet
-		(at 19.05 144.78)
+		(at 92.71 144.78)
+		(size 33.02 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02eae009-8ede-471f-9844-d27e430d2b33")
+		(property "Sheetname" "SubArctic AM335X_3"
+			(at 92.71 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SubArctic AM335X_3.kicad_sch"
+			(at 92.71 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 144.78)
 		(size 33.02 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -9126,7 +9122,7 @@
 		)
 		(uuid "740ad13c-4f21-4e12-9acd-ab77d23651b5")
 		(property "Sheetname" "SubArctic AM335x_1"
-			(at 19.05 144.0684 0)
+			(at 17.78 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9131,7 @@
 			)
 		)
 		(property "Sheetfile" "SubArctic AM335x_1.kicad_sch"
-			(at 19.05 164.4146 0)
+			(at 17.78 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

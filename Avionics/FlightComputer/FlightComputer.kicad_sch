@@ -9110,6 +9110,44 @@
 		)
 	)
 	(sheet
+		(at 17.78 168.91)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0985a267-0ecd-4496-804f-863f3b1048d6")
+		(property "Sheetname" "Sheet 4"
+			(at 17.78 168.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Flightcomputersheet4.kicad_sch"
+			(at 17.78 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/80fd70cc-258e-4c36-a149-cd51380d23dc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 144.78)
 		(size 33.02 19.05)
 		(fields_autoplaced yes)

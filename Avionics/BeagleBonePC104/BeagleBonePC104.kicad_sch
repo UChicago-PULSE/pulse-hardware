@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c19e4e36-81b6-4ac2-a6e5-e9e0c2677815")
+	(paper "A4")
+	(title_block
+		(title "BeagleBone Black PC104 Motherboard - Ian Goldberg")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -12,6 +12,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -47,6 +48,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "BeagleBoneBlackPinout_0_1"
+			(rectangle
+				(start 55.88 97.79)
+				(end 73.66 82.55)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 55.88 140.97)
+				(end 73.66 130.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "BeagleBoneBlackPinout_1_0"
@@ -1725,12 +1750,28 @@
 					(type none)
 				)
 			)
-			(text "BeagleBone Black Physical Pinout\n"
+			(text "BeagleBone Black Pinout\n"
 				(at 43.434 149.86 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 						(bold yes)
+					)
+				)
+			)
+			(text "eMMC Pins\n"
+				(at 54.61 135.89 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "eMMC Pins\n"
+				(at 54.864 89.408 900)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)

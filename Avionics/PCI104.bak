@@ -635,7 +635,7 @@
 			(pin input line
 				(at 128.27 99.06 180)
 				(length 2.54)
-				(name "3V_MAIN_STAT"
+				(name "3.3V_MAIN_STAT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -743,7 +743,7 @@
 			(pin input line
 				(at 90.17 93.98 180)
 				(length 2.54)
-				(name "3V_MAIN"
+				(name "3.3V_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -779,7 +779,7 @@
 			(pin input line
 				(at 128.27 93.98 180)
 				(length 2.54)
-				(name "3V_MAIN"
+				(name "3.3V_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)

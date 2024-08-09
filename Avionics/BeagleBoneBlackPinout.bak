@@ -6,16 +6,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "U1"
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "~"
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,9 +69,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 121.92 180)
+				(at 17.78 121.92 0)
 				(length 2.54)
-				(name "A10"
+				(name "SYS_RESETn"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -87,7 +87,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 121.92 0)
+				(at 68.58 121.92 180)
 				(length 2.54)
 				(name "TIMER6"
 					(effects
@@ -105,7 +105,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 119.38 0)
+				(at 68.58 119.38 180)
 				(length 2.54)
 				(name "GPIO1_13"
 					(effects
@@ -123,9 +123,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 119.38 180)
+				(at 17.78 119.38 0)
 				(length 2.54)
-				(name "T17"
+				(name "UART4_RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -141,7 +141,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 116.84 0)
+				(at 68.58 116.84 180)
 				(length 2.54)
 				(name "GPIO1_12"
 					(effects
@@ -159,9 +159,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 116.84 180)
+				(at 17.78 116.84 0)
 				(length 2.54)
-				(name "U18"
+				(name "GPIO1_28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -177,7 +177,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 114.3 0)
+				(at 68.58 114.3 180)
 				(length 2.54)
 				(name "EHRPWM2B"
 					(effects
@@ -195,9 +195,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 114.3 180)
+				(at 17.78 114.3 0)
 				(length 2.54)
-				(name "U17"
+				(name "UART4_TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -215,7 +215,7 @@
 			(pin input line
 				(at 17.78 111.76 0)
 				(length 2.54)
-				(name "GPIO0_26"
+				(name "EHRPWM1A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -233,7 +233,7 @@
 			(pin input line
 				(at 68.58 111.76 180)
 				(length 2.54)
-				(name "U14"
+				(name "GPIO0_26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -249,7 +249,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 109.22 0)
+				(at 68.58 109.22 180)
 				(length 2.54)
 				(name "GPIO1_15"
 					(effects
@@ -267,9 +267,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 109.22 180)
+				(at 17.78 109.22 0)
 				(length 2.54)
-				(name "R13"
+				(name "GPIO1_16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			(pin input line
 				(at 17.78 106.68 0)
 				(length 2.54)
-				(name "GPIO1_14"
+				(name "EHRPWM1B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -305,7 +305,7 @@
 			(pin input line
 				(at 68.58 106.68 180)
 				(length 2.54)
-				(name "T14"
+				(name "GPIO1_14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -323,7 +323,7 @@
 			(pin input line
 				(at 68.58 104.14 180)
 				(length 2.54)
-				(name "A16"
+				(name "GPIO0_27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -341,7 +341,7 @@
 			(pin input line
 				(at 17.78 104.14 0)
 				(length 2.54)
-				(name "GPIO0_27"
+				(name "I2C1_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -359,7 +359,7 @@
 			(pin input line
 				(at 68.58 101.6 180)
 				(length 2.54)
-				(name "B16"
+				(name "GPIO2_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -377,7 +377,7 @@
 			(pin input line
 				(at 17.78 101.6 0)
 				(length 2.54)
-				(name "GPIO2_1"
+				(name "I2C1_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -395,7 +395,7 @@
 			(pin input line
 				(at 68.58 99.06 180)
 				(length 2.54)
-				(name "D17"
+				(name "EHRPWM2A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -413,7 +413,7 @@
 			(pin input line
 				(at 17.78 99.06 0)
 				(length 2.54)
-				(name "EHRPWM2A"
+				(name "I2C2_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -467,7 +467,7 @@
 			(pin input line
 				(at 68.58 96.52 180)
 				(length 2.54)
-				(name "D18"
+				(name "GPIO1_31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -485,7 +485,7 @@
 			(pin input line
 				(at 17.78 96.52 0)
 				(length 2.54)
-				(name "GPIO1_31"
+				(name "I2C2_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -503,7 +503,7 @@
 			(pin input line
 				(at 68.58 93.98 180)
 				(length 2.54)
-				(name "B17"
+				(name "GPIO1_30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -521,7 +521,7 @@
 			(pin input line
 				(at 17.78 93.98 0)
 				(length 2.54)
-				(name "GPIO1_30"
+				(name "UART2_TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -539,7 +539,7 @@
 			(pin input line
 				(at 68.58 91.44 180)
 				(length 2.54)
-				(name "A17"
+				(name "GPIO1_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -557,7 +557,7 @@
 			(pin input line
 				(at 17.78 91.44 0)
 				(length 2.54)
-				(name "GPIO1_5"
+				(name "UART2_RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -575,7 +575,7 @@
 			(pin input line
 				(at 17.78 88.9 0)
 				(length 2.54)
-				(name "GPIO1_4"
+				(name "GPIO1_17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -593,7 +593,7 @@
 			(pin input line
 				(at 68.58 88.9 180)
 				(length 2.54)
-				(name "V14"
+				(name "GPIO1_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -611,7 +611,7 @@
 			(pin input line
 				(at 68.58 86.36 180)
 				(length 2.54)
-				(name "D15"
+				(name "GPIO1_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -629,7 +629,7 @@
 			(pin input line
 				(at 17.78 86.36 0)
 				(length 2.54)
-				(name "GPIO1_1"
+				(name "UART1_TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -647,7 +647,7 @@
 			(pin input line
 				(at 68.58 83.82 180)
 				(length 2.54)
-				(name "A14"
+				(name "GPIO1_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -665,7 +665,7 @@
 			(pin input line
 				(at 17.78 83.82 0)
 				(length 2.54)
-				(name "GPIO1_0"
+				(name "GPIO3_21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -683,7 +683,7 @@
 			(pin input line
 				(at 68.58 81.28 180)
 				(length 2.54)
-				(name "D16"
+				(name "GPIO1_29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -701,7 +701,7 @@
 			(pin input line
 				(at 17.78 81.28 0)
 				(length 2.54)
-				(name "GPIO1_29"
+				(name "UART1_RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -719,7 +719,7 @@
 			(pin input line
 				(at 68.58 78.74 180)
 				(length 2.54)
-				(name "C13"
+				(name "GPIO2_22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -737,7 +737,7 @@
 			(pin input line
 				(at 17.78 78.74 0)
 				(length 2.54)
-				(name "GPIO2_22"
+				(name "GPIO3_19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -755,7 +755,7 @@
 			(pin input line
 				(at 68.58 76.2 180)
 				(length 2.54)
-				(name "C12"
+				(name "GPIO2_24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -773,7 +773,7 @@
 			(pin input line
 				(at 17.78 76.2 0)
 				(length 2.54)
-				(name "GPIO2_24"
+				(name "SPI1_CS0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -791,7 +791,7 @@
 			(pin input line
 				(at 68.58 73.66 180)
 				(length 2.54)
-				(name "B13"
+				(name "GPIO2_23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -809,7 +809,7 @@
 			(pin input line
 				(at 17.78 73.66 0)
 				(length 2.54)
-				(name "GPIO2_23"
+				(name "SPI1_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -825,7 +825,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 139.7 180)
+				(at 17.78 139.7 0)
 				(length 2.54)
 				(name "DC_3.3V"
 					(effects
@@ -843,7 +843,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 139.7 0)
+				(at 68.58 139.7 180)
 				(length 2.54)
 				(name "GPIO1_6"
 					(effects
@@ -863,7 +863,7 @@
 			(pin input line
 				(at 68.58 71.12 180)
 				(length 2.54)
-				(name "D12"
+				(name "GPIO2_25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -881,7 +881,7 @@
 			(pin input line
 				(at 17.78 71.12 0)
 				(length 2.54)
-				(name "GPIO2_25"
+				(name "SPI1_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -897,9 +897,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 68.58 180)
+				(at 17.78 68.58 0)
 				(length 2.54)
-				(name "A13"
+				(name "SPI1_SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -915,7 +915,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 68.58 0)
+				(at 68.58 68.58 180)
 				(length 2.54)
 				(name "UART5_CTSN"
 					(effects
@@ -933,7 +933,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 66.04 0)
+				(at 68.58 66.04 180)
 				(length 2.54)
 				(name "UART5_RTSN"
 					(effects
@@ -951,7 +951,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 66.04 180)
+				(at 17.78 66.04 0)
 				(length 2.54)
 				(name "VADC"
 					(effects
@@ -969,9 +969,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 63.5 180)
+				(at 17.78 63.5 0)
 				(length 2.54)
-				(name "C8"
+				(name "AIN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -987,7 +987,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 63.5 0)
+				(at 68.58 63.5 180)
 				(length 2.54)
 				(name "UART4_RTSN"
 					(effects
@@ -1005,7 +1005,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 60.96 180)
+				(at 17.78 60.96 0)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -1023,7 +1023,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 60.96 0)
+				(at 68.58 60.96 180)
 				(length 2.54)
 				(name "UART3_RTSN"
 					(effects
@@ -1041,9 +1041,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 58.42 180)
+				(at 17.78 58.42 0)
 				(length 2.54)
-				(name "A8"
+				(name "AIN6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1059,7 +1059,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 58.42 0)
+				(at 68.58 58.42 180)
 				(length 2.54)
 				(name "UART4_CTSN"
 					(effects
@@ -1077,9 +1077,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 55.88 180)
+				(at 17.78 55.88 0)
 				(length 2.54)
-				(name "B8"
+				(name "AIN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 55.88 0)
+				(at 68.58 55.88 180)
 				(length 2.54)
 				(name "UART3_CTSN"
 					(effects
@@ -1113,9 +1113,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 53.34 180)
+				(at 17.78 53.34 0)
 				(length 2.54)
-				(name "B7"
+				(name "AIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 53.34 0)
+				(at 68.58 53.34 180)
 				(length 2.54)
 				(name "UART5_TXD"
 					(effects
@@ -1149,9 +1149,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 50.8 180)
+				(at 17.78 50.8 0)
 				(length 2.54)
-				(name "A7"
+				(name "AIN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 50.8 0)
+				(at 68.58 50.8 180)
 				(length 2.54)
 				(name "UART5_RXD"
 					(effects
@@ -1185,9 +1185,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 48.26 180)
+				(at 17.78 48.26 0)
 				(length 2.54)
-				(name "B6"
+				(name "AIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1203,7 +1203,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 48.26 0)
+				(at 68.58 48.26 180)
 				(length 2.54)
 				(name "GPIO2_12"
 					(effects
@@ -1221,7 +1221,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 137.16 180)
+				(at 17.78 137.16 0)
 				(length 2.54)
 				(name "DC_3.3V"
 					(effects
@@ -1239,7 +1239,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 137.16 0)
+				(at 68.58 137.16 180)
 				(length 2.54)
 				(name "GPIO1_7"
 					(effects
@@ -1257,9 +1257,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 45.72 180)
+				(at 17.78 45.72 0)
 				(length 2.54)
-				(name "C7"
+				(name "AIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1275,7 +1275,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 45.72 0)
+				(at 68.58 45.72 180)
 				(length 2.54)
 				(name "GPIO2_13"
 					(effects
@@ -1295,7 +1295,7 @@
 			(pin input line
 				(at 68.58 43.18 180)
 				(length 2.54)
-				(name "CLKOUT2/GPIO3_20"
+				(name "GPIO2_10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1313,7 +1313,7 @@
 			(pin input line
 				(at 17.78 43.18 0)
 				(length 2.54)
-				(name "GPIO2_10"
+				(name "GPIO3_20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1329,7 +1329,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 40.64 0)
+				(at 68.58 40.64 180)
 				(length 2.54)
 				(name "GPIO2_11"
 					(effects
@@ -1347,9 +1347,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 40.64 180)
+				(at 17.78 40.64 0)
 				(length 2.54)
-				(name "GPIO_7/GPIO3_18"
+				(name "GPOI0_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1365,7 +1365,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 38.1 180)
+				(at 17.78 38.1 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1383,7 +1383,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 38.1 0)
+				(at 68.58 38.1 180)
 				(length 2.54)
 				(name "GPIO2_8"
 					(effects
@@ -1401,7 +1401,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 35.56 180)
+				(at 17.78 35.56 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1419,7 +1419,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 35.56 0)
+				(at 68.58 35.56 180)
 				(length 2.54)
 				(name "GPIO2_9"
 					(effects
@@ -1437,7 +1437,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 33.02 180)
+				(at 17.78 33.02 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1455,7 +1455,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 33.02 0)
+				(at 68.58 33.02 180)
 				(length 2.54)
 				(name "GPIO2_6"
 					(effects
@@ -1473,7 +1473,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 30.48 180)
+				(at 17.78 30.48 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1491,7 +1491,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 30.48 0)
+				(at 68.58 30.48 180)
 				(length 2.54)
 				(name "GPIO2_7"
 					(effects
@@ -1509,7 +1509,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 134.62 0)
+				(at 68.58 134.62 180)
 				(length 2.54)
 				(name "GPIO1_2"
 					(effects
@@ -1527,7 +1527,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 134.62 180)
+				(at 17.78 134.62 0)
 				(length 2.54)
 				(name "VDD_5V"
 					(effects
@@ -1545,7 +1545,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 132.08 0)
+				(at 68.58 132.08 180)
 				(length 2.54)
 				(name "GPIO1_3"
 					(effects
@@ -1563,7 +1563,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 132.08 180)
+				(at 17.78 132.08 0)
 				(length 2.54)
 				(name "VDD_5V"
 					(effects
@@ -1581,7 +1581,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 129.54 180)
+				(at 17.78 129.54 0)
 				(length 2.54)
 				(name "SYS_5V"
 					(effects
@@ -1599,7 +1599,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 129.54 0)
+				(at 68.58 129.54 180)
 				(length 2.54)
 				(name "TIMER4"
 					(effects
@@ -1617,7 +1617,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 127 180)
+				(at 17.78 127 0)
 				(length 2.54)
 				(name "SYS_5V"
 					(effects
@@ -1635,7 +1635,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 127 0)
+				(at 68.58 127 180)
 				(length 2.54)
 				(name "TIMER7"
 					(effects
@@ -1653,7 +1653,7 @@
 				)
 			)
 			(pin input line
-				(at 68.58 124.46 180)
+				(at 17.78 124.46 0)
 				(length 2.54)
 				(name "PWR_BUT"
 					(effects
@@ -1671,7 +1671,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 124.46 0)
+				(at 68.58 124.46 180)
 				(length 2.54)
 				(name "TIMER5"
 					(effects
@@ -1691,7 +1691,7 @@
 		)
 		(symbol "BeagleBoneBlackPinout_1_1"
 			(rectangle
-				(start 12.7 147.32)
+				(start 20.32 147.32)
 				(end 34.29 27.94)
 				(stroke
 					(width 0.254)
@@ -1714,8 +1714,8 @@
 				)
 			)
 			(rectangle
-				(start 45.72 147.32)
-				(end 73.66 27.94)
+				(start 52.07 147.32)
+				(end 66.04 27.94)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1734,8 +1734,8 @@
 					)
 				)
 			)
-			(text "Expansion Header P8"
-				(at 35.814 88.138 900)
+			(text "Expansion Header P8\n\n"
+				(at 51.054 88.392 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 				)
 			)
 			(text "Expansion Header P9\n"
-				(at 44.45 88.392 900)
+				(at 35.814 88.138 900)
 				(effects
 					(font
 						(size 1.27 1.27)

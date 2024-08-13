@@ -2,6 +2,367 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "AdafruitCANTransceiver"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U3"
+			(at 19.05 -4.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 19.05 -6.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AdafruitCANTransceiver_1_0"
+			(pin input line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "CAN1_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "CAN1_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "CAN_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "CAN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AdafruitCANTransceiver_1_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 12.7 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "ADAFRUIT CAN TRANSCEIVER\n"
+				(at 4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AdafruitCANTransciever"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AdafruitCANTransciever_1_0"
+			(pin input line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name "CAN1_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name "CAN1_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "CAN_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name "CAN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AdafruitCANTransciever_1_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 12.7 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "ADAFRUIT CAN TRANSCIEVER\n"
+				(at 4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
 	(symbol "BeagleBoneBlackPinout"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -634,9 +995,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 86.36 180)
+				(at 17.78 86.36 0)
 				(length 2.54)
-				(name "GPIO1_1"
+				(name "DCAN1_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -652,9 +1013,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 86.36 0)
+				(at 68.58 86.36 180)
 				(length 2.54)
-				(name "UART1_TXD"
+				(name "GPIO1_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -706,9 +1067,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 81.28 180)
+				(at 17.78 81.28 0)
 				(length 2.54)
-				(name "GPIO1_29"
+				(name "DCAN1_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -724,9 +1085,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 81.28 0)
+				(at 68.58 81.28 180)
 				(length 2.54)
-				(name "UART1_RXD"
+				(name "GPIO1_29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1354,9 +1715,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 40.64 180)
+				(at 17.78 40.64 0)
 				(length 2.54)
-				(name "GPIO2_11"
+				(name "GPIO0_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1372,9 +1733,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 40.64 0)
+				(at 68.58 40.64 180)
 				(length 2.54)
-				(name "GPOI0_7"
+				(name "GPIO2_11"
 					(effects
 						(font
 							(size 1.27 1.27)

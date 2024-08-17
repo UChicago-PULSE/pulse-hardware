@@ -1715,9 +1715,9 @@
 				)
 			)
 			(pin input line
-				(at 68.58 40.64 180)
+				(at 17.78 40.64 0)
 				(length 2.54)
-				(name "GPIO2_11"
+				(name "GPIO0_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1733,9 +1733,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 40.64 0)
+				(at 68.58 40.64 180)
 				(length 2.54)
-				(name "GPOI0_7"
+				(name "GPIO2_11"
 					(effects
 						(font
 							(size 1.27 1.27)

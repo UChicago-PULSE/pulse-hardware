@@ -188,20 +188,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "U3"
+			(at 19.05 -4.5691 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "~"
+			(at 19.05 -6.4742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -353,8 +356,8 @@
 					(type none)
 				)
 			)
-			(text "ADAFRUIT CAN TRANSCIEVER\n"
-				(at 4.572 3.81 0)
+			(text "ADAFRUIT CAN TRANSCEIVER\nTJA1051T/3\n\n"
+				(at 5.842 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)

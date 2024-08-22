@@ -1,4 +1,18 @@
-23358028841663456
+23368375117920955
+AdafruitCANTransciever
+AdafruitCANPal_TJA1051T
+
+
+0
+7
+7
+AdafruitCANTransciever
+PCI104H1Bank
+
+
+0
+104
+52
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63795,8 +63809,8 @@ BeagleBoneBlackFootprint
 
 
 0
-0
-0
+92
+46
 Module
 Carambola2
 8devices Carambola2, OpenWRT, industrial SoM computer, https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
@@ -63839,6 +63853,13 @@ onion omega module
 0
 89
 64
+Module
+PCI104Connector
+
+
+0
+104
+52
 Module
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
@@ -67451,6 +67472,27 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCI104Connector
+PCI104ConnectorAttempt#2H1
+
+
+0
+108
+52
+PCI104Connector
+PCI104ConnectorAttempt#2H2
+
+
+0
+108
+52
+PCI104Connector
+PCI104H1
+
+
+0
+104
+52
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54

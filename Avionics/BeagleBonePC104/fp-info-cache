@@ -1,11 +1,4 @@
-23359752872672799
-AdafruitCANTransciever
-AdafruitCANPal_TJA1051T
-
-
-0
-7
-7
+23358028841663456
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63802,8 +63795,8 @@ BeagleBoneBlackFootprint
 
 
 0
-92
-46
+0
+0
 Module
 Carambola2
 8devices Carambola2, OpenWRT, industrial SoM computer, https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf

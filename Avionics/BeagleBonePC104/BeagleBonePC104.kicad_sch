@@ -3360,7 +3360,7 @@
 				(pin input line
 					(at 100.33 76.2 180)
 					(length 2.54)
-					(name ""
+					(name "BURN_ENABLE_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3414,7 +3414,7 @@
 				(pin input line
 					(at 138.43 76.2 180)
 					(length 2.54)
-					(name ""
+					(name "BURN_ENABLE_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 				(pin input line
 					(at 138.43 63.5 180)
 					(length 2.54)
-					(name ""
+					(name "BURN_FET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4273,10 +4273,6 @@
 	(no_connect
 		(at 284.48 139.7)
 		(uuid "13a45fd1-cd04-47d8-87cc-e7d6fd521267")
-	)
-	(no_connect
-		(at 326.39 152.4)
-		(uuid "168b8ebd-5b35-4d86-8cd3-7e33d5315a3b")
 	)
 	(no_connect
 		(at 284.48 96.52)

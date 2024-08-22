@@ -324,7 +324,7 @@
 			(pin input line
 				(at 100.33 106.68 180)
 				(length 2.54)
-				(name "ADCS_ENABLE"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -360,7 +360,7 @@
 			(pin input line
 				(at 138.43 106.68 180)
 				(length 2.54)
-				(name ""
+				(name "ADCS_ENABLE"
 					(effects
 						(font
 							(size 1.27 1.27)

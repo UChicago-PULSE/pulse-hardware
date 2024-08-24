@@ -1,4 +1,4 @@
-23368375117951992
+23368375626259284
 AdafruitCANTransciever
 AdafruitCANPal_TJA1051T
 
@@ -67473,18 +67473,18 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PCI104Connector
-PCI104ConnectorAttempt#2H1
+PCI104ConnectorAttempt#2H1(Inner)
+
+
+0
+52
+52
+PCI104Connector
+PCI104ConnectorAttempt#2H2(Outer)
 
 
 0
 56
-52
-PCI104Connector
-PCI104ConnectorAttempt#2H2
-
-
-0
-52
 52
 PCI104Connector
 PCI104H1

@@ -4276,12 +4276,6 @@
 		(uuid "316202f5-cac4-4460-a67c-210ebf6e8f1e")
 	)
 	(junction
-		(at 93.98 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36e07198-db2f-4d6b-9f56-59a2da80db85")
-	)
-	(junction
 		(at 74.93 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4310,6 +4304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3649bb4-1682-43a0-af93-1075e43b8252")
+	)
+	(junction
+		(at 93.98 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e88eda90-cf6c-4f0a-8318-e672d0d3a06c")
 	)
 	(no_connect
 		(at 93.98 143.51)
@@ -4380,6 +4380,10 @@
 		(uuid "2f1ca784-1754-4721-830c-efb3c1819fd3")
 	)
 	(no_connect
+		(at 326.39 149.86)
+		(uuid "38b03b0e-de0f-42e1-99b6-af62ff1b49ff")
+	)
+	(no_connect
 		(at 93.98 90.17)
 		(uuid "3cc88a4a-596d-495f-b94f-d76b9a1029b4")
 	)
@@ -4406,6 +4410,10 @@
 	(no_connect
 		(at 161.29 97.79)
 		(uuid "4bb71b32-f86b-4307-a155-fb9e8eb540e7")
+	)
+	(no_connect
+		(at 326.39 152.4)
+		(uuid "4d6d4260-8c8f-4da7-bd58-57b3b2dd7018")
 	)
 	(no_connect
 		(at 240.03 106.68)
@@ -6051,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b24585b-897b-40b2-b063-48ed935640fd")
+	)
+	(wire
+		(pts
 			(xy 278.13 144.78) (xy 284.48 144.78)
 		)
 		(stroke
@@ -6341,16 +6359,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 93.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7f9e04-c0ec-4b0c-b906-e7e97cf73ed1")
-	)
-	(wire
-		(pts
 			(xy 278.13 152.4) (xy 284.48 152.4)
 		)
 		(stroke
@@ -6568,6 +6576,16 @@
 			(type default)
 		)
 		(uuid "c8cf4a9f-72d0-4456-84a8-8c58bdf65451")
+	)
+	(wire
+		(pts
+			(xy 64.77 77.47) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca75a82e-56ef-403c-ae4c-2291062444c8")
 	)
 	(wire
 		(pts
@@ -16316,6 +16334,78 @@
 		)
 		(uuid "fd9ae3de-5446-459f-a7cc-b8239fcaf161")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a2ac918-1ce8-400d-a13f-ffd880817aab")
+		(property "Netclass" "Power"
+			(at 70.5485 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 190.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "659c4cbf-7203-4452-8a02-891dcd67540a")
+		(property "Netclass" "Power"
+			(at 91.44 189.8015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 163.83 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a423f56-f99d-4e2f-9c37-cc9ed58478e5")
+		(property "Netclass" "Power"
+			(at 164.5285 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 74.93 109.22 0)
@@ -17147,7 +17237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 74.93 0)
+		(at 64.77 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17156,7 +17246,7 @@
 		(fields_autoplaced yes)
 		(uuid "65e85f79-ed32-4cec-a0e6-6bb3b330938b")
 		(property "Reference" "#PWR03"
-			(at 64.77 81.28 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +17255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 80.01 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,7 +17263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 74.93 0)
+			(at 64.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,7 +17272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 74.93 0)
+			(at 64.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +17281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 74.93 0)
+			(at 64.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2017,6 +2017,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4154,6 +4290,159 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature:TMP36xS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMP36xS"
+				(at 6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Voltage Temperature Sensor, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Temperature Sensor SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC?8*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TMP36xS_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TMP36xS_1_1"
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "V_{OUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{SHUTDOWN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "+Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4288,10 +4577,22 @@
 		(uuid "7b2adaf1-a4a1-405d-bce3-71da583f2597")
 	)
 	(junction
+		(at 262.89 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f364f1e-00e1-4d2c-b6cb-e856e2208f2a")
+	)
+	(junction
 		(at 161.29 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83999f4c-ef94-403b-af33-4503044c0929")
+	)
+	(junction
+		(at 262.89 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1c2173-86fc-4d0a-937c-034484538c26")
 	)
 	(junction
 		(at 83.82 118.11)
@@ -4310,6 +4611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88eda90-cf6c-4f0a-8318-e672d0d3a06c")
+	)
+	(junction
+		(at 262.89 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edfbb596-5c31-434f-81d2-b541c3c47a86")
 	)
 	(no_connect
 		(at 93.98 143.51)
@@ -4450,10 +4757,6 @@
 	(no_connect
 		(at 93.98 156.21)
 		(uuid "5db623d5-8e62-4771-8f4b-66de576aa5f2")
-	)
-	(no_connect
-		(at 284.48 88.9)
-		(uuid "5f611969-cb25-47ce-9bb8-b4849395c3ad")
 	)
 	(no_connect
 		(at 240.03 147.32)
@@ -4979,6 +5282,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 176.53) (xy 293.37 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177c2dd4-beb7-405f-a401-20b78e99fe05")
+	)
+	(wire
+		(pts
 			(xy 93.98 123.19) (xy 104.14 123.19)
 		)
 		(stroke
@@ -5179,6 +5492,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 205.74) (xy 262.89 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f26a021-2dfd-4ce5-a7a5-5b5349987f4f")
+	)
+	(wire
+		(pts
+			(xy 250.19 189.23) (xy 250.19 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f805598-3091-40a1-a305-cd9f24cf7bb5")
+	)
+	(wire
+		(pts
 			(xy 233.68 111.76) (xy 240.03 111.76)
 		)
 		(stroke
@@ -5206,6 +5539,16 @@
 			(type default)
 		)
 		(uuid "313171da-c6cd-45c8-baf0-8a94a5d8df4d")
+	)
+	(wire
+		(pts
+			(xy 262.89 205.74) (xy 262.89 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324179cf-41a5-413d-909e-c3e9e2b12032")
 	)
 	(wire
 		(pts
@@ -5379,6 +5722,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 199.39) (xy 293.37 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b510d3-4087-4ba8-bf19-faa0ceee6315")
+	)
+	(wire
+		(pts
 			(xy 154.94 166.37) (xy 161.29 166.37)
 		)
 		(stroke
@@ -5466,6 +5819,16 @@
 			(type default)
 		)
 		(uuid "4b407443-ee5e-4638-9fe7-0e45204bdc07")
+	)
+	(wire
+		(pts
+			(xy 262.89 172.72) (xy 273.05 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca92689-29b9-4c7b-afea-89c38f5d121a")
 	)
 	(wire
 		(pts
@@ -5819,6 +6182,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 176.53) (xy 262.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c68b730-d24e-4307-819d-94ece95a19d6")
+	)
+	(wire
+		(pts
 			(xy 154.94 143.51) (xy 161.29 143.51)
 		)
 		(stroke
@@ -5959,6 +6332,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 172.72) (xy 262.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee92220-c97e-4086-98d6-a3873ba5f3b8")
+	)
+	(wire
+		(pts
 			(xy 154.94 163.83) (xy 161.29 163.83)
 		)
 		(stroke
@@ -6006,6 +6389,16 @@
 			(type default)
 		)
 		(uuid "91b0d81f-b74b-4258-b7cd-620c64bfc08d")
+	)
+	(wire
+		(pts
+			(xy 262.89 176.53) (xy 293.37 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957c9f27-0bbc-460f-b7b6-149d66559ea4")
 	)
 	(wire
 		(pts
@@ -6389,6 +6782,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 189.23) (xy 283.21 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5662239-9c6c-44ae-8d40-a0916eadd2ab")
+	)
+	(wire
+		(pts
 			(xy 83.82 85.09) (xy 93.98 85.09)
 		)
 		(stroke
@@ -6589,6 +6992,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 176.53) (xy 262.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5dce7a-8fac-4826-ace9-6061fccd4640")
+	)
+	(wire
+		(pts
 			(xy 93.98 184.15) (xy 93.98 186.69)
 		)
 		(stroke
@@ -6706,6 +7119,16 @@
 			(type default)
 		)
 		(uuid "dc1d8a51-a6fd-46d2-8805-88794b453194")
+	)
+	(wire
+		(pts
+			(xy 262.89 199.39) (xy 262.89 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcffb832-1fde-47ff-95d7-fa804ecb2c53")
 	)
 	(wire
 		(pts
@@ -6976,6 +7399,18 @@
 			(type default)
 		)
 		(uuid "fda4ba69-a829-4929-903c-ee743785b4ee")
+	)
+	(rectangle
+		(start 246.38 167.64)
+		(end 304.8 215.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 49a094f1-740a-42d6-a932-e28bf74b8c7d)
 	)
 	(image
 		(at 383.54 260.35)
@@ -15399,6 +15834,18 @@
 		)
 		(uuid "79f1a20a-aa1a-4af4-9042-c53a15d9fd8d")
 	)
+	(text "Temperature sensor\n"
+		(exclude_from_sim no)
+		(at 262.128 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a72051bc-3190-4508-8200-3e0e3a8228c5")
+	)
 	(label "GPIO2_13"
 		(at 161.29 173.99 0)
 		(fields_autoplaced yes)
@@ -15574,6 +16021,17 @@
 			(justify left bottom)
 		)
 		(uuid "251935bf-f746-4651-99b0-8c22959250c0")
+	)
+	(label "FC_TEMP"
+		(at 283.21 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bcf4d45-875c-49ba-8a1d-73a2448e2817")
 	)
 	(label "SYS_RESETn"
 		(at 240.03 101.6 0)
@@ -15982,6 +16440,17 @@
 		)
 		(uuid "881321ad-76a4-413e-8838-609aef080f63")
 	)
+	(label "FC_TEMP"
+		(at 284.48 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92fbbfc3-0e82-4dd8-b4d4-634d1a09a6ef")
+	)
 	(label "CAN1_RX"
 		(at 86.36 133.35 0)
 		(fields_autoplaced yes)
@@ -16058,6 +16527,17 @@
 			(justify left bottom)
 		)
 		(uuid "abd76993-494a-4ebb-b0b8-c428c8a91149")
+	)
+	(label "3V3"
+		(at 273.05 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af4d2727-6342-4ad8-a853-c15daa156c01")
 	)
 	(label "GPIO1_26"
 		(at 203.2 106.68 0)
@@ -16403,6 +16883,29 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 271.78 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "889378a0-1bf5-46a1-9783-130c1b3448e1")
+		(property "Netclass" "Power"
+			(at 272.4785 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -17296,6 +17799,214 @@
 			(project "BeagleBonePC104"
 				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:TMP36xS")
+		(at 262.89 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6688490a-65df-40cb-bcb3-8ef13a15d3c1")
+		(property "Reference" "U5"
+			(at 278.13 182.9114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMP36xS"
+			(at 268.478 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 262.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf"
+			(at 262.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Voltage Temperature Sensor, SOIC-8"
+			(at 262.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "47978dff-db64-47b1-94f9-a93b334da330")
+		)
+		(pin "1"
+			(uuid "6c7cc9c0-d16a-49d0-a6e6-c930a141ec04")
+		)
+		(pin "4"
+			(uuid "efbcb985-cc82-475c-979c-77a733b419bb")
+		)
+		(pin "8"
+			(uuid "c082d689-e55d-491e-afb9-170714f61a68")
+		)
+		(instances
+			(project "BeagleBonePC104"
+				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "818f4ee9-6f45-4953-af6a-26fb06f814f7")
+		(property "Reference" "#PWR01"
+			(at 262.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4ceb0ab-f349-418d-83c8-ec49d7c5b2ac")
+		)
+		(instances
+			(project "BeagleBonePC104"
+				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 293.37 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b843f0ca-64f1-444d-832c-a624defd0625")
+		(property "Reference" "C1"
+			(at 297.18 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 297.18 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 294.3352 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "717819ae-8ae3-4cc8-9f5e-07306c428807")
+		)
+		(pin "1"
+			(uuid "fa36a7f9-5005-4daa-88d0-5bef71baade4")
+		)
+		(instances
+			(project "BeagleBonePC104"
+				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
+					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -7028,7 +7028,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 194.31) (xy 285.75 199.39)
+			(xy 285.75 194.31) (xy 285.75 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7578,7 +7578,7 @@
 	)
 	(rectangle
 		(start 175.26 157.48)
-		(end 238.76 198.12)
+		(end 238.76 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -7602,7 +7602,7 @@
 	)
 	(rectangle
 		(start 241.3 157.48)
-		(end 289.56 207.01)
+		(end 289.56 204.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -16034,7 +16034,7 @@
 	)
 	(text "CAN TRANSCEIVER"
 		(exclude_from_sim no)
-		(at 203.962 195.58 0)
+		(at 221.234 192.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17735,7 +17735,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 285.75 199.39 0)
+		(at 285.75 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17744,7 +17744,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bc1c19d-f4f4-49ce-b836-e5ee2944982e")
 		(property "Reference" "#PWR06"
-			(at 285.75 205.74 0)
+			(at 285.75 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17753,7 +17753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 285.75 204.47 0)
+			(at 285.75 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17761,7 +17761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 199.39 0)
+			(at 285.75 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17770,7 +17770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 199.39 0)
+			(at 285.75 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17779,7 +17779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.75 199.39 0)
+			(at 285.75 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

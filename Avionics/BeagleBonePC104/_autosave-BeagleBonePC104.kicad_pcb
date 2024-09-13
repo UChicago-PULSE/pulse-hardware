@@ -5767,7 +5767,7 @@
 		)
 		(fp_arc
 			(start 35.147914 0)
-			(mid 35.848689 -1.754737)
+			(mid 35.848689 -1.75474)
 			(end 37.585 -2.5)
 			(stroke
 				(width 0.2)
@@ -5811,7 +5811,7 @@
 		)
 		(fp_arc
 			(start 90.17 -38.358018)
-			(mid 88.379929 -39.143694)
+			(mid 88.379902 -39.143666)
 			(end 87.67 -40.965104)
 			(stroke
 				(width 0.2)
@@ -7290,7 +7290,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ace39b12-c6b7-4666-b6f6-1775b32c6a83")
-		(at 106.275 152.9775 90)
+		(at 106.3 151.8125 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"

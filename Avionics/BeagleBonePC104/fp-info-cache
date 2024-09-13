@@ -1,4 +1,4 @@
-23370129650404256
+23370132210542129
 AdafruitCANTransciever
 AdafruitCANPal_TJA1051T
 
@@ -63817,7 +63817,7 @@ BeagleBoneBlackFootprint
 
 0
 92
-46
+92
 Module
 Carambola2
 8devices Carambola2, OpenWRT, industrial SoM computer, https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
@@ -67487,12 +67487,12 @@ PCI104ConnectorAttempt#2H1(Inner)
 52
 52
 PCI104Connector
-PCI104ConnectorAttempt#2H2(Outer)
+PCI104ConnectorComplete
 
 
 0
-56
-52
+108
+104
 PCI104Connector
 PCI104H1
 

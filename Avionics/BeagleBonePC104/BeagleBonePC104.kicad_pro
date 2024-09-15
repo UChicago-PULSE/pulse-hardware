@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -439,7 +439,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "FlightCompuer"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -490,7 +492,15 @@
     "netclass_assignments": {
       "/3V3": "Power",
       "/5V": "Power",
-      "GND": "Power"
+      "GND": "Power",
+      "Net-(D4-A)": "Power",
+      "Net-(D4-K)": "Power",
+      "Net-(D5-A)": "Power",
+      "Net-(D5-K)": "Power",
+      "Net-(D6-A)": "Power",
+      "Net-(D6-K)": "Power",
+      "Net-(R1-Pad1)": "Power",
+      "Net-(U3-+Vs)": "Power"
     },
     "netclass_patterns": [
       {

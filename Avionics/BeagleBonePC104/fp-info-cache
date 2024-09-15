@@ -1,4 +1,4 @@
-23370132210542129
+23373590627719775
 AdafruitCANTransciever
 AdafruitCANPal_TJA1051T
 
@@ -56006,6 +56006,34 @@ emi filter
 0
 5
 5
+FlightCompuer
+831054046
+
+
+0
+4
+4
+FlightCompuer
+SPDT Through Hole Switch
+
+
+0
+3
+3
+FlightCompuer
+TestPointPad
+
+
+0
+1
+1
+FlightCompuer
+ThroughHoleTestPoint
+
+
+0
+1
+1
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -67480,26 +67508,12 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PCI104Connector
-PCI104ConnectorAttempt#2H1(Inner)
-
-
-0
-52
-52
-PCI104Connector
-PCI104ConnectorComplete
+PC104ConnectorFootprint
 
 
 0
 108
 104
-PCI104Connector
-PCI104H1
-
-
-0
-104
-52
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54

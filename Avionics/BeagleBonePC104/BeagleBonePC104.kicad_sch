@@ -7665,6 +7665,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 204.47) (xy 123.19 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6c6f5e-b01a-437a-9b3e-fe11f99b6433")
+	)
+	(wire
+		(pts
 			(xy 170.18 172.72) (xy 176.53 172.72)
 		)
 		(stroke
@@ -8838,6 +8848,18 @@
 			(type none)
 		)
 		(uuid 4e8d88c4-bae6-42d7-8317-e5e09eed7ab2)
+	)
+	(rectangle
+		(start 111.76 194.31)
+		(end 139.7 218.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5dc2a478-86de-4fbe-838d-a70b094fc1a8)
 	)
 	(rectangle
 		(start 273.05 121.92)
@@ -17305,6 +17327,16 @@
 		)
 		(uuid "414b2e44-2845-461f-9a68-faafe5847492")
 	)
+	(text "Ground Connection Testpoint\n"
+		(exclude_from_sim no)
+		(at 125.476 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4261e7b1-db08-4665-ba8b-86af398ad1d1")
+	)
 	(text "From VDD_5V\nBeaglebone supplies \nits own 3.3V\n"
 		(exclude_from_sim no)
 		(at 92.964 63.246 0)
@@ -19026,6 +19058,72 @@
 			(project "BeagleBonePC104"
 				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060bdb0d-82c4-4f50-bc82-aa6d4cd3fe54")
+		(property "Reference" "#PWR09"
+			(at 123.19 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b42332cc-f268-45ff-9ab8-92582bdfb9cd")
+		)
+		(instances
+			(project "BeagleBonePC104"
+				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -21711,6 +21809,72 @@
 			(project "BeagleBonePC104"
 				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f26abd24-52ae-4ead-af54-6b7d9890d47c")
+		(property "Reference" "TP5"
+			(at 125.73 199.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 202.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 128.27 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b17d73-fa51-41e5-affb-9b01133d6f07")
+		)
+		(instances
+			(project "BeagleBonePC104"
+				(path "/c19e4e36-81b6-4ac2-a6e5-e9e0c2677815"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

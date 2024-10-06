@@ -2310,14 +2310,14 @@
 				)
 			)
 			(rectangle
-				(start 20.32 153.67)
-				(end 66.04 25.4)
+				(start 20.32 152.4)
+				(end 66.04 27.94)
 				(stroke
 					(width 0.381)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -2332,12 +2332,11 @@
 					(type none)
 				)
 			)
-			(text "BeagleBone Black Pinout\n"
-				(at 43.434 149.86 0)
+			(text "BeagleBone Black \n"
+				(at 43.688 149.86 0)
 				(effects
 					(font
 						(size 1.524 1.524)
-						(bold yes)
 					)
 				)
 			)

@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U2"
-			(at 38.735 74.93 0)
+			(at 75.946 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,14 +15,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 38.735 73.66 0)
+			(at 77.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCI104Connector:PCI104ConnectorAttempt#2H1"
+		(property "Footprint" "GPIO2_7"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 			(pin input line
 				(at 133.35 7.62 180)
 				(length 2.54)
-				(name ""
+				(name "V_BAT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -87,7 +87,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 5.08 180)
+				(at 97.79 5.08 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -123,7 +123,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 2.54 180)
+				(at 97.79 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -143,7 +143,7 @@
 			(pin input line
 				(at 133.35 2.54 180)
 				(length 2.54)
-				(name ""
+				(name "BURN_FET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -969,9 +969,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 58.42 180)
+				(at 97.79 58.42 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1007,7 +1007,7 @@
 			(pin input line
 				(at 133.35 58.42 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1023,9 +1023,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 55.88 180)
+				(at 97.79 55.88 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1043,7 +1043,7 @@
 			(pin input line
 				(at 133.35 55.88 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1059,9 +1059,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 53.34 180)
+				(at 97.79 53.34 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1079,7 +1079,7 @@
 			(pin input line
 				(at 133.35 53.34 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1095,9 +1095,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 50.8 180)
+				(at 97.79 50.8 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 48.26 180)
+				(at 97.79 48.26 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1151,7 +1151,7 @@
 			(pin input line
 				(at 133.35 48.26 180)
 				(length 2.54)
-				(name ""
+				(name "ADCS_ENABLE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 45.72 180)
+				(at 97.79 45.72 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1205,7 +1205,7 @@
 			(pin input line
 				(at 133.35 45.72 180)
 				(length 2.54)
-				(name ""
+				(name "ADCS_BOOT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1221,7 +1221,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 43.18 180)
+				(at 97.79 43.18 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1257,7 +1257,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 40.64 180)
+				(at 97.79 40.64 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1293,7 +1293,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 38.1 180)
+				(at 97.79 38.1 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1329,9 +1329,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 35.56 180)
+				(at 97.79 35.56 180)
 				(length 2.54)
-				(name ""
+				(name "5V_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1349,7 +1349,7 @@
 			(pin input line
 				(at 133.35 35.56 180)
 				(length 2.54)
-				(name ""
+				(name "5V_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1365,9 +1365,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 33.02 180)
+				(at 97.79 33.02 180)
 				(length 2.54)
-				(name ""
+				(name "3V3_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 			(pin input line
 				(at 133.35 33.02 180)
 				(length 2.54)
-				(name ""
+				(name "3V3_MAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1419,9 +1419,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 30.48 180)
+				(at 97.79 30.48 180)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 			(pin input line
 				(at 133.35 30.48 180)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1455,9 +1455,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 27.94 180)
+				(at 97.79 27.94 180)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1475,7 +1475,7 @@
 			(pin input line
 				(at 133.35 27.94 180)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1491,9 +1491,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 25.4 180)
+				(at 97.79 25.4 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_STAT_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 			(pin input line
 				(at 133.35 25.4 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_STAT_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1527,9 +1527,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 22.86 180)
+				(at 97.79 22.86 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_STAT_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1547,7 +1547,7 @@
 			(pin input line
 				(at 133.35 22.86 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_STAT_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,9 +1563,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 20.32 180)
+				(at 97.79 20.32 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_STAT_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1601,7 +1601,7 @@
 			(pin input line
 				(at 133.35 20.32 180)
 				(length 2.54)
-				(name ""
+				(name "PLOD_COMP_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1617,7 +1617,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 17.78 180)
+				(at 97.79 17.78 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1653,9 +1653,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 15.24 180)
+				(at 97.79 15.24 180)
 				(length 2.54)
-				(name ""
+				(name "BURN_ENABLE_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1673,7 +1673,7 @@
 			(pin input line
 				(at 133.35 15.24 180)
 				(length 2.54)
-				(name ""
+				(name "BURN_ENABLE_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 12.7 180)
+				(at 97.79 12.7 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1725,9 +1725,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 10.16 180)
+				(at 97.79 10.16 180)
 				(length 2.54)
-				(name ""
+				(name "V_BAT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 			(pin input line
 				(at 133.35 10.16 180)
 				(length 2.54)
-				(name ""
+				(name "V_BAT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1761,7 +1761,7 @@
 				)
 			)
 			(pin input line
-				(at 102.87 7.62 180)
+				(at 97.79 7.62 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1788,7 +1788,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -1799,7 +1799,15 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
+				)
+			)
+			(text "(Pin numbers on this side go up to 52\nwith even and odd numbered pins on the same (respective) sides)\n\n"
+				(at 153.162 34.798 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(text "Inner Bank (H1)"
@@ -1857,9 +1865,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 66.04 180)
+				(at 97.79 66.04 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1877,7 +1885,7 @@
 			(pin input line
 				(at 133.35 66.04 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1893,9 +1901,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 63.5 180)
+				(at 97.79 63.5 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1913,7 +1921,7 @@
 			(pin input line
 				(at 133.35 63.5 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1929,9 +1937,9 @@
 				)
 			)
 			(pin input line
-				(at 102.87 60.96 180)
+				(at 97.79 60.96 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1949,7 +1957,7 @@
 			(pin input line
 				(at 133.35 60.96 180)
 				(length 2.54)
-				(name ""
+				(name "TEMP_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3913,1014 +3921,6 @@
 			)
 			(pin input line
 				(at 100.33 124.46 180)
-				(length 2.54)
-				(name "TEMP_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "PCI104H2"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "PCI104H2_1_0"
-			(pin input line
-				(at 60.96 55.88 180)
-				(length 2.54)
-				(name "TEMP_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 53.34 180)
-				(length 2.54)
-				(name "TEMP_11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 53.34 180)
-				(length 2.54)
-				(name "TEMP_12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 50.8 180)
-				(length 2.54)
-				(name "TEMP_13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 50.8 180)
-				(length 2.54)
-				(name "TEMP_14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 48.26 180)
-				(length 2.54)
-				(name "TEMP_15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 48.26 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 45.72 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 45.72 180)
-				(length 2.54)
-				(name "ADCS_ENABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 43.18 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 66.04 180)
-				(length 2.54)
-				(name "TEMP_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 43.18 180)
-				(length 2.54)
-				(name "ADCS_BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 40.64 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 40.64 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 38.1 180)
-				(length 2.54)
-				(name "5V_MAIN_STAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 38.1 180)
-				(length 2.54)
-				(name "3.3V_MAIN_STAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 35.56 180)
-				(length 2.54)
-				(name "5V_MAIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 35.56 180)
-				(length 2.54)
-				(name "5V_MAIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 33.02 180)
-				(length 2.54)
-				(name "3V3_MAIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 33.02 180)
-				(length 2.54)
-				(name "3V3_MAIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 30.48 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 30.48 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 27.94 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 27.94 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 25.4 180)
-				(length 2.54)
-				(name "PLOD_STAT_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 25.4 180)
-				(length 2.54)
-				(name "PLOD_STAT_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 22.86 180)
-				(length 2.54)
-				(name "PLOD_STAT_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 22.86 180)
-				(length 2.54)
-				(name "PLOD_STAT_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 20.32 180)
-				(length 2.54)
-				(name "PLOD_STAT_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 20.32 180)
-				(length 2.54)
-				(name "PLOD_COMP_RST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 17.78 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 63.5 180)
-				(length 2.54)
-				(name "TEMP_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 17.78 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 15.24 180)
-				(length 2.54)
-				(name "BURN_ENABLE_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 15.24 180)
-				(length 2.54)
-				(name "BURN_ENABLE_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 12.7 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 12.7 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 10.16 180)
-				(length 2.54)
-				(name "V_BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 10.16 180)
-				(length 2.54)
-				(name "V_BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 7.62 180)
-				(length 2.54)
-				(name "BATT_V_SENS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 7.62 180)
-				(length 2.54)
-				(name "V_BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 5.08 180)
-				(length 2.54)
-				(name "BATT_CUR_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 60.96 180)
-				(length 2.54)
-				(name "TEMP_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 5.08 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 2.54 180)
-				(length 2.54)
-				(name "BATT_CUR_OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 2.54 180)
-				(length 2.54)
-				(name "BURN_FET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 60.96 180)
-				(length 2.54)
-				(name "TEMP_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 58.42 180)
-				(length 2.54)
-				(name "TEMP_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 60.96 58.42 180)
-				(length 2.54)
-				(name "TEMP_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 55.88 180)
-				(length 2.54)
-				(name "TEMP_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCI104H2_1_1"
-			(rectangle
-				(start 0 68.58)
-				(end 88.9 0)
-				(stroke
-					(width 0.381)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "Outer Bank (H2)\n\n"
-				(at 43.18 69.596 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 66.04 180)
-				(length 2.54)
-				(name "TEMP_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 22.86 63.5 180)
 				(length 2.54)
 				(name "TEMP_3"
 					(effects

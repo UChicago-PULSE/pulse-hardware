@@ -236,7 +236,7 @@
 		)
 		(symbol "AdafruitCANTransciever_1_0"
 			(pin input line
-				(at 2.54 5.08 0)
+				(at 0 5.08 0)
 				(length 2.54)
 				(name "CANH"
 					(effects
@@ -254,7 +254,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 2.54 0)
+				(at 0 2.54 0)
 				(length 2.54)
 				(name "CANL"
 					(effects
@@ -272,7 +272,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 15.24 0)
+				(at 0 15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -290,7 +290,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 12.7 0)
+				(at 0 12.7 0)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 7.62 0)
+				(at 0 7.62 0)
 				(length 2.54)
 				(name "SLNT"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 10.16 0)
+				(at 0 10.16 0)
 				(length 2.54)
 				(name "TX"
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 17.78 0)
+				(at 0 17.78 0)
 				(length 2.54)
 				(name "Vcc"
 					(effects
@@ -364,8 +364,8 @@
 		)
 		(symbol "AdafruitCANTransciever_1_1"
 			(rectangle
-				(start 1.27 20.32)
-				(end 15.24 0)
+				(start 0 20.32)
+				(end 13.97 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -375,7 +375,207 @@
 				)
 			)
 			(text "ADAFRUIT CAN TRANSCEIVER\nTJA1051T/3\n\n"
-				(at 8.382 21.59 0)
+				(at 6.858 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AdafruitCANTranscieverAttempt#2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U3"
+			(at 9.144 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 19.05 -6.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AdafruitCANTransciever:AdafruitCANPal_TJA1051T"
+			(at 1.778 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 2.54 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AdafruitCANTranscieverAttempt#2_1_0"
+			(pin input line
+				(at 0 5.08 0)
+				(length 2.54)
+				(name "CANH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 2.54 0)
+				(length 2.54)
+				(name "CANL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 12.7 0)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 7.62 0)
+				(length 2.54)
+				(name "SLNT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 10.16 0)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 17.78 0)
+				(length 2.54)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AdafruitCANTranscieverAttempt#2_1_1"
+			(rectangle
+				(start 0 20.32)
+				(end 13.97 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "ADAFRUIT CAN TRANSCEIVER\nTJA1051T/3\n\n"
+				(at 6.858 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.2-1"
     },
-    "CreationDate": "2024-09-16T16:57:07-05:00"
+    "CreationDate": "2024-08-26T15:57:14-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,10 +14,10 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 90.345,
-      "Y": 96.1759
+      "X": 90.425,
+      "Y": 96.0754
     },
-    "LayerNumber": 4,
+    "LayerNumber": 2,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -27,16 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
-    },
-    {
-      "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
@@ -48,18 +39,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BeagleBonePC104-2_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "BeagleBonePC104-3V3_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "BeagleBonePC104-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -109,7 +90,6 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Blue",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -120,34 +100,11 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Color": "R109G116B75",
+      "Thickness": 1.51,
       "Material": "FR4",
-      "Name": "F.Cu/2.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to 2.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "2.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 1.24,
-      "Material": "FR4",
-      "Name": "2.Cu/3V3.Cu",
-      "Notes": "Type: dielectric layer 2 (from 2.Cu to 3V3.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "3V3.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "3V3.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from 3V3.Cu to B.Cu)"
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
@@ -156,7 +113,6 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Blue",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },

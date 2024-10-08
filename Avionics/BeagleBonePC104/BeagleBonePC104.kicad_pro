@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 6.4,
-          "width": 6.4
+          "drill": 0.0,
+          "height": 4.3,
+          "width": 3.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -442,7 +442,9 @@
     "pinned_footprint_libs": [
       "FlightCompuer"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PCI104"
+    ]
   },
   "meta": {
     "filename": "BeagleBonePC104.kicad_pro",

@@ -1,0 +1,271 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MSP430FR2433IRGER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -45.72 25.4 0.0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Value" "MSP430FR2433IRGER" (id 1) (at -45.72 -43.18 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MSP430FR2433IRGER:QFN50P400X400X100-25N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "8/2017" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.00 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MSP430FR2433IRGER_0_0"
+      (rectangle (start -45.72 -40.64) (end 45.72 22.86)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin bidirectional line (at -50.8 5.08 0) (length 5.08)
+        (name "P1.1/UCB0CLK/TA0.1/A1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 0.0 0) (length 5.08)
+        (name "P1.3/UCB0SOMI/UCB0SCL/MCLK/A3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 7.62 0) (length 5.08)
+        (name "P1.0/UCB0STE/TA0CLK/A0/VEREF+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 2.54 0) (length 5.08)
+        (name "P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 -2.54 180.0) (length 5.08)
+        (name "P2.6/UCA1TXD/UCA1SIMO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 -5.08 0) (length 5.08)
+        (name "P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 -7.62 0) (length 5.08)
+        (name "P1.6/UCA0CLK/TA1CLK/TDI/TCLK/A6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 -2.54 0) (length 5.08)
+        (name "P1.4/UCA0TXD/UCA0SIMO/TA1.2/TCK/A4/VREF+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -50.8 17.78 0) (length 5.08)
+        (name "TEST/SBWTCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 12.7 0) (length 5.08)
+        (name "~{RST}/NMI/SBWTDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 20.32 180.0) (length 5.08)
+        (name "DVCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 7.62 180.0) (length 5.08)
+        (name "P2.2/ACLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 -10.16 180.0) (length 5.08)
+        (name "P3.0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 5.08 180.0) (length 5.08)
+        (name "P2.3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -50.8 -10.16 0) (length 5.08)
+        (name "P1.7/UCA0STE/SMCLK/TDO/A7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 0.0 180.0) (length 5.08)
+        (name "P2.5/UCA1RXD/UCA1SOMI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -20.32 180.0) (length 5.08)
+        (name "DVSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 -15.24 180.0) (length 5.08)
+        (name "P3.2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 10.16 180.0) (length 5.08)
+        (name "P2.1/XIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 12.7 180.0) (length 5.08)
+        (name "P2.0/XOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 -5.08 180.0) (length 5.08)
+        (name "P2.7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 -12.7 180.0) (length 5.08)
+        (name "P3.1/UCA1STE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 50.8 2.54 180.0) (length 5.08)
+        (name "P2.4/UCA1CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -22.86 180.0) (length 5.08)
+        (name "DVSS__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -25.4 180.0) (length 5.08)
+        (name "DVSS__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -27.94 180.0) (length 5.08)
+        (name "DVSS__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -30.48 180.0) (length 5.08)
+        (name "DVSS__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -33.02 180.0) (length 5.08)
+        (name "DVSS__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -35.56 180.0) (length 5.08)
+        (name "DVSS__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 50.8 -38.1 180.0) (length 5.08)
+        (name "DVSS__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,4 +1,4 @@
-23358023747918817
+23361480828858323
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63636,6 +63636,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM324
+N14
+
+LM324N 
+0
+14
+14
 Library
 Quadcell
 
@@ -67451,6 +67458,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PDB-C142
+PDB-C142_ADP
+
+PDB-C142 
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54

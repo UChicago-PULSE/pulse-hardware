@@ -1,0 +1,1292 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "43d7c095-b963-4d03-a41f-02e5c4c169a1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:OPA4196xD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA4196xD"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp rtor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA4196xD_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4196xD_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4196xD_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4196xD_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4196xD_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 93.98 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3234a46e-ac88-4430-8a5f-3f5a75f6fd8c")
+		(property "Reference" "U1"
+			(at 93.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6259091-95bc-41cb-bb5f-6acf3f880b3d")
+		)
+		(pin "8"
+			(uuid "60db5ff7-3662-4df2-8e8f-25d92581e362")
+		)
+		(pin "9"
+			(uuid "f32f50f4-3642-4e93-8fd4-f93c96cb700e")
+		)
+		(pin "12"
+			(uuid "422152b3-8a77-4d77-9b53-bfeb4a91cb89")
+		)
+		(pin "13"
+			(uuid "57933dc6-067d-43a8-b598-108446a32b34")
+		)
+		(pin "14"
+			(uuid "997d8765-afdb-4b9c-afbd-e6169605fe13")
+		)
+		(pin "11"
+			(uuid "1bfa2402-b476-4153-94df-1abb070e9a42")
+		)
+		(pin "4"
+			(uuid "d2f7b3bf-dbc4-4ae0-a563-2e0bce29d695")
+		)
+		(pin "2"
+			(uuid "5760d79f-a6bf-4e9f-b403-a768fe79b9ff")
+		)
+		(pin "3"
+			(uuid "f078eadc-f24b-4751-800b-8ee469cae7e5")
+		)
+		(pin "5"
+			(uuid "ed2b5a4d-6d33-4a2d-b9bd-59cc8b6003b4")
+		)
+		(pin "6"
+			(uuid "9ba55f35-21bd-4075-b50f-18e25cf5a41b")
+		)
+		(pin "7"
+			(uuid "09a169bd-fd9c-4273-bf75-7c6a8e1c2d9e")
+		)
+		(pin "10"
+			(uuid "25bc4a5a-6538-4f11-8011-4011084b9e93")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42bcc2e6-a1ce-4d1f-a0fa-5921997a1b5d")
+		(property "Reference" "TP2"
+			(at 104.14 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa1decf-2dce-4823-ab05-cc27e6bb5bb2")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5367c878-7962-4d02-8f46-74b1d9164c92")
+		(property "Reference" "TP4"
+			(at 102.87 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 102.87 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71978708-f78e-42aa-a664-ca97423ab843")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 93.98 31.75 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "844d920e-b3fa-4e9e-8a3b-bd08a705675b")
+		(property "Reference" "U1"
+			(at 92.71 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 92.71 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6259091-95bc-41cb-bb5f-6acf3f880b3d")
+		)
+		(pin "8"
+			(uuid "60db5ff7-3662-4df2-8e8f-25d92581e362")
+		)
+		(pin "9"
+			(uuid "f32f50f4-3642-4e93-8fd4-f93c96cb700e")
+		)
+		(pin "12"
+			(uuid "422152b3-8a77-4d77-9b53-bfeb4a91cb89")
+		)
+		(pin "13"
+			(uuid "57933dc6-067d-43a8-b598-108446a32b34")
+		)
+		(pin "14"
+			(uuid "997d8765-afdb-4b9c-afbd-e6169605fe13")
+		)
+		(pin "11"
+			(uuid "1bfa2402-b476-4153-94df-1abb070e9a42")
+		)
+		(pin "4"
+			(uuid "d2f7b3bf-dbc4-4ae0-a563-2e0bce29d695")
+		)
+		(pin "2"
+			(uuid "5760d79f-a6bf-4e9f-b403-a768fe79b9ff")
+		)
+		(pin "3"
+			(uuid "f078eadc-f24b-4751-800b-8ee469cae7e5")
+		)
+		(pin "5"
+			(uuid "ed2b5a4d-6d33-4a2d-b9bd-59cc8b6003b4")
+		)
+		(pin "6"
+			(uuid "9ba55f35-21bd-4075-b50f-18e25cf5a41b")
+		)
+		(pin "7"
+			(uuid "09a169bd-fd9c-4273-bf75-7c6a8e1c2d9e")
+		)
+		(pin "10"
+			(uuid "25bc4a5a-6538-4f11-8011-4011084b9e93")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 93.98 85.09 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f58539-cbcf-48a8-ba70-52fad23eb969")
+		(property "Reference" "U1"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 93.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6259091-95bc-41cb-bb5f-6acf3f880b3d")
+		)
+		(pin "8"
+			(uuid "60db5ff7-3662-4df2-8e8f-25d92581e362")
+		)
+		(pin "9"
+			(uuid "f32f50f4-3642-4e93-8fd4-f93c96cb700e")
+		)
+		(pin "12"
+			(uuid "422152b3-8a77-4d77-9b53-bfeb4a91cb89")
+		)
+		(pin "13"
+			(uuid "57933dc6-067d-43a8-b598-108446a32b34")
+		)
+		(pin "14"
+			(uuid "997d8765-afdb-4b9c-afbd-e6169605fe13")
+		)
+		(pin "11"
+			(uuid "1bfa2402-b476-4153-94df-1abb070e9a42")
+		)
+		(pin "4"
+			(uuid "d2f7b3bf-dbc4-4ae0-a563-2e0bce29d695")
+		)
+		(pin "2"
+			(uuid "5760d79f-a6bf-4e9f-b403-a768fe79b9ff")
+		)
+		(pin "3"
+			(uuid "f078eadc-f24b-4751-800b-8ee469cae7e5")
+		)
+		(pin "5"
+			(uuid "ed2b5a4d-6d33-4a2d-b9bd-59cc8b6003b4")
+		)
+		(pin "6"
+			(uuid "9ba55f35-21bd-4075-b50f-18e25cf5a41b")
+		)
+		(pin "7"
+			(uuid "09a169bd-fd9c-4273-bf75-7c6a8e1c2d9e")
+		)
+		(pin "10"
+			(uuid "25bc4a5a-6538-4f11-8011-4011084b9e93")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 93.98 109.22 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62a8ba1-61d3-43c8-b82c-e1ac09a8e7b2")
+		(property "Reference" "U1"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6259091-95bc-41cb-bb5f-6acf3f880b3d")
+		)
+		(pin "8"
+			(uuid "60db5ff7-3662-4df2-8e8f-25d92581e362")
+		)
+		(pin "9"
+			(uuid "f32f50f4-3642-4e93-8fd4-f93c96cb700e")
+		)
+		(pin "12"
+			(uuid "422152b3-8a77-4d77-9b53-bfeb4a91cb89")
+		)
+		(pin "13"
+			(uuid "57933dc6-067d-43a8-b598-108446a32b34")
+		)
+		(pin "14"
+			(uuid "997d8765-afdb-4b9c-afbd-e6169605fe13")
+		)
+		(pin "11"
+			(uuid "1bfa2402-b476-4153-94df-1abb070e9a42")
+		)
+		(pin "4"
+			(uuid "d2f7b3bf-dbc4-4ae0-a563-2e0bce29d695")
+		)
+		(pin "2"
+			(uuid "5760d79f-a6bf-4e9f-b403-a768fe79b9ff")
+		)
+		(pin "3"
+			(uuid "f078eadc-f24b-4751-800b-8ee469cae7e5")
+		)
+		(pin "5"
+			(uuid "ed2b5a4d-6d33-4a2d-b9bd-59cc8b6003b4")
+		)
+		(pin "6"
+			(uuid "9ba55f35-21bd-4075-b50f-18e25cf5a41b")
+		)
+		(pin "7"
+			(uuid "09a169bd-fd9c-4273-bf75-7c6a8e1c2d9e")
+		)
+		(pin "10"
+			(uuid "25bc4a5a-6538-4f11-8011-4011084b9e93")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcfe347a-7ce3-40af-857b-99777758d2f9")
+		(property "Reference" "TP1"
+			(at 104.14 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e747ef72-3aa5-4c98-b32e-7e9e33a92840")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA4196xD")
+		(at 92.71 134.62 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd5634f-1122-4f75-84e1-4493510eb0c3")
+		(property "Reference" "U1"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4196xD"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4196.pdf"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6259091-95bc-41cb-bb5f-6acf3f880b3d")
+		)
+		(pin "8"
+			(uuid "60db5ff7-3662-4df2-8e8f-25d92581e362")
+		)
+		(pin "9"
+			(uuid "f32f50f4-3642-4e93-8fd4-f93c96cb700e")
+		)
+		(pin "12"
+			(uuid "422152b3-8a77-4d77-9b53-bfeb4a91cb89")
+		)
+		(pin "13"
+			(uuid "57933dc6-067d-43a8-b598-108446a32b34")
+		)
+		(pin "14"
+			(uuid "997d8765-afdb-4b9c-afbd-e6169605fe13")
+		)
+		(pin "11"
+			(uuid "1bfa2402-b476-4153-94df-1abb070e9a42")
+		)
+		(pin "4"
+			(uuid "d2f7b3bf-dbc4-4ae0-a563-2e0bce29d695")
+		)
+		(pin "2"
+			(uuid "5760d79f-a6bf-4e9f-b403-a768fe79b9ff")
+		)
+		(pin "3"
+			(uuid "f078eadc-f24b-4751-800b-8ee469cae7e5")
+		)
+		(pin "5"
+			(uuid "ed2b5a4d-6d33-4a2d-b9bd-59cc8b6003b4")
+		)
+		(pin "6"
+			(uuid "9ba55f35-21bd-4075-b50f-18e25cf5a41b")
+		)
+		(pin "7"
+			(uuid "09a169bd-fd9c-4273-bf75-7c6a8e1c2d9e")
+		)
+		(pin "10"
+			(uuid "25bc4a5a-6538-4f11-8011-4011084b9e93")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbca635a-c69d-49e3-ada6-ebb5930e7dc5")
+		(property "Reference" "TP3"
+			(at 104.14 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19179c18-5095-4241-82d6-bc8a7bda6ce1")
+		)
+		(instances
+			(project "QuadcellAmpTest"
+				(path "/43d7c095-b963-4d03-a41f-02e5c4c169a1"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

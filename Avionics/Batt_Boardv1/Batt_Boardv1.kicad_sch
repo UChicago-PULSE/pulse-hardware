@@ -5,7 +5,7 @@
 	(uuid "a5e22de5-0e9e-4e3b-9cf5-d999de47cef4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery Holder:54"
+		(symbol "54 -- Battery clips:54"
 			(pin_names
 				(offset 1.016)
 			)
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Footprint" "54:BAT_54"
-				(at 0 0 0)
+				(at -1.016 -7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,7 +59,7 @@
 				)
 			)
 			(property "PARTREV" "E"
-				(at 0 0 0)
+				(at 0 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -69,7 +69,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+				(at 0 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -78,8 +78,8 @@
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "54"
-				(at 0 0 0)
+			(property "SNAPEDA_PN" ""
+				(at 1.524 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,7 +89,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-				(at 0 0 0)
+				(at 3.302 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,7 +99,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Keystone Electronics"
-				(at 0 0 0)
+				(at 0 -13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -110,8 +110,8 @@
 			)
 			(symbol "54_0_0"
 				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 2.54)
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -203,42 +203,6 @@
 						)
 					)
 					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2220,792 +2184,421 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 48.26 119.38)
+		(at 148.59 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0096104d-2593-43d6-baff-bb578045b6bb")
+		(uuid "1836afe1-554e-4907-a30f-6f29f1ef4b2f")
 	)
 	(junction
-		(at 118.11 116.84)
+		(at 148.59 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10ce209c-01de-4790-9f58-0967cf234262")
+		(uuid "8aa01132-01c5-45ca-8831-6f2b2d812554")
 	)
 	(junction
-		(at 66.04 100.33)
+		(at 30.48 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38633166-58b4-41ea-bc00-6fe82f60cfc7")
-	)
-	(junction
-		(at 66.04 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "428ba7ad-ed41-4ce4-8571-44110b0eba19")
-	)
-	(junction
-		(at 118.11 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "455ed30d-fb33-4d5e-9e07-b0350596752e")
-	)
-	(junction
-		(at 118.11 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7946f887-82ee-40cc-b462-978d5df0123b")
-	)
-	(junction
-		(at 66.04 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9bb5d74-8895-4b23-8bf3-71de74c8867a")
-	)
-	(junction
-		(at 134.62 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb58722f-30ff-444e-884c-6767d736225f")
+		(uuid "f61664e2-48db-4977-a903-060aed212c1d")
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 138.43 134.62)
+			(xy 82.55 132.08) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08047e44-ee94-4e7c-b230-d61611350605")
+		(uuid "0d40c20c-a875-42e9-a9db-23c1965d0a44")
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 48.26 102.87)
+			(xy 143.51 106.68) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18f4a11a-a732-4b54-b314-53b70f694f16")
+		(uuid "1318dbab-01b8-4849-a8f9-03ed6639ed5f")
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 118.11 119.38)
+			(xy 82.55 119.38) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25746f3b-1491-4075-bd17-23b4d90d90ef")
+		(uuid "2e0301ca-4b90-4f90-ae58-e148ec497418")
 	)
 	(wire
 		(pts
-			(xy 118.11 121.92) (xy 138.43 121.92)
+			(xy 25.4 119.38) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2be10af8-96fe-44bc-8a8a-3435d1f774bf")
+		(uuid "2f902325-90ed-4130-8fcf-5da67d4371aa")
 	)
 	(wire
 		(pts
-			(xy 45.72 139.7) (xy 66.04 139.7)
+			(xy 30.48 106.68) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35c18dee-6761-4d29-89ab-f40e241a5099")
+		(uuid "34d83d09-7898-411f-ad00-dde46d0f7d23")
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 118.11 100.33)
+			(xy 158.75 73.66) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38c1fb3f-cfd3-45f6-9c38-d24fd637d60b")
+		(uuid "41f66a56-156d-4dc1-95e8-94e888ad0752")
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 118.11 111.76)
+			(xy 148.59 106.68) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c6a1146-4d26-4c13-b568-7d546aa092f9")
+		(uuid "55770de4-dbc0-475f-9b6d-c01f5aa7e8d4")
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 48.26 137.16)
+			(xy 148.59 96.52) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "457e41c4-47e7-464c-a9d0-64bfca8ce607")
+		(uuid "5cd05109-5270-40c2-b90d-2b955bdea0df")
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 134.62 102.87)
+			(xy 34.29 106.68) (xy 30.48 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "470abbb0-f3cd-48ed-b0a0-f5c94bda645e")
+		(uuid "5e8fef4c-f556-4994-81df-2a769fa44737")
 	)
 	(wire
 		(pts
-			(xy 118.11 129.54) (xy 118.11 134.62)
+			(xy 143.51 119.38) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4beced59-89d3-40f7-9222-a6758d3f52b1")
+		(uuid "6da38185-17b2-4fcc-bf26-ff292e008cad")
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 66.04 100.33)
+			(xy 30.48 132.08) (xy 34.29 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f38385d-fbea-4568-97a4-ee9bbd0f9387")
+		(uuid "74f766fc-8153-4f1c-ae46-0ad8fac30df2")
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 66.04 134.62)
+			(xy 30.48 119.38) (xy 34.29 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54b0a90a-f96c-4ebd-9d17-e9b67c6496de")
+		(uuid "75f147ee-d56e-47e5-ac99-52894ee8b311")
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 138.43 102.87)
+			(xy 116.84 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7812c431-0d88-4bb1-83fc-89c662066374")
+		(uuid "7b0507d9-a5f3-43b5-ae0b-a6f632dda375")
 	)
 	(wire
 		(pts
-			(xy 66.04 100.33) (xy 66.04 96.52)
+			(xy 148.59 119.38) (xy 148.59 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79783833-a5db-476a-88f4-dc5842e4de6b")
+		(uuid "999f9f81-c2a3-404a-b4dc-10daffa9f717")
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 48.26 119.38)
+			(xy 82.55 106.68) (xy 95.25 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7af3d0d2-acaf-493b-b8ce-a26f6ce6458a")
+		(uuid "ac53bf21-57be-4a23-b185-ce7872b0024b")
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 118.11 137.16)
+			(xy 158.75 76.2) (xy 148.59 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b7c5f4b-f2e2-49a8-b7d8-54a1aaca41b6")
+		(uuid "ce040ea6-44d2-4fb8-b0ed-44d9334a0993")
 	)
 	(wire
 		(pts
-			(xy 66.04 129.54) (xy 118.11 129.54)
+			(xy 30.48 119.38) (xy 30.48 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cb2f49b-7f27-46b8-bb7a-51049085109b")
+		(uuid "cff90d55-00ce-475b-9184-c55c5ed1c0e4")
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 134.62 119.38)
+			(xy 148.59 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d7f929c-7a56-4f3a-a91d-1e1322f79b70")
+		(uuid "ece5d3cc-0ee2-4d64-96ce-43fba0ee34ae")
 	)
 	(wire
 		(pts
-			(xy 48.26 137.16) (xy 45.72 137.16)
+			(xy 148.59 106.68) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a107500-5d56-4d7a-bbcf-11df99fb33fe")
+		(uuid "f50dd068-fe1b-425f-854a-3f431f24b42a")
 	)
-	(wire
-		(pts
-			(xy 45.72 105.41) (xy 66.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dbb86a2-8533-4daf-be92-a02ffdeac40e")
-	)
-	(wire
-		(pts
-			(xy 138.43 137.16) (xy 134.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc0641f-943b-4d65-8a91-fcc9141070cc")
-	)
-	(wire
-		(pts
-			(xy 66.04 96.52) (xy 118.11 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea543e4-1c64-46e6-bc24-f14f2335b5b9")
-	)
-	(wire
-		(pts
-			(xy 45.72 116.84) (xy 66.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f433de2-cc12-4adc-acfd-25d13178ac83")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 66.04 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a227ef68-0560-47e6-9c6f-1d4f0929e391")
-	)
-	(wire
-		(pts
-			(xy 45.72 121.92) (xy 66.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2def481-f443-4b2b-a4e0-44c53730cb07")
-	)
-	(wire
-		(pts
-			(xy 45.72 134.62) (xy 66.04 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb29160-6265-4b36-82be-7d2a319238d2")
-	)
-	(wire
-		(pts
-			(xy 118.11 116.84) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb50f99-02f6-46bc-a2a9-308d6d1d932a")
-	)
-	(wire
-		(pts
-			(xy 66.04 134.62) (xy 66.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82b6a9f-4c9c-42ef-bce5-976de46c036d")
-	)
-	(wire
-		(pts
-			(xy 66.04 119.38) (xy 66.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2e81c6-7144-42e4-8443-82c04dd574d5")
-	)
-	(wire
-		(pts
-			(xy 118.11 105.41) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1195993-1fe3-4ca6-853d-fe211ffed9b7")
-	)
-	(wire
-		(pts
-			(xy 118.11 111.76) (xy 118.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e244adf1-8ac3-41f1-96ce-2c1a93cdd350")
-	)
-	(wire
-		(pts
-			(xy 45.72 119.38) (xy 48.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e332ff06-3ee9-4ffb-bd34-d324065e0447")
-	)
-	(wire
-		(pts
-			(xy 134.62 119.38) (xy 138.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58c1d90-bb9d-4cb4-99f3-45631466997b")
-	)
-	(wire
-		(pts
-			(xy 118.11 100.33) (xy 138.43 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e1a8f8-944f-41d2-b4bb-5f705a54f41b")
-	)
-	(wire
-		(pts
-			(xy 118.11 139.7) (xy 138.43 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5cbdc4e-aec4-4e8f-8e49-2f26946a7c43")
-	)
-	(wire
-		(pts
-			(xy 66.04 116.84) (xy 66.04 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0a5496-d033-4227-9d24-eb9084721ce8")
-	)
-	(wire
-		(pts
-			(xy 118.11 100.33) (xy 118.11 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4d1be7-af47-4dfe-b843-2471834ffc1a")
-	)
-	(symbol
-		(lib_id "Battery Holder:54")
-		(at 148.59 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(label "V_BATT"
+		(at 158.75 76.2 0)
 		(fields_autoplaced yes)
-		(uuid "1074164f-1c5f-409b-939c-4a8e34ff7ad7")
-		(property "Reference" "BT8"
-			(at 154.94 101.5999 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "136428c7-bc14-4cab-b5ce-a42c04434d1a")
+	)
+	(label "V_BATT"
+		(at 158.75 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c9983c3-6686-4733-b97f-90b8363c6951")
+	)
+	(label "V_BATT"
+		(at 165.1 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3329b4-8b97-4f03-8705-c2579893d116")
+	)
+	(label "V_BATT"
+		(at 116.84 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc0b0152-f821-4304-82b6-f22cce238689")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750afa4c-c7e1-439a-a9b5-0bfc3baa5e68")
+		(property "Netclass" "V_BATT"
+			(at 89.5985 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 154.94 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 148.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "76aefe73-7947-47cc-be3a-95a5f66ea8aa")
-		)
-		(pin "1_2"
-			(uuid "27e8e063-f976-4349-862d-4de6b72f0976")
-		)
-		(pin "1_3"
-			(uuid "3f960ccb-4ebe-4e1c-8239-63db61f25928")
-		)
-		(instances
-			(project "BattBoardV1"
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT8")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Battery Holder:54")
-		(at 76.2 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 119.38 0)
 		(fields_autoplaced yes)
-		(uuid "1df39202-f1c9-4556-b79b-9d5291711b12")
-		(property "Reference" "BT2"
-			(at 82.55 101.5999 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "977c1787-366f-443c-8f42-9c82f720cfc7")
+		(property "Netclass" "V_BATT"
+			(at 89.5985 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "54"
-			(at 82.55 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 76.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "2d5eebf8-0b88-4386-8b71-4db0da88a997")
-		)
-		(pin "1_2"
-			(uuid "d914759d-27a3-4c17-9915-c82a95ad9034")
-		)
-		(pin "1_3"
-			(uuid "2ce146d0-4a6d-4422-8f20-f7854415a3fd")
-		)
-		(instances
-			(project "BattBoardV1"
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT2")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Battery Holder:54")
-		(at 107.95 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 106.68 0)
 		(fields_autoplaced yes)
-		(uuid "2762623e-93b8-4f64-9fc0-4d261abc790a")
-		(property "Reference" "BT11"
-			(at 107.95 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d04fd855-598a-4e1f-a032-d8afe052f6c7")
+		(property "Netclass" "V_BATT"
+			(at 89.5985 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-			)
-		)
-		(property "Value" "54"
-			(at 107.95 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 107.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "1f6565f3-b395-4f1a-8ac4-26807f2f4f5b")
-		)
-		(pin "1_2"
-			(uuid "a05efb43-dc81-46a2-83f6-09f528d0bf1f")
-		)
-		(pin "1_3"
-			(uuid "07944688-4f2a-45f4-bba9-29ba2728d11f")
-		)
-		(instances
-			(project "BattBoardV1"
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT11")
-					(unit 1)
-				)
+				(justify left)
 			)
 		)
 	)
@@ -3035,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GPIO2_7"
+		(property "Footprint" "PC104:PC104ConnectorFootprint (1)"
 			(at 15.24 83.82 0)
 			(effects
 				(font
@@ -3384,17 +2977,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 107.95 121.92 180)
+		(lib_id "54 -- Battery clips:54")
+		(at 72.39 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c3572d-efcd-494f-b301-fb795afbef81")
-		(property "Reference" "BT9"
-			(at 107.95 109.22 0)
+		(uuid "516bce4a-7543-4031-be4d-b8d7b9b9403e")
+		(property "Reference" "BT8"
+			(at 63.754 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,15 +2994,15 @@
 			)
 		)
 		(property "Value" "54"
-			(at 107.95 111.76 0)
+			(at 63.754 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 107.95 121.92 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 73.406 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 121.92 0)
+			(at 72.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 121.92 0)
+			(at 72.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3030,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 107.95 121.92 0)
+			(at 72.39 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3040,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 107.95 121.92 0)
+			(at 72.39 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,8 +3049,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 107.95 121.92 0)
+		(property "SNAPEDA_PN" ""
+			(at 70.866 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3060,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 107.95 121.92 0)
+			(at 69.088 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3070,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 107.95 121.92 0)
+			(at 72.39 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,16 +3080,128 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "c65576b5-0c21-486c-9a4e-a414502525c9")
-		)
-		(pin "1_2"
-			(uuid "232e854b-3605-4aed-8af1-33bac436c53b")
-		)
-		(pin "1_3"
-			(uuid "5b8baaf8-503b-458a-a341-2072733b15aa")
+			(uuid "68a5d412-9467-4b6b-bd47-77cedd3644fd")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "54 -- Battery clips:54")
+		(at 44.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f2eb75-cd39-4f72-9da4-b993ff71027a")
+		(property "Reference" "BT9"
+			(at 50.8 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 50.8 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 43.434 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 44.45 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 45.974 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 47.752 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 44.45 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "59a8117c-752c-4a7a-b329-8081bcab4eaa")
+		)
+		(instances
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
 					(reference "BT9")
 					(unit 1)
@@ -3506,17 +3210,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 35.56 139.7 180)
+		(lib_id "54 -- Battery clips:54")
+		(at 133.35 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac27b5a-0a1b-40bc-a033-36c15fa9e2cf")
-		(property "Reference" "BT5"
-			(at 35.56 127 0)
+		(uuid "58f876c2-78e7-4971-956a-b0ee7f01bf94")
+		(property "Reference" "BT17"
+			(at 124.714 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,15 +3227,15 @@
 			)
 		)
 		(property "Value" "54"
-			(at 35.56 129.54 0)
+			(at 124.714 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 35.56 139.7 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 134.366 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 139.7 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 139.7 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3263,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 35.56 139.7 0)
+			(at 133.35 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +3273,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.56 139.7 0)
+			(at 133.35 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,8 +3282,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 35.56 139.7 0)
+		(property "SNAPEDA_PN" ""
+			(at 131.826 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3293,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 35.56 139.7 0)
+			(at 130.048 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3303,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 35.56 139.7 0)
+			(at 133.35 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,35 +3313,29 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "bf04297d-f0a7-476f-8e4c-fb98ed3d8023")
-		)
-		(pin "1_2"
-			(uuid "1fd7fe52-86b0-4eaa-af66-864801ea6e3f")
-		)
-		(pin "1_3"
-			(uuid "1a8f8b05-369e-4a68-9c29-eefdaf589d35")
+			(uuid "e14c2893-0b46-433c-a85f-4ad9ab70062c")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT5")
+					(reference "BT17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 76.2 134.62 0)
+		(lib_id "54 -- Battery clips:54")
+		(at 105.41 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fecfd8a-cdf8-4e22-9a21-ec2bd4c2f2ac")
-		(property "Reference" "BT6"
-			(at 82.55 135.8899 0)
+		(uuid "5c756910-6e52-4608-86a3-9d59922f06e1")
+		(property "Reference" "BT14"
+			(at 111.76 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3344,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 82.55 138.4299 0)
+			(at 111.76 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,8 +3352,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 76.2 134.62 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 104.394 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 134.62 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 134.62 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3381,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 76.2 134.62 0)
+			(at 105.41 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3391,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 134.62 0)
+			(at 105.41 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,130 +3400,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "8cc9a589-e894-434c-a863-f4b60ed604f5")
-		)
-		(pin "1_2"
-			(uuid "2783e53b-e3f6-4588-aee1-6b7343b93432")
-		)
-		(pin "1_3"
-			(uuid "1b9de5b0-28db-4fef-b4f7-babf48937b45")
-		)
-		(instances
-			(project "BattBoardV1"
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery Holder:54")
-		(at 35.56 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51346b6e-6137-4ca6-a7b4-3c04a9f1bad3")
-		(property "Reference" "BT3"
-			(at 35.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54"
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 35.56 121.92 0)
+		(property "SNAPEDA_PN" ""
+			(at 106.934 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3411,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 35.56 121.92 0)
+			(at 108.712 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3421,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 35.56 121.92 0)
+			(at 105.41 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,35 +3431,29 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "0f4e321e-3067-491c-b716-a19fd69b1cf4")
-		)
-		(pin "1_2"
-			(uuid "18ca96da-d5eb-4618-82b0-8e079ca3cc44")
-		)
-		(pin "1_3"
-			(uuid "018cb2e6-af35-40f9-a166-a3e5f1b427ad")
+			(uuid "109db9ca-4eed-43c2-8ea5-cd21d44d3abb")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT3")
+					(reference "BT14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 148.59 116.84 0)
+		(lib_id "54 -- Battery clips:54")
+		(at 105.41 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fceb35b-c111-4129-93e7-562f20bf8a50")
-		(property "Reference" "BT10"
-			(at 154.94 118.1099 0)
+		(uuid "75bf96e6-a4ce-4229-b74a-51eb13f442c1")
+		(property "Reference" "BT15"
+			(at 111.76 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3462,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 154.94 120.6499 0)
+			(at 111.76 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,8 +3470,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 148.59 116.84 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 104.394 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 116.84 0)
+			(at 105.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 116.84 0)
+			(at 105.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +3499,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 148.59 116.84 0)
+			(at 105.41 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3509,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 116.84 0)
+			(at 105.41 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,8 +3518,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 148.59 116.84 0)
+		(property "SNAPEDA_PN" ""
+			(at 106.934 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3529,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 148.59 116.84 0)
+			(at 108.712 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3539,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 148.59 116.84 0)
+			(at 105.41 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,51 +3549,47 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "301cb98a-fdf9-4d7b-96dd-c14288879733")
-		)
-		(pin "1_2"
-			(uuid "9e8c3b52-9697-43e4-b0a0-28754cce7b2e")
-		)
-		(pin "1_3"
-			(uuid "962c9037-2bab-4b3a-9d62-a1db521a2b90")
+			(uuid "6379868c-5b88-4e4e-89d7-b9c4adbc30d4")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT10")
+					(reference "BT15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 35.56 105.41 180)
+		(lib_id "54 -- Battery clips:54")
+		(at 44.45 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0e77d04-dd7d-422e-b08c-abbe25d815ad")
-		(property "Reference" "BT1"
-			(at 35.56 92.71 0)
+		(uuid "a0bd3519-ff7a-47a1-bb09-ba21a065f9a1")
+		(property "Reference" "BT7"
+			(at 50.8 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "54"
-			(at 35.56 95.25 0)
+			(at 50.8 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 35.56 105.41 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 43.434 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 105.41 0)
+			(at 44.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 105.41 0)
+			(at 44.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +3617,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 35.56 105.41 0)
+			(at 44.45 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +3627,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.56 105.41 0)
+			(at 44.45 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,8 +3636,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 35.56 105.41 0)
+		(property "SNAPEDA_PN" ""
+			(at 45.974 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +3647,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 35.56 105.41 0)
+			(at 47.752 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +3657,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 35.56 105.41 0)
+			(at 44.45 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,138 +3667,10 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "f76fe273-3966-4f59-ad36-351e068fda21")
-		)
-		(pin "1_2"
-			(uuid "a794854d-fc99-4c07-9051-71352980ea13")
-		)
-		(pin "1_3"
-			(uuid "4164ee45-c694-46ac-9a3a-1601b57bccbe")
+			(uuid "eeb09c65-7c13-4994-8c31-616c42e68a64")
 		)
 		(instances
 			(project ""
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery Holder:54")
-		(at 107.95 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db2cf0b9-d03d-49a2-b514-7355a3b9b275")
-		(property "Reference" "BT7"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54"
-			(at 107.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "54:BAT_54"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "54"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone Electronics"
-			(at 107.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "9029c1d5-9109-478d-a6a1-1448143a6941")
-		)
-		(pin "1_2"
-			(uuid "56d21b60-7e92-417f-8786-694b86fef83b")
-		)
-		(pin "1_3"
-			(uuid "66874c1a-6cb3-4977-b97a-8ed101460af2")
-		)
-		(instances
-			(project "BattBoardV1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
 					(reference "BT7")
 					(unit 1)
@@ -4242,17 +3679,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 76.2 116.84 0)
+		(lib_id "54 -- Battery clips:54")
+		(at 105.41 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3754363-b3eb-4c17-b84b-d5aa52f4318a")
-		(property "Reference" "BT4"
-			(at 82.55 118.1099 0)
+		(uuid "a0e8138a-7ca0-4088-a768-4f79cd0717c2")
+		(property "Reference" "BT13"
+			(at 111.76 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +3698,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 82.55 120.6499 0)
+			(at 111.76 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,8 +3706,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 76.2 116.84 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 104.394 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +3717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 116.84 0)
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +3726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 116.84 0)
+			(at 105.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +3735,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 76.2 116.84 0)
+			(at 105.41 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +3745,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 116.84 0)
+			(at 105.41 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,8 +3754,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 76.2 116.84 0)
+		(property "SNAPEDA_PN" ""
+			(at 106.934 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +3765,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 76.2 116.84 0)
+			(at 108.712 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +3775,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 76.2 116.84 0)
+			(at 105.41 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,53 +3785,44 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "4dddf63f-5d8e-4d32-b239-fc75d8692d8e")
-		)
-		(pin "1_2"
-			(uuid "b03613ad-72e1-4abf-bd6d-f3d6959c0d19")
-		)
-		(pin "1_3"
-			(uuid "1803d5db-1c50-458f-913b-157f6a1d4bbf")
+			(uuid "c81007ee-7f88-4487-813c-313e80b47d7c")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
-					(reference "BT4")
+					(reference "BT13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battery Holder:54")
-		(at 148.59 134.62 0)
+		(lib_id "54 -- Battery clips:54")
+		(at 133.35 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "effd5a5e-3dc3-4e41-b9e9-682971cb1503")
-		(property "Reference" "BT12"
-			(at 154.94 135.8899 0)
+		(uuid "a480076d-f68b-4556-a29c-fed18acbd088")
+		(property "Reference" "BT18"
+			(at 124.714 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "54"
-			(at 154.94 138.4299 0)
+			(at 124.714 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "54:BAT_54"
-			(at 148.59 134.62 0)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 134.366 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 134.62 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +3841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 134.62 0)
+			(at 133.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +3850,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 148.59 134.62 0)
+			(at 133.35 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +3860,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 148.59 134.62 0)
+			(at 133.35 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,8 +3869,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "54"
-			(at 148.59 134.62 0)
+		(property "SNAPEDA_PN" ""
+			(at 131.826 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +3880,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 148.59 134.62 0)
+			(at 130.048 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +3890,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 148.59 134.62 0)
+			(at 133.35 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,16 +3900,539 @@
 			)
 		)
 		(pin "1_1"
-			(uuid "eb23f4ce-5cae-4059-a68b-b7750de8e227")
-		)
-		(pin "1_2"
-			(uuid "63fcf14c-027d-4303-a542-acc314acbb1c")
-		)
-		(pin "1_3"
-			(uuid "c908604a-e1d0-49df-8fe2-fb412efdeec1")
+			(uuid "d57b2a90-6b0c-4cd0-be01-6cbbeb08527e")
 		)
 		(instances
-			(project "BattBoardV1"
+			(project "Batt_Boardv1"
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "BT18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "54 -- Battery clips:54")
+		(at 72.39 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0073665-1534-4ea9-a046-c6874ea5756a")
+		(property "Reference" "BT10"
+			(at 63.754 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54"
+			(at 63.754 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 73.406 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 72.39 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 72.39 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 70.866 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 69.088 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 72.39 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "76c1a621-67f8-4eb7-b267-b3211b214f61")
+		)
+		(instances
+			(project "Batt_Boardv1"
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "54 -- Battery clips:54")
+		(at 44.45 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0304f51-2499-43dc-a937-bf8bb389a9e0")
+		(property "Reference" "BT11"
+			(at 50.8 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "54"
+			(at 50.8 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 43.434 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 44.45 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 45.974 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 47.752 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 44.45 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "e3f413d2-3540-470e-8d7e-69afd1beb373")
+		)
+		(instances
+			(project "Batt_Boardv1"
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "BT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "54 -- Battery clips:54")
+		(at 133.35 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d44482bf-d4a0-4697-82f7-caeaf75c9b0b")
+		(property "Reference" "BT16"
+			(at 124.714 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54"
+			(at 124.714 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 134.366 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 133.35 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 131.826 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 130.048 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 133.35 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "9a15b61a-c193-43b5-8360-3a9274ee8dd6")
+		)
+		(instances
+			(project "Batt_Boardv1"
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "BT16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12fda53-c6e4-4046-b805-fd0775a7b231")
+		(property "Reference" "#PWR01"
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3b7ba2-7b0b-4552-b786-5eb780e63254")
+		)
+		(instances
+			(project ""
+				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "54 -- Battery clips:54")
+		(at 72.39 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd393859-041f-4301-baa6-dbb2b08963eb")
+		(property "Reference" "BT12"
+			(at 63.754 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54"
+			(at 63.754 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery 54:BAT_254TR"
+			(at 73.406 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 72.39 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 72.39 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 70.866 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
+			(at 69.088 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 72.39 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "44708d33-83e1-4ca0-887b-5458793810bd")
+		)
+		(instances
+			(project "Batt_Boardv1"
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4"
 					(reference "BT12")
 					(unit 1)

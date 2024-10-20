@@ -1,4 +1,4 @@
-23716004674600888
+23717734649107869
 4.7K resistor
 YAG_CFR25_YAG
 
@@ -41,13 +41,6 @@ audio belton reverb
 0
 7
 7
-Bat
-BAT_54
-
-
-0
-3
-3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -388,6 +381,20 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
+0
+2
+2
+Battery 54
+BAT_54
+
+
+0
+3
+3
+Battery 54
+BAT_254TR
+
+
 0
 2
 2

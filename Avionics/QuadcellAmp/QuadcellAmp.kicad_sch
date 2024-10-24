@@ -4390,7 +4390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54bb9ff0-4039-4505-b93d-53823091ae28")
-		(property "Reference" "TP6"
+		(property "Reference" "TP_GND1"
 			(at 60.96 109.7279 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 		(instances
 			(project "QuadcellAmp"
 				(path "/d8c20cce-c8a2-4904-b91b-d44f3cad343b"
-					(reference "TP6")
+					(reference "TP_GND1")
 					(unit 1)
 				)
 			)
@@ -4866,7 +4866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c00835-561a-49ca-b9b6-dbf8122844aa")
-		(property "Reference" "TP7"
+		(property "Reference" "TP_+BATT1"
 			(at 60.96 85.5979 0)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 		(instances
 			(project "QuadcellAmp"
 				(path "/d8c20cce-c8a2-4904-b91b-d44f3cad343b"
-					(reference "TP7")
+					(reference "TP_+BATT1")
 					(unit 1)
 				)
 			)
@@ -6486,7 +6486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e332f2-342f-4151-b127-da5e401046d2")
-		(property "Reference" "TP5"
+		(property "Reference" "TP_QUADGND1"
 			(at 74.93 97.0279 0)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 		(instances
 			(project "QuadcellAmp"
 				(path "/d8c20cce-c8a2-4904-b91b-d44f3cad343b"
-					(reference "TP5")
+					(reference "TP_QUADGND1")
 					(unit 1)
 				)
 			)

@@ -1,32 +1,18 @@
-23717734649107869
-4.7K resistor
-YAG_CFR25_YAG
+23702213173725409
+254
+BAT_254
 
-CFR-25JR-52-4K7 
+
 0
 2
 2
-10K resistor
-YAG_CFR25_YAG
+254
+BAT_254_1
 
-CFR-25JR-52-4K7 
-0
-2
-2
-100K resistor
-YAG_RSF100_YAG
 
-RSF100JB-73-100K 
-0
-2
-2
-5037630291
-CON_5037630291
-
-5037630291 
 0
 4
-4
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -381,20 +367,6 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
-0
-2
-2
-Battery 54
-BAT_54
-
-
-0
-3
-3
-Battery 54
-BAT_254TR
-
-
 0
 2
 2
@@ -52742,8 +52714,8 @@ Converter_DCDC_Artesyn_ATA_SMD
 DCDC-Converter, Artesyn, ATA Series, 3W Single and Dual Output, 1500VDC Isolation, 24.0x13.7x8.0mm https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf https://www.artesyn.com/power/assets/trn_dc-dc_ata_3w_series_releas1430412818_techref.pdf
 DCDC SMD
 0
-7
-7
+0
+0
 Converter_DCDC
 Converter_DCDC_Bothhand_CFUDxxxx_THT
 DCDC-Converter, BOTHHAND, Type CFxxxx-Serie,  (Very dodgy url but was the only at hand), 
@@ -56678,13 +56650,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-FDS6375 (1)
-SOIC127P600X175-8N
-
-
-0
-8
-8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -57861,27 +57826,6 @@ heatsink
 0
 0
 0
-IRLML2803
-MICRO3_SOT-23_INF
-
-IRLML2803TRPBF 
-0
-3
-3
-IRLML2803
-MICRO3_SOT-23_INF-L
-
-IRLML2803TRPBF 
-0
-3
-3
-IRLML2803
-MICRO3_SOT-23_INF-M
-
-IRLML2803TRPBF 
-0
-3
-3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -68536,20 +68480,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PC104
-PC104ConnectorFootprint (1)
+PDU
+R-2818
 
 
 0
-108
-104
-PE014006
-RELAY5-PE_CO
-
-PE014006 
-0
-5
-5
+2
+2
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54

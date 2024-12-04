@@ -476,6 +476,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/BM": "V_BATT",
       "BM": "BM",
       "Net-(BT10-Pad1)": "V_BATT",
       "Net-(BT10-Pad1_1)": "V_BATT",

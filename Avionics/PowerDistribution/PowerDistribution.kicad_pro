@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -179,10 +179,13 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.4,
         0.5,
+        0.6,
         0.7,
+        0.9,
         1.0,
         1.5
       ],
@@ -218,16 +221,16 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.6,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
           "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.2,
-          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": true
@@ -599,6 +602,7 @@
       "/5V_SW_1": "2A",
       "/BATT_CS": "5A",
       "/BATT_PRE_INH": "5A",
+      "/BATT_RAW": "5A",
       "/EDFA_5V": "2A",
       "/EDFA_5V_S": "2A",
       "/EDFA_5V_SW": "2A",
@@ -662,7 +666,7 @@
       "plot": "../../../../../../Desktop/pdu1/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PowerDistribution.step",
       "svg": "",
       "vrml": ""
     },

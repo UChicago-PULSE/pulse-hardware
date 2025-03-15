@@ -1435,6 +1435,146 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:L78L33_SOT89"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L33_SOT89"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L78L33_SOT89_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L78L33_SOT89_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -1899,6 +2039,12 @@
 		(uuid "12c6395b-45e0-4082-ab7e-56a4426d2607")
 	)
 	(junction
+		(at 72.39 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14a2cfce-c595-45b0-810e-869fdd932b66")
+	)
+	(junction
 		(at 118.11 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2097,6 +2243,12 @@
 		(uuid "8c1caa28-0d1d-49cc-95fe-a02a55b384cb")
 	)
 	(junction
+		(at 63.5 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d21a3c5-eb31-4015-89f9-722993515883")
+	)
+	(junction
 		(at 20.32 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2145,6 +2297,12 @@
 		(uuid "c6c27136-bd77-40da-b95f-5c960dcbdee6")
 	)
 	(junction
+		(at 81.28 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf16b386-c124-460d-a7d6-a5e0003745df")
+	)
+	(junction
 		(at 95.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2155,12 +2313,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d308f372-afdd-471f-8e38-67bafb0015fa")
-	)
-	(junction
-		(at 74.93 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7c4c6ff-6f2e-4ff4-a2d0-88cc19107a5f")
 	)
 	(junction
 		(at 215.9 151.13)
@@ -2350,13 +2502,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 173.99) (xy 81.28 173.99)
+			(xy 81.28 173.99) (xy 81.28 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23879357-d7b6-4d57-977f-10c8bf93a365")
+		(uuid "2d5c3c8c-2a25-4538-a9a6-476a03c96411")
 	)
 	(wire
 		(pts
@@ -2420,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 173.99) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ee0f7a-a055-4936-8ccb-bbc57af38cee")
+	)
+	(wire
+		(pts
 			(xy 110.49 69.85) (xy 118.11 69.85)
 		)
 		(stroke
@@ -2437,6 +2599,16 @@
 			(type default)
 		)
 		(uuid "4b9717c3-b082-4c3d-93e1-724b367c1d68")
+	)
+	(wire
+		(pts
+			(xy 72.39 184.15) (xy 72.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc6b88b-85d9-4a11-b1b1-7b51394ad106")
 	)
 	(wire
 		(pts
@@ -2497,6 +2669,36 @@
 			(type default)
 		)
 		(uuid "51f15d63-3f06-4b54-9c14-0d9bc7e97c69")
+	)
+	(wire
+		(pts
+			(xy 63.5 173.99) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53aa50ca-4e9d-4c95-b621-68a47a79dffd")
+	)
+	(wire
+		(pts
+			(xy 63.5 173.99) (xy 64.77 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5856ff29-cbb1-4480-8a34-885a92ac4e9a")
+	)
+	(wire
+		(pts
+			(xy 63.5 182.88) (xy 72.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae5f5e6-0173-4334-811f-ad0b54d3f7f3")
 	)
 	(wire
 		(pts
@@ -2890,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 182.88) (xy 72.39 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23842b4-8421-43e6-92e0-517f4431ef85")
+	)
+	(wire
+		(pts
 			(xy 238.76 81.28) (xy 246.38 81.28)
 		)
 		(stroke
@@ -3140,13 +3352,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 173.99) (xy 74.93 173.99)
+			(xy 72.39 182.88) (xy 81.28 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddaef2a0-a5cb-4677-88d6-7cd9fffb4a4b")
+		(uuid "e0284dbe-58aa-4334-8613-05d7a55c25d3")
 	)
 	(wire
 		(pts
@@ -3355,16 +3567,6 @@
 			)
 		)
 		(uuid "00c614ca-ec57-4f81-9b8e-c02abd5dba67")
-	)
-	(text "V_out = V_in (R2/(R1 + R2)"
-		(exclude_from_sim no)
-		(at 72.644 146.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "02547635-3efb-4962-bcb9-64b2c9d11738")
 	)
 	(text "Divides VCC"
 		(exclude_from_sim no)
@@ -4409,76 +4611,6 @@
 			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14ba7bdb-e9cf-4472-a132-66f4c22e3e80")
-		(property "Reference" "R28"
-			(at 77.47 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "29k"
-			(at 77.47 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 73.152 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e1250e9-f44c-4508-89e1-8732d96fa241")
-		)
-		(pin "2"
-			(uuid "5cb47001-b25f-40ab-96e3-bdf3c4e3a671")
-		)
-		(instances
-			(project ""
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6271,74 +6403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5adf4767-6372-433f-b92f-9252814ec3dc")
-		(property "Reference" "R27"
-			(at 67.31 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "11k"
-			(at 67.31 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 67.31 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10612584-acfa-454b-b3a3-8aa1e48cb03e")
-		)
-		(pin "1"
-			(uuid "b71f8af4-7f4a-4455-ae55-e8c2e6b31f42")
-		)
-		(instances
-			(project ""
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 271.78 152.4 0)
 		(unit 1)
@@ -6849,6 +6913,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 63.5 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68ff6936-04d9-4536-bf2e-24a4e44f2312")
+		(property "Reference" "C15"
+			(at 67.31 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.33u"
+			(at 67.31 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 64.4652 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5a3383e-1fff-4099-8756-daad2b5d6738")
+		)
+		(pin "1"
+			(uuid "1aa21e61-c0f2-41d9-96eb-7440d492980e")
+		)
+		(instances
+			(project "RealQuadcellAmp"
+				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 77.47 54.61 180)
 		(unit 1)
@@ -6927,7 +7061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e376918-fc37-4e43-9326-1e75a74122f9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 105.41 187.96 0)
 			(effects
 				(font
@@ -6977,7 +7111,7 @@
 		(instances
 			(project ""
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 181.61 0)
+		(at 72.39 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7152,8 +7286,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721fd3ac-ecf9-45a3-82e6-525710b90ebf")
-		(property "Reference" "#PWR024"
-			(at 74.93 187.96 0)
+		(property "Reference" "#PWR026"
+			(at 72.39 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7296,7 @@
 			)
 		)
 		(property "Value" "QUAD_GND"
-			(at 74.93 186.69 0)
+			(at 72.39 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 181.61 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 181.61 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 181.61 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7336,7 @@
 		(instances
 			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7405,6 +7539,78 @@
 			(project ""
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L78L33_SOT89")
+		(at 72.39 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7736636b-2785-4f2b-94f7-773798296bf4")
+		(property "Reference" "U6"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L33_SOT89"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 72.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9f06d02-97d3-46c4-8d37-f9e63beba55e")
+		)
+		(pin "3"
+			(uuid "0cbf0fc5-61a0-41f6-a798-b94d22f7c01c")
+		)
+		(pin "1"
+			(uuid "14eea600-9e71-422f-b2d6-851b055a1452")
+		)
+		(instances
+			(project ""
+				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9749409e-3852-423c-8bb5-7b40145789f1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 99.06 185.42 0)
 			(effects
 				(font
@@ -8087,7 +8293,7 @@
 		(instances
 			(project ""
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9346,6 +9552,76 @@
 			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d10b38-0073-4fa6-af0f-bc26695e2252")
+		(property "Reference" "C16"
+			(at 85.09 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 85.09 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 82.2452 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "444349eb-c108-4c5d-8864-6275047f2363")
+		)
+		(pin "1"
+			(uuid "173b90d6-fac5-40ab-962d-9623c5dd8e7f")
+		)
+		(instances
+			(project ""
+				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
+					(reference "C16")
 					(unit 1)
 				)
 			)

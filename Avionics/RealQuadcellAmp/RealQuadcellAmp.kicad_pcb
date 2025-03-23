@@ -5492,7 +5492,7 @@
 			(uuid "70878005-fd8c-4663-974c-74fb193fcbb3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.2 0 360)
+			(at 0.2 0 0)
 			(layer "F.Fab")
 			(uuid "3745d3af-d6cd-473a-9756-daaf26e10246")
 			(effects
@@ -9243,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCSP_avionics_logo"
+		(property "Footprint" "UCSP:UCSP_avionics_logo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17937,6 +17937,28 @@
 		(uuid "13005f2b-229a-4f36-bfc9-3150c8289d8b")
 	)
 	(gr_rect
+		(start 85.5 41.0625)
+		(end 124 47)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4cfebbca-8536-42d1-b483-347fa6d5419b")
+	)
+	(gr_rect
+		(start 85.5 47)
+		(end 114 117)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5b979be4-0644-4048-8899-870aa07e840e")
+	)
+	(gr_rect
 		(start 146.275 41.0625)
 		(end 167.45 117.0625)
 		(stroke
@@ -17946,17 +17968,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "74c084be-acc8-4bdc-8e95-afb64b5e5fcb")
-	)
-	(gr_rect
-		(start 85.5 41)
-		(end 114.375 117)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "92333ab5-6caf-40c8-8b35-bcf2c4923c1f")
 	)
 	(gr_rect
 		(start 85.5 117)
@@ -17970,15 +17981,15 @@
 		(uuid "e6939dc6-7cfc-42a2-8281-cdb17fd151b7")
 	)
 	(gr_rect
-		(start 114.375 41.0625)
-		(end 146.275 117.0625)
+		(start 85.5 41.0625)
+		(end 146.275 117)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "f91b958b-78ef-467c-b579-e9dbd195df01")
+		(uuid "f29b6240-b276-4a8f-bd5a-a9165a8b0352")
 	)
 	(gr_rect
 		(start 84 39.5)
@@ -18018,7 +18029,7 @@
 		)
 	)
 	(gr_text "STAGE 1"
-		(at 126.775 44.1 0)
+		(at 130 44.1 0)
 		(layer "F.SilkS")
 		(uuid "94d9f910-655a-45f2-a57c-ad77b0114738")
 		(effects
@@ -18030,7 +18041,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Quadcell Amp Rev 2.0\nMade by Larry Li"
+	(gr_text "Quadcell Amp Rev 3.0\nMade by Larry Li & Zumi Riekse"
 		(at 86 46 0)
 		(layer "F.SilkS")
 		(uuid "a87f0b3a-4b07-4623-8e4c-eb551f9d7da3")

@@ -4940,7 +4940,7 @@
 			(uuid "baf07bc6-00e5-4d0e-a634-636bf3c17b47")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR021")
 					(unit 1)
@@ -7109,7 +7109,7 @@
 			(uuid "3eec8768-e945-42c1-a296-1f31a816b0ac")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR025")
 					(unit 1)
@@ -7536,7 +7536,7 @@
 			(uuid "8d1cdded-059c-446a-a38c-4ba90a7cb91f")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR014")
 					(unit 1)
@@ -7608,7 +7608,7 @@
 			(uuid "14eea600-9e71-422f-b2d6-851b055a1452")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "U6")
 					(unit 1)
@@ -8291,7 +8291,7 @@
 			(uuid "e8090055-d173-438c-816f-a6f1bc6e6f6c")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR024")
 					(unit 1)
@@ -8357,7 +8357,7 @@
 			(uuid "b3970269-9a63-4361-8800-34d9c0cf7ec0")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR020")
 					(unit 1)
@@ -9484,7 +9484,7 @@
 			(uuid "42e0d3c6-0180-49fb-8dcc-d0d0f944afdd")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR023")
 					(unit 1)
@@ -9619,7 +9619,7 @@
 			(uuid "173b90d6-fac5-40ab-962d-9623c5dd8e7f")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "C16")
 					(unit 1)
@@ -10278,7 +10278,7 @@
 			(uuid "981cc5d8-7164-424d-896c-7833522dd712")
 		)
 		(instances
-			(project ""
+			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "J2")
 					(unit 1)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ29200")(type "KiCad")(uri "/Users/dylanhu/Documents/KiCad/8.0/symbols/BQ29200.kicad_sym")(options "")(descr ""))
+)

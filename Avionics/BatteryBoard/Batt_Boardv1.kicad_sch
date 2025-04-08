@@ -5264,10 +5264,6 @@
 		(uuid "43fc7d3e-e926-4157-aea5-89d354b98b0b")
 	)
 	(no_connect
-		(at 38.1 83.82)
-		(uuid "4453f23d-875b-450d-af2b-0fc2d3815528")
-	)
-	(no_connect
 		(at 50.8 55.88)
 		(uuid "4558bedb-fafa-4a79-b83a-0f1e05a9b4ad")
 	)
@@ -5322,10 +5318,6 @@
 	(no_connect
 		(at 50.8 48.26)
 		(uuid "651a2853-9607-439c-b4bb-9de77e98375c")
-	)
-	(no_connect
-		(at 38.1 81.28)
-		(uuid "6b03367c-05b3-4f86-87f5-0b8d82fd4c65")
 	)
 	(no_connect
 		(at 50.8 81.28)
@@ -5755,6 +5747,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 83.82) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7eb4bc-412d-48ed-b8c7-385b21dd59e0")
+	)
+	(wire
+		(pts
 			(xy 212.09 93.98) (xy 212.09 88.9)
 		)
 		(stroke
@@ -6152,6 +6154,16 @@
 			(type default)
 		)
 		(uuid "8f9b1237-46af-4c52-bdb8-864c5771f661")
+	)
+	(wire
+		(pts
+			(xy 26.67 81.28) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947bcaa8-1f2c-4731-ba85-665fc4db68d4")
 	)
 	(wire
 		(pts
@@ -6878,6 +6890,26 @@
 			(justify left bottom)
 		)
 		(uuid "7caee0eb-e6ae-4dd0-95dd-325355d6a08f")
+	)
+	(label "I2C1_SCL"
+		(at 26.67 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8954ff39-670d-47c2-b51a-9323197e11a4")
+	)
+	(label "I2C1_SDA"
+		(at 26.67 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e48c60-69a2-4e53-b772-7747eb6fe163")
 	)
 	(label "3V3_BUS"
 		(at 115.57 63.5 180)

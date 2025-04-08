@@ -440,7 +440,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -499,15 +499,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/BM": "V_BATT",
-      "BM": "BM",
-      "Net-(BT1-BATT-)": "V_BATT",
-      "Net-(BT10-Pad1)": "V_BATT",
-      "Net-(BT10-Pad1_1)": "V_BATT",
-      "Net-(BT12-Pad1_1)": "V_BATT",
-      "Net-(BT13-Pad1_1)": "V_BATT"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "V_BATT",
@@ -690,6 +682,10 @@
     [
       "a5e22de5-0e9e-4e3b-9cf5-d999de47cef4",
       "Root"
+    ],
+    [
+      "704e1e38-2a40-4837-82db-8d871c4d1498",
+      "Heater Control"
     ]
   ],
   "text_variables": {}

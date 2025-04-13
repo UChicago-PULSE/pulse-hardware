@@ -3,4 +3,5 @@
   (lib (name "BQ29200")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/BQ29200.kicad_sym")(options "")(descr ""))
   (lib (name "TLA2024IRUGR")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/TLA2024IRUGR.kicad_sym")(options "")(descr ""))
   (lib (name "LM135Z")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/LM135Z.kicad_sym")(options "")(descr ""))
+  (lib (name "R5460")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/R5460.kicad_sym")(options "")(descr ""))
 )

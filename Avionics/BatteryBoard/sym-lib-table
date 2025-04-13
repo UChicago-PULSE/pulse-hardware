@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "BQ29200")(type "KiCad")(uri "/Users/dylanhu/Documents/KiCad/8.0/symbols/BQ29200.kicad_sym")(options "")(descr ""))
-  (lib (name "TLA2024IRUGR")(type "KiCad")(uri "/Users/dylanhu/Documents/KiCad/8.0/symbols/TLA2024IRUGR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ29200")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/BQ29200.kicad_sym")(options "")(descr ""))
+  (lib (name "TLA2024IRUGR")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/TLA2024IRUGR.kicad_sym")(options "")(descr ""))
   (lib (name "LM135Z")(type "KiCad")(uri "${KIPRJMOD}/sym_footprint_libs/LM135Z.kicad_sym")(options "")(descr ""))
 )

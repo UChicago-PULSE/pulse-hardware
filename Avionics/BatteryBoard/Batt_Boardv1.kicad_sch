@@ -6430,10 +6430,6 @@
 		(uuid "6f11a17a-2ae7-45b6-97d7-90071b52de59")
 	)
 	(no_connect
-		(at 38.1 71.12)
-		(uuid "70e8786d-f023-4bf7-89e1-e03d40fb07ea")
-	)
-	(no_connect
 		(at 50.8 30.48)
 		(uuid "72b86058-9c8f-4196-b832-ffb2d53442ff")
 	)
@@ -6614,7 +6610,7 @@
 		(uuid "f263ecdc-e692-4994-af7f-355567bb9b97")
 	)
 	(no_connect
-		(at 25.4 45.72)
+		(at 38.1 45.72)
 		(uuid "faecd45d-08c5-4e52-b59a-abe2426362b5")
 	)
 	(no_connect
@@ -7197,16 +7193,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 45.72) (xy 38.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543e3d84-f865-4dad-9519-2f4edc3d77d8")
-	)
-	(wire
-		(pts
 			(xy 261.62 26.67) (xy 275.59 26.67)
 		)
 		(stroke
@@ -7344,6 +7330,16 @@
 			(type default)
 		)
 		(uuid "63c6a03c-614a-40b7-8d5e-1d1a7f5c200a")
+	)
+	(wire
+		(pts
+			(xy 86.36 30.48) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693d1108-c90f-4cd0-b1dc-c95a759da4b3")
 	)
 	(wire
 		(pts
@@ -7594,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "947bcaa8-1f2c-4731-ba85-665fc4db68d4")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a0909f-5097-43fa-af46-d31048e41800")
 	)
 	(wire
 		(pts
@@ -8117,16 +8123,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 30.48) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe5da95-9778-42ff-9e92-34eef05692ff")
-	)
-	(wire
-		(pts
 			(xy 186.69 142.24) (xy 171.45 142.24)
 		)
 		(stroke
@@ -8345,16 +8341,6 @@
 		)
 		(uuid "b012c2c0-87bb-4beb-a1b6-ca07e49256ef")
 	)
-	(label "KAPTON_SEL"
-		(at 74.93 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b669390c-3399-450a-9ffb-0dd84d7a1f8b")
-	)
 	(label "I2C1_SDA"
 		(at 232.41 123.19 270)
 		(effects
@@ -8375,16 +8361,6 @@
 		)
 		(uuid "d8ec0a4d-e0d3-4d1d-a0e0-fe077affbcd5")
 	)
-	(label "KAPTON_EN"
-		(at 25.4 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df47da80-463e-4a55-bcab-40f11d862e84")
-	)
 	(label "B-"
 		(at 135.89 64.77 270)
 		(effects
@@ -8404,6 +8380,28 @@
 			(justify left bottom)
 		)
 		(uuid "f9a5bf78-a60a-42d2-bb59-8efcf1e29c71")
+	)
+	(hierarchical_label "KAPTON_SEL"
+		(shape input)
+		(at 86.36 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b577ebd6-f94f-40f7-814e-59184c211626")
+	)
+	(hierarchical_label "KAPTON_EN"
+		(shape input)
+		(at 34.29 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc69b48b-56f6-4ed2-b8c3-73b00cafb4e9")
 	)
 	(symbol
 		(lib_name "Conn_02x26_Odd_Even_1")

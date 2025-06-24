@@ -512,23 +512,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(U12-Pad1)": [
-        "OBC_SELECT"
-      ],
-      "Net-(U14-Pad2)": [
-        "OBC_SELECT"
-      ],
-      "unconnected-(U12-Pad2)": [
-        "OBC_EN"
-      ],
-      "unconnected-(U13-Pad4)": [
-        "KAPLAN_EN"
-      ],
-      "unconnected-(U15-Pad6)": [
-        "OBC_EN"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "V_BATT",

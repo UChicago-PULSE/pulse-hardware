@@ -6100,10 +6100,16 @@
 		(uuid "29e85292-d0e1-418f-838b-366ebfdf9be9")
 	)
 	(junction
-		(at 184.15 39.37)
+		(at 184.15 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b24d950-ec6a-4d48-b5a6-37fc1cbd4002")
+	)
+	(junction
+		(at 229.87 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dea98a7-5a13-42d0-a8ef-21732cf5403e")
 	)
 	(junction
 		(at 229.87 139.7)
@@ -6136,13 +6142,7 @@
 		(uuid "5318f8b8-8dcc-4bbb-898e-47a1877afe98")
 	)
 	(junction
-		(at 261.62 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a2db4c8-244a-4a9a-ba94-f1d51190fe73")
-	)
-	(junction
-		(at 223.52 39.37)
+		(at 223.52 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77b8baaf-19e9-4508-9523-7efc40602ff1")
@@ -6184,13 +6184,13 @@
 		(uuid "972041d6-ece3-439e-a01e-d21c9d6b1101")
 	)
 	(junction
-		(at 223.52 52.07)
+		(at 223.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "973af149-4a22-409d-b471-5d64a9637e50")
 	)
 	(junction
-		(at 223.52 26.67)
+		(at 223.52 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bce818e-dab3-45f0-ad9b-a8676e93b00f")
@@ -6226,19 +6226,13 @@
 		(uuid "b69de8ba-28fe-4157-84c1-6511e4318a54")
 	)
 	(junction
-		(at 241.3 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d55fbbf4-6693-43e3-bedf-9722053d577f")
-	)
-	(junction
 		(at 255.27 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c307b4-59d1-4f76-bd21-4d730c7bcab7")
 	)
 	(junction
-		(at 261.62 39.37)
+		(at 261.62 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f37e7ef7-a1f7-4ebc-af11-7a6d333f151c")
@@ -6574,10 +6568,6 @@
 		(uuid "e2ff9b86-f618-474b-85ed-585792dd74aa")
 	)
 	(no_connect
-		(at 38.1 76.2)
-		(uuid "e4140957-2ba9-4f9b-986f-03eb3ec136d2")
-	)
-	(no_connect
 		(at 50.8 58.42)
 		(uuid "e42a84e1-aab4-4ca9-bbe7-c3b81eb44e7b")
 	)
@@ -6633,7 +6623,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 39.37) (xy 186.69 39.37)
+			(xy 161.29 160.02) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a35686-233d-4c49-b8bc-ac78370742f1")
+	)
+	(wire
+		(pts
+			(xy 184.15 38.1) (xy 186.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6653,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 26.67) (xy 261.62 26.67)
+			(xy 259.08 25.4) (xy 261.62 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6833,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 26.67) (xy 228.6 26.67)
+			(xy 223.52 25.4) (xy 228.6 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6883,7 +6883,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 39.37) (xy 223.52 39.37)
+			(xy 217.17 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6993,13 +6993,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 157.48) (xy 248.92 161.29)
+			(xy 241.3 157.48) (xy 241.3 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e3aa269-ab11-4e89-8e9d-d3d6f3eca982")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aa065c-03ea-4843-8964-381f6c0f0c39")
 	)
 	(wire
 		(pts
@@ -7023,23 +7033,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 184.15 39.37)
+			(xy 184.15 25.4) (xy 184.15 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34d83d09-7898-411f-ad00-dde46d0f7d23")
-	)
-	(wire
-		(pts
-			(xy 151.13 160.02) (xy 151.13 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35607349-3e2c-4073-88ff-959fb4b64355")
 	)
 	(wire
 		(pts
@@ -7090,6 +7090,26 @@
 			(type default)
 		)
 		(uuid "3f5a117a-b603-4184-94be-d9e0be800e99")
+	)
+	(wire
+		(pts
+			(xy 229.87 157.48) (xy 241.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3faf5b86-8084-46c2-b3d2-78d166334aac")
+	)
+	(wire
+		(pts
+			(xy 163.83 157.48) (xy 163.83 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c13e68-bb7a-4ce4-b515-5893e83d736b")
 	)
 	(wire
 		(pts
@@ -7153,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 39.37) (xy 261.62 39.37)
+			(xy 259.08 38.1) (xy 261.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7193,17 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 26.67) (xy 275.59 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b242ce-afde-49eb-aa13-98f09abd2a14")
-	)
-	(wire
-		(pts
-			(xy 259.08 52.07) (xy 261.62 52.07)
+			(xy 259.08 50.8) (xy 261.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7233,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 161.29) (xy 261.62 161.29)
+			(xy 241.3 161.29) (xy 261.62 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7283,7 +7293,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 186.69 26.67)
+			(xy 184.15 25.4) (xy 186.69 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7363,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 52.07) (xy 186.69 52.07)
+			(xy 184.15 50.8) (xy 186.69 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7373,7 +7383,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 24.13) (xy 223.52 26.67)
+			(xy 223.52 22.86) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7383,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 39.37) (xy 184.15 39.37)
+			(xy 177.8 38.1) (xy 184.15 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7423,7 +7433,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 26.67) (xy 223.52 39.37)
+			(xy 223.52 25.4) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7453,7 +7463,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 39.37) (xy 228.6 39.37)
+			(xy 223.52 38.1) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7483,16 +7493,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 157.48) (xy 248.92 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f135c7-16bf-419d-a2be-3c0c19279335")
-	)
-	(wire
-		(pts
 			(xy 209.55 102.87) (xy 195.58 102.87)
 		)
 		(stroke
@@ -7513,7 +7513,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 52.07) (xy 223.52 52.07)
+			(xy 217.17 50.8) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7523,7 +7523,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 26.67) (xy 223.52 26.67)
+			(xy 217.17 25.4) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7593,17 +7593,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 38.1 71.12)
+			(xy 151.13 160.02) (xy 161.29 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97a0909f-5097-43fa-af46-d31048e41800")
+		(uuid "97cd0614-6699-4fb5-9a04-b555e5b2271e")
 	)
 	(wire
 		(pts
-			(xy 261.62 39.37) (xy 261.62 52.07)
+			(xy 261.62 38.1) (xy 261.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7660,6 +7660,16 @@
 			(type default)
 		)
 		(uuid "a8d9fd04-b5b3-4210-94ab-df4b33792a40")
+	)
+	(wire
+		(pts
+			(xy 35.56 76.2) (xy 38.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa736190-4e8a-4e3d-baa5-76f9625edc4d")
 	)
 	(wire
 		(pts
@@ -7893,23 +7903,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 39.37) (xy 184.15 52.07)
+			(xy 184.15 38.1) (xy 184.15 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cff90d55-00ce-475b-9184-c55c5ed1c0e4")
-	)
-	(wire
-		(pts
-			(xy 151.13 161.29) (xy 156.21 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1eca517-d924-4788-97e8-cb73da156ade")
 	)
 	(wire
 		(pts
@@ -7933,7 +7933,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 26.67) (xy 261.62 39.37)
+			(xy 261.62 25.4) (xy 261.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7953,7 +7953,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 39.37) (xy 223.52 52.07)
+			(xy 223.52 38.1) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8113,16 +8113,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 157.48) (xy 241.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6eb3e3-3cd1-4042-a8a9-bb9b0162d3e3")
-	)
-	(wire
-		(pts
 			(xy 186.69 142.24) (xy 171.45 142.24)
 		)
 		(stroke
@@ -8133,7 +8123,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 52.07) (xy 228.6 52.07)
+			(xy 223.52 50.8) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8232,12 +8222,12 @@
 		(uuid "35711c59-53f2-40ca-8760-fc3c3d9b2f49")
 	)
 	(label "BATT_PRE_INH"
-		(at 275.59 26.67 180)
+		(at 261.62 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "36901725-ad44-4d9a-9004-832a83fc0a44")
 	)
@@ -8252,7 +8242,7 @@
 		(uuid "3724d8e4-90a0-44bc-8a16-99d63c3a3506")
 	)
 	(label "B-"
-		(at 177.8 39.37 180)
+		(at 177.8 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8292,7 +8282,7 @@
 		(uuid "75b2a9ba-5aab-4f0b-8e33-8617aa79e3d5")
 	)
 	(label "BM"
-		(at 223.52 24.13 0)
+		(at 223.52 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8381,27 +8371,49 @@
 		)
 		(uuid "f9a5bf78-a60a-42d2-bb59-8efcf1e29c71")
 	)
-	(hierarchical_label "KAPTON_SEL"
+	(global_label "KAPTON_SEL"
 		(shape input)
 		(at 86.36 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b577ebd6-f94f-40f7-814e-59184c211626")
+		(uuid "1a29f1c9-4632-4fbe-9310-fb4436e6d68d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.7634 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "KAPTON_EN"
+	(global_label "KAPTON_EN"
 		(shape input)
-		(at 34.29 71.12 180)
+		(at 35.56 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fc69b48b-56f6-4ed2-b8c3-73b00cafb4e9")
+		(uuid "f8fb38f3-1c6e-475f-9536-b93a861ba681")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.8705 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_name "Conn_02x26_Odd_Even_1")
@@ -8762,7 +8774,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 201.93 52.07 180)
+		(at 201.93 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8770,7 +8782,7 @@
 		(dnp no)
 		(uuid "07c15f8a-ec12-43ed-baf3-b73bde76e396")
 		(property "Reference" "BT_L_3"
-			(at 201.93 48.006 0)
+			(at 201.93 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8790,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 201.93 55.88 0)
+			(at 201.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,7 +8798,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 202.946 44.196 0)
+			(at 202.946 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 52.07 0)
+			(at 194.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 52.07 0)
+			(at 194.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8826,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 201.93 47.244 0)
+			(at 201.93 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8836,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 201.93 40.386 0)
+			(at 201.93 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8846,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 192.786 55.626 0)
+			(at 192.786 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8856,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 198.628 42.418 0)
+			(at 198.628 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +8866,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 201.93 38.354 0)
+			(at 201.93 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9529,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 275.59 26.67 180)
+		(at 261.62 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9526,7 +9538,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c61a9d6-e86d-4293-9112-86a230785aff")
 		(property "Reference" "#FLG011"
-			(at 275.59 28.575 0)
+			(at 263.525 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,15 +9547,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 275.59 31.75 0)
+			(at 265.43 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 26.67 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,7 +9565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 26.67 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9574,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 275.59 26.67 0)
+			(at 261.62 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9670,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 156.21 161.29 90)
+		(at 163.83 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9666,7 +9679,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fe54a9d-2778-41f8-9ca5-d147c0cf2fb7")
 		(property "Reference" "#PWR024"
-			(at 162.56 161.29 0)
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,16 +9688,16 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 160.02 161.2899 90)
+			(at 166.37 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 161.29 0)
+			(at 163.83 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 161.29 0)
+			(at 163.83 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 156.21 161.29 0)
+			(at 163.83 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10308,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 243.84 39.37 180)
+		(at 243.84 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10303,7 +10316,7 @@
 		(dnp no)
 		(uuid "35fe366e-1edd-428d-a0d9-390534c5e698")
 		(property "Reference" "BT_H_2"
-			(at 243.84 35.306 0)
+			(at 243.84 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10324,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 243.84 43.18 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10332,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 244.856 31.496 0)
+			(at 244.856 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 39.37 0)
+			(at 236.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 39.37 0)
+			(at 236.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10360,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 243.84 34.544 0)
+			(at 243.84 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10370,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 27.686 0)
+			(at 243.84 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10380,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 234.696 42.926 0)
+			(at 234.696 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10390,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 240.538 29.718 0)
+			(at 240.538 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10400,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 243.84 25.654 0)
+			(at 243.84 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +10957,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 201.93 39.37 180)
+		(at 201.93 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10952,7 +10965,7 @@
 		(dnp no)
 		(uuid "4632ba51-8691-4a39-9820-321a11804481")
 		(property "Reference" "BT_L_2"
-			(at 201.93 35.306 0)
+			(at 201.93 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +10973,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 201.93 43.18 0)
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +10981,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 202.946 31.496 0)
+			(at 202.946 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +10991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 39.37 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 39.37 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11009,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 201.93 34.544 0)
+			(at 201.93 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11019,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 201.93 27.686 0)
+			(at 201.93 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11029,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 192.786 42.926 0)
+			(at 192.786 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +11039,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 198.628 29.718 0)
+			(at 198.628 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11049,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 201.93 25.654 0)
+			(at 201.93 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11143,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 201.93 26.67 180)
+		(at 201.93 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11138,7 +11151,7 @@
 		(dnp no)
 		(uuid "56687b36-6d16-4506-9b3d-fbf9ae1e5f9c")
 		(property "Reference" "BT_L_1"
-			(at 201.93 22.606 0)
+			(at 201.93 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11159,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 201.93 30.48 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11167,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 202.946 18.796 0)
+			(at 202.946 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 26.67 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11173,7 +11186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 26.67 0)
+			(at 194.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11195,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 201.93 21.844 0)
+			(at 201.93 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11205,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 201.93 14.986 0)
+			(at 201.93 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11215,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 192.786 30.226 0)
+			(at 192.786 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11225,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 198.628 17.018 0)
+			(at 198.628 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +11235,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 201.93 12.954 0)
+			(at 201.93 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11407,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 177.8 39.37 180)
+		(at 177.8 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11403,7 +11416,7 @@
 		(fields_autoplaced yes)
 		(uuid "627d7a66-e3a1-451d-82f9-2a619b9ec616")
 		(property "Reference" "#FLG06"
-			(at 177.8 41.275 0)
+			(at 177.8 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +11425,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 177.8 44.45 0)
+			(at 177.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +11433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 39.37 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,7 +11442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 39.37 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11451,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 177.8 39.37 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +12074,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 243.84 52.07 180)
+		(at 243.84 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12069,7 +12082,7 @@
 		(dnp no)
 		(uuid "a2e3d018-2d99-45a3-883e-05422a3dbce2")
 		(property "Reference" "BT_H_3"
-			(at 243.84 48.006 0)
+			(at 243.84 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,7 +12090,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 243.84 55.88 0)
+			(at 243.84 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,7 +12098,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 244.856 44.196 0)
+			(at 244.856 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 52.07 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +12117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 52.07 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12126,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 243.84 47.244 0)
+			(at 243.84 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12136,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 40.386 0)
+			(at 243.84 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12146,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 234.696 55.626 0)
+			(at 234.696 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +12156,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 240.538 42.418 0)
+			(at 240.538 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12166,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 243.84 38.354 0)
+			(at 243.84 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12192,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 241.3 157.48 0)
+		(at 229.87 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12187,7 +12200,7 @@
 		(dnp no)
 		(uuid "a56d1a06-954f-4d70-8661-2f7f6f3f577b")
 		(property "Reference" "#PWR012"
-			(at 241.3 163.83 0)
+			(at 229.87 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12196,7 +12209,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 241.3 161.798 0)
+			(at 229.87 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 157.48 0)
+			(at 229.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12213,7 +12226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 157.48 0)
+			(at 229.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +12235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 241.3 157.48 0)
+			(at 229.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12582,7 +12595,7 @@
 	(symbol
 		(lib_name "54_3")
 		(lib_id "54 -- Battery clips:54")
-		(at 243.84 26.67 180)
+		(at 243.84 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12590,7 +12603,7 @@
 		(dnp no)
 		(uuid "d44482bf-d4a0-4697-82f7-caeaf75c9b0b")
 		(property "Reference" "BT_H_1"
-			(at 243.84 22.606 0)
+			(at 243.84 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12598,7 +12611,7 @@
 			)
 		)
 		(property "Value" "54"
-			(at 243.84 30.48 0)
+			(at 243.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12619,7 @@
 			)
 		)
 		(property "Footprint" "254:BAT_254_1"
-			(at 244.856 18.796 0)
+			(at 244.856 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12616,7 +12629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 26.67 0)
+			(at 236.22 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +12638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 26.67 0)
+			(at 236.22 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12634,7 +12647,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 243.84 21.844 0)
+			(at 243.84 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,7 +12657,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 243.84 14.986 0)
+			(at 243.84 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +12667,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 234.696 30.226 0)
+			(at 234.696 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12677,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "18.3mm"
-			(at 240.538 17.018 0)
+			(at 240.538 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12687,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone Electronics"
-			(at 243.84 12.954 0)
+			(at 243.84 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12906,7 +12919,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 223.52 52.07 180)
+		(at 223.52 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12915,7 +12928,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed3bfd43-66f7-438a-b438-4ce0d6bcfd35")
 		(property "Reference" "#FLG07"
-			(at 223.52 53.975 0)
+			(at 223.52 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12924,7 +12937,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 223.52 57.15 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12932,7 +12945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 52.07 0)
+			(at 223.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12941,7 +12954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 52.07 0)
+			(at 223.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,7 +12963,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 223.52 52.07 0)
+			(at 223.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -147,7 +147,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin free line
 				(at -15.24 0 0)
 				(length 5.08)
 				(name "PAD"

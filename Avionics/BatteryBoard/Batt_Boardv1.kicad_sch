@@ -8974,7 +8974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 202.946 42.926 0)
 			(effects
 				(font
@@ -10373,7 +10373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 244.856 30.226 0)
 			(effects
 				(font
@@ -11021,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 202.946 30.226 0)
 			(effects
 				(font
@@ -11206,7 +11206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 202.946 17.526 0)
 			(effects
 				(font
@@ -11316,12 +11316,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "R5460N210AD1"
 			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -12203,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 244.856 42.926 0)
 			(effects
 				(font
@@ -12790,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "254:BAT_254_1"
+		(property "Footprint" "BattBrdFtPrts:BAT_254_1"
 			(at 244.856 17.526 0)
 			(effects
 				(font

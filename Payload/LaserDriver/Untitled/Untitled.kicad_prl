@@ -4,17 +4,15 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "3V3"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.5899999737739563,
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.8399999737739563
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -62,11 +60,10 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
-    "visible_layers": "00010ff_fffffffd",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -76,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PowerDistribution.kicad_prl",
+    "filename": "Untitled.kicad_prl",
     "version": 3
   },
   "project": {

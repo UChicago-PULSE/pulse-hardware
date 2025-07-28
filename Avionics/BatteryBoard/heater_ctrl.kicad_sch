@@ -1356,8 +1356,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
+			(property "Reference" "U9"
+				(at 6.096 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1365,7 +1365,7 @@
 				)
 			)
 			(property "Value" "TMP36xS"
-				(at 6.35 -8.89 0)
+				(at 6.096 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1431,24 +1431,6 @@
 				)
 			)
 			(symbol "TMP36xS_1_1"
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "~{SHUTDOWN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -1459,7 +1441,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1477,7 +1459,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1495,7 +1477,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2465,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 97.79) (xy 25.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31706d7d-048a-4a27-90f6-913699e66d04")
-	)
-	(wire
-		(pts
 			(xy 156.21 52.07) (xy 149.86 52.07)
 		)
 		(stroke
@@ -3025,16 +2997,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 93.98) (xy 29.21 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec616aa-0853-465b-a9e1-f0658e7dcd70")
-	)
-	(wire
-		(pts
 			(xy 68.58 88.9) (xy 71.12 88.9)
 		)
 		(stroke
@@ -3349,7 +3311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -3376,17 +3338,14 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "85affe29-9b93-4557-9671-3f14e2cb83f3")
 		)
 		(pin "1"
 			(uuid "3afaed36-fba6-4418-b3a4-f1f6082a319c")
 		)
-		(pin "5"
+		(pin "2"
 			(uuid "a408da99-e202-451b-be09-cd0c96001a4a")
-		)
-		(pin "8"
-			(uuid "d707f2e7-0bf1-4f2e-9163-60ff40380653")
 		)
 		(instances
 			(project ""
@@ -3490,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.674 45.974 90)
 			(effects
 				(font
@@ -3999,7 +3958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.514 45.974 90)
 			(effects
 				(font
@@ -4143,7 +4102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 142.24 137.4648 0)
 			(effects
 				(font
@@ -4926,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.72 137.4648 0)
 			(effects
 				(font
@@ -5062,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.2152 101.6 0)
 			(effects
 				(font
@@ -5197,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.1752 48.26 0)
 			(effects
 				(font
@@ -5300,72 +5259,6 @@
 			(project ""
 				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4/704e1e38-2a40-4837-82db-8d871c4d1498"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 25.4 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b49a8a87-d312-435f-9fea-d7e780fedfd3")
-		(property "Reference" "#PWR019"
-			(at 25.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 25.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 25.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "581e1585-bc5d-4e75-86df-e2e83872b76c")
-		)
-		(instances
-			(project ""
-				(path "/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4/704e1e38-2a40-4837-82db-8d871c4d1498"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.266 85.344 90)
 			(effects
 				(font
@@ -5666,7 +5559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.5652 50.8 0)
 			(effects
 				(font
@@ -5733,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.704 33.274 90)
 			(effects
 				(font

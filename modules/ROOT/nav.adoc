@@ -1,5 +1,5 @@
 * xref:index.adoc[Home]
-* xref:subsystems.adoc[Subsystems]
+* xref:subsystems/subsystems.adoc[Subsystems]
 ** xref:cdh/overview.adoc[Command & Data Handling]
 *** xref:obc.adoc[On-Board Computer]
 ** xref:comms/overview.adoc[Communications]

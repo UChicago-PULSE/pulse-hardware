@@ -2,4 +2,4 @@ name: hardware
 title: hardware
 version: 1.0
 nav:
-- modules/ROOT/nav.adoc
+  - modules/ROOT/nav.adoc

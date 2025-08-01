@@ -1,5 +1,5 @@
-name: hardware
-title: hardware
+name: Hardware Documentation
+title: Hardware Documentation
 version: ~
 nav:
   - modules/ROOT/nav.adoc

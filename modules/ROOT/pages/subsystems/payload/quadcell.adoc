@@ -1,1 +1,7 @@
 = Quadcell Amplifier
+
+The quadcell amplifier is a variation of a transimpedance amplifier meant to take the current output from the QPD and amplify it to readable signals and passed into a 24-bit ADC where digital signals can then be wired from there to the payload controller. 
+
+There are two stages to the amplifier. The first is a traditional transimpedance amplifier with a large feedback resistor to achieve the necessary voltages.
+
+The second is another amplifier

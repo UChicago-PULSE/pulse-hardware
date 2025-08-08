@@ -1,1 +1,12 @@
 = Guidance, Navigation, and Control 
+
+Celeste GNSS Receiver.
+Global Navigation Satellite System includes systems like GPS (US), GLONASS(Russia), Beidou(China), Galileo(Europe).
+Each system has satellites in orbit, the GNSS Receiver receives signals from satellites of these systems.
+
+Trilateration & Positioning:
+Position is calculated using trilateration, where at least 3 satellites will send signals to the GNSS receiver at a time, the receiver calculates the amount of time the signal reaches it, and can thus calculate the position of itself with reference to the known position of the 3+ satellites.
+
+Time:
+Each satellite of the GNSS systems has an internal atomic clock that is synced with atomic clocks on earth. The GNSS satellites' timestamp is also contained int its data packets sent to the GNSS receiver, this contains an absolute timestamp of the actual time.
+The GNSS receiver then sends a PPS signal that disciplines the internal clocks of OBC, ADCS, Payload Controller and Radio to nano second accuracy. This ensures that task performance and logging occurs as planned.

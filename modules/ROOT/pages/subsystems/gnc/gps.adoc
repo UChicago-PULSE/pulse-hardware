@@ -1,1 +1,13 @@
 = Global Positioning System (GPS)
+(purchased) 
+link:https://www.spacemanic.com/celeste-gnss-receiver/[Space Maniac Celeste GNSS Receiver].
+Receives GPS location and precise timing data from GNSS satellites.
+
+PPS pin:
+1 pulse per second, used for disciplining the internal clocks of different modules. Each pulse means the passing of a second. This output is passed to Radio-GPS PCB to be fanned out to supply to OBC, Payload Controller, ADCS and Radio.
+
+EXT_RST:
+Space Maniac Murgas Radio Tranceiver has capability to reset this module, so this pin is connected to EXT_RST of Radio via the Radio-GPS PCB.
+
+Timestamps:
+Every PPS signal is accompanied with a Timestamp that is sent through CAN and I2C bus.

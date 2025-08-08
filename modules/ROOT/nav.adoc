@@ -9,7 +9,7 @@
 *** xref:subsystems/gnc/adcs.adoc[ADCS]
 *** xref:subsystems/gnc/gps.adoc[GPS]
 ** xref:subsystems/payload/overview.adoc[Payload]
-*** xref:subsystems/payload/quadcell.adoc[Tracking Assembly]
+*** xref:subsystems/payload/quadcell.adoc[Quadcell Amplifier]
 ** xref:subsystems/power/overview.adoc[Power]
 *** xref:subsystems/power/pdu.adoc[Power Distribution Unit]
 *** xref:subsystems/power/batt-board.adoc[Battery Pack]

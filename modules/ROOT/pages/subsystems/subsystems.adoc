@@ -1,1 +1,9 @@
 = Subsystem Overview
+The flight hardware is organized into five subsystems which encompass the essential functions of our satellite hardware
+
+== Subsystems:
+[circle]
+* Communications: For all ground to satellite communications. This subsystem is composed of the radio and dipole antenna on the satellite.
+* Guidance, Navigation, and Control (GNC): For all pointing and position acquisition hardware such as the ADCS components and the GPS receiver.
+* Payload: For all additional electronics hardware necessary in the payload box that controls or assists with the payload.
+* Power: For managing power on the satellite from the solar panels to our batteries to distribution along the PC/104 header to everything on the stack. 

@@ -1,7 +1,4 @@
 *.lck
-.DS_Store
-.DS_Store
 *.zip
-**/fp_info_cache
-.DS_Store
-.DS_Store
+**fp-info-cache
+**/.DS_Store

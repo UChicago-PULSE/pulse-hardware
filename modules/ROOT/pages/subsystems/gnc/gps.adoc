@@ -3,6 +3,12 @@
 We are using the link:https://www.spacemanic.com/celeste-gnss-receiver/[Space Maniac Celeste GNSS Receiver] as the GPS for the satellite. It receives GPS location and precise timing data from GNSS satellites.
 
 
+== Purpose
+The positional data is sent via CAN bus to related systems such as ADCS and Radio Transceiver.
+The GPS obtains the real time altitude and longitude of the satellite and the corresponding time, which is relayed to the radio transmitter to be sent to RF ground station, this time positional data part of the the telemetry required by Ground station to produce satellite path predictions and acquisition of Laser links.
+
+To achieve pointing Acquisition and tracking of satellite, the ADCS’s purpose is to maintain satellite in its predetermined path. Real time positional data from GPS is essential for ADCS to perform adjustments to its path, so that the ground station can expect the satellite at the same place in sky at same time.
+
 == Notable Pins
 PPS pin: Outputs a one pulse per second signal used for disciplining the internal clocks of different modules. Each pulse means the passing of a second. This output is passed to the Radio-GPS PCB to be fanned out to supply to the OBC, Payload Controller, ADCS and Radio. Every PPS signal is accompanied with a Timestamp that is sent through CAN and I2C bus.
 

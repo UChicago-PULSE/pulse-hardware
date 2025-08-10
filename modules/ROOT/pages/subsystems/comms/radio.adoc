@@ -1,7 +1,7 @@
 = Radio
 
 We are using the link:https://www.spacemanic.com/murgas-uhf-vhf-transceiver/[Space Maniac Murgas transceiver] to
-receives radio transmission from the RF Ground Station.
+receive radio transmission from the RF Ground Station, which is essential component of Pointing Acquisition and tracking of satellite.
 
 It receives 1 of 4 PPS signals from LMK1C1104 fanout buffer chip that fans out PPS signal from Space Maniac GNSS Receiver module. The Fanout Chip is situated on the Radio-GPS PCB.
 

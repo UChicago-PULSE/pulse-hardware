@@ -4,8 +4,8 @@ The flight hardware is organized into five subsystems which encompass the essent
 
 == Subsystems:
 [circle]
-* Command and Data Handling (CDH): For the "brain" of the satellite and managing all onboard operations and subsystems by sending commands and redistributing data to necessary recipients.
-* Communications: For all ground to satellite communications. This subsystem is composed of the radio and dipole antenna on the satellite.
-* Guidance, Navigation, and Control (GNC): For all pointing and position acquisition hardware such as the ADCS components and the GPS receiver.
-* Payload: For all additional electronics hardware necessary in the payload box that controls or assists with the payload.
-* Power: For managing power on the satellite from the solar panels to our batteries to distribution along the PC/104 header to everything on the stack. 
+* link:cdh.html[Command and Data Handling (CDH)]: For the "brain" of the satellite and managing all onboard operations and subsystems by sending commands and redistributing data to necessary recipients.
+* link:comms.html[Communications]: For all ground to satellite communications. This subsystem is composed of the radio and dipole antenna on the satellite.
+* link:gnc.html[Guidance, Navigation, and Control (GNC)]: For all pointing and position acquisition hardware such as the ADCS components and the GPS receiver.
+* link:payload.html[Payload]: For all additional electronics hardware necessary in the payload box that controls or assists with the payload.
+* link:power.html[Power]: For managing power on the satellite from the solar panels to our batteries to distribution along the PC/104 header to everything on the stack. 

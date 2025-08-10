@@ -32,4 +32,4 @@ We power the discrete control circuitry from a separate 5V low dropout regulator
 
 To implement the discrete logic, we use standard 74-series logic ICs. The OBC has two outputs to the battery board: `KAPTON_SEL` to select between the OBC control and the discrete control, and `KAPTON_OBC_EN` for the OBC control. We implement the following logic:
 
-stem:[\left(\text{KAPTON_OBC_EN} \land \text{KAPTON_SEL}\right) \lor \left(\text{KAPTON_OBC_EN} \land \neg \text{KAPTON_SEL}\right)]
+latexmath:[\left(\text{KAPTON_OBC_EN} \land \text{KAPTON_SEL}\right) \lor \left(\text{KAPTON_OBC_EN} \land \neg \text{KAPTON_SEL}\right)]

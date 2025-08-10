@@ -1,16 +1,14 @@
 = Radio
-(Purchased) 
-link:https://www.spacemanic.com/murgas-uhf-vhf-transceiver/[Space Maniac Murgas transceiver]
-Receives Radio Transmission from Radio Ground Station.
 
-Protocol:
+We are using the link:https://www.spacemanic.com/murgas-uhf-vhf-transceiver/[Space Maniac Murgas transceiver] to
+receives radio transmission from the RF Ground Station.
+
+It receives 1 of 4 PPS signals from LMK1C1104 fanout buffer chip that fans out PPS signal from Space Maniac GNSS Receiver module. The Fanout Chip is situated on the Radio-GPS PCB.
+
+The EXT_RST pin is connected directly to the EXT_RST pin of Space Maniac GNSS Receiver via the Radio-GPS PCB.
+Command : `erst` causes a signal output from EXT_RST pin that resets all Space Maniac modules.
+
+== Protocol:
 I2C and CAN will be used to pass commands from the transceiver.
 The output of Radio Module is received and directed to the CAN and I2C bus via the Radio-GPS PCB.
 
-PPS pin:
-Receives 1 of 4 PPS signals from LMK1C1104 fanout buffer chip that fans out PPS signal from Space Maniac GNSS Receiver module.
-The Fanout Chip is situated on the Radio-GPS PCB.
-
-EXT_RST pin:
-Connected directly to the EXT_RST pin of Space Maniac GNSS Receiver via the Radio-GPS PCB.
-Command : `erst` causes a signal output from EXT_RST pin that resets all Space Maniac modules.

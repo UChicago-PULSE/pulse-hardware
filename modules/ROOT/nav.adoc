@@ -4,7 +4,7 @@
 *** xref:subsystems/cdh/obc.adoc[On-Board Computer]
 ** xref:subsystems/comms/overview.adoc[Communications]
 *** xref:subsystems/comms/radio.adoc[Communications Card]
-*** xref:subsystems/comms/radio.adoc[Antenna Assembly]
+*** xref:subsystems/comms/antenna.adoc[Antenna Assembly]
 ** xref:subsystems/gnc/overview.adoc[Guidance, Navigation, and Control]
 *** xref:subsystems/gnc/adcs.adoc[ADCS]
 *** xref:subsystems/gnc/gps.adoc[GPS]

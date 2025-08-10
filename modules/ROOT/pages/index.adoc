@@ -1,4 +1,7 @@
 = PULSE-A Hardware Documentation
-Welcome to the hardware documentation site for the PULSE-A project. This site hosts all the hardware specific documentation describing the material in our github (linked here).
+
+Welcome to the hardware documentation site for the PULSE-A project. This site hosts all the hardware specific documentation describing the material in our github link:https://github.com/UChicago-PULSE[here].
+
 
 Navigate through the navigation bar to the right where all our hardware is organized by subsystem. To view mission level documentation or firmware documentation, use the button on the bottom right of the screen.
+

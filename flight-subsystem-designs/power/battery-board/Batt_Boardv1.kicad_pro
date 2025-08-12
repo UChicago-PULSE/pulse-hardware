@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
-          "width": 1.025
+          "height": 1.599999,
+          "width": 1.0
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -88,16 +88,16 @@
           "Intentional close cell spacing"
         ],
         [
-          "silk_over_copper|173905778|122400000|77e45103-d93d-4f88-b65f-df944bc9a909|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|173424352|122400000|77e45103-d93d-4f88-b65f-df944bc9a909|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|174795000|121600000|b7207984-55dd-413c-bf33-53cce9efcdbc|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|173525000|121600000|b7207984-55dd-413c-bf33-53cce9efcdbc|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|162587500|113000000|5c5fbbd9-7d92-4bf2-8c77-243aa157e38b|5acaf1ed-c59a-49a6-984d-7710058b8017|F.Cu",
-          "It's fine"
+          "starved_thermal|173225000|115050000|5c5fbbd9-7d92-4bf2-8c77-243aa157e38b|1231ee01-0091-4221-b4c9-80f145b7816b|F.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -550,7 +550,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 1.0,
+        "clearance": 0.75,
         "name": "B-_HI_CLEARANCE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -596,7 +596,7 @@
         "pattern": "/BM"
       },
       {
-        "netclass": "Default",
+        "netclass": "B-_HI_CLEARANCE",
         "pattern": "/B-"
       }
     ]

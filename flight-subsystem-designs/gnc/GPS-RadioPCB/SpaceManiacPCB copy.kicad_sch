@@ -5050,12 +5050,6 @@
 		(uuid "7a7b27f1-45c0-4a01-91c2-72e309fa3741")
 	)
 	(junction
-		(at 39.37 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8016d5b4-191e-4f82-b428-2a165bcd98dd")
-	)
-	(junction
 		(at 259.08 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5104,10 +5098,16 @@
 		(uuid "cfbd850a-6393-4caa-ab9c-69e586488eb1")
 	)
 	(junction
-		(at 68.58 154.94)
+		(at 66.04 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d861309a-9f87-4838-b24a-8a9366b1fa4f")
+		(uuid "ee45a5c8-259b-4740-8815-ac3e44bfb48c")
+	)
+	(junction
+		(at 66.04 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6c60ffa-2820-42c8-a482-bf6e7e573510")
 	)
 	(junction
 		(at 91.44 76.2)
@@ -5875,16 +5875,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 72.39 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e216fb3-97ee-43ed-837c-99c09867c20e")
-	)
-	(wire
-		(pts
 			(xy 85.09 38.1) (xy 91.44 38.1)
 		)
 		(stroke
@@ -6195,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 151.13) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f7f23d-4151-443c-8c4a-371b65afa51c")
+	)
+	(wire
+		(pts
 			(xy 232.41 100.33) (xy 243.84 100.33)
 		)
 		(stroke
@@ -6305,6 +6305,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 154.94) (xy 68.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8638222c-2e58-4769-8b76-077a8bcf7329")
+	)
+	(wire
+		(pts
 			(xy 226.06 77.47) (xy 243.84 77.47)
 		)
 		(stroke
@@ -6372,6 +6382,16 @@
 			(type default)
 		)
 		(uuid "8d9304bc-c08f-43e8-a7da-f76bb1f902a9")
+	)
+	(wire
+		(pts
+			(xy 66.04 96.52) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91199419-f65a-4ef1-af86-3e4da2fdd0a8")
 	)
 	(wire
 		(pts
@@ -6945,7 +6965,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 154.94) (xy 68.58 154.94)
+			(xy 29.21 154.94) (xy 66.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7043,6 +7063,16 @@
 		)
 		(uuid "2921126e-5e92-422b-a247-9b2df0483d6b")
 	)
+	(label "PWR_Fanout"
+		(at 66.04 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e44f85-240f-404e-827b-5be9fd3898bb")
+	)
 	(label "CAN2_H"
 		(at 226.06 74.93 0)
 		(effects
@@ -7104,7 +7134,7 @@
 		(uuid "72c21f35-196b-4232-b479-25c9ca1a0b20")
 	)
 	(label "CLK_3"
-		(at 74.93 175.26 0)
+		(at 85.09 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7124,7 +7154,7 @@
 		(uuid "82213500-da47-4a3e-af33-8dda018dfd4e")
 	)
 	(label "CLK_2"
-		(at 85.09 172.72 0)
+		(at 74.93 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7182,6 +7212,16 @@
 			(justify left bottom)
 		)
 		(uuid "b199170f-44bd-454e-a51c-12a33fb966a4")
+	)
+	(label "PWR_Fanout"
+		(at 39.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfa9085b-ab58-4c06-88db-2377c75fec9e")
 	)
 	(label "I2C1_SDA"
 		(at 227.33 59.69 0)
@@ -7412,7 +7452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "TVS5B5CL"
 			(at 63.754 179.324 90)
 			(effects
 				(font
@@ -7545,7 +7585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "TVS5B5CL"
 			(at 84.582 178.308 90)
 			(effects
 				(font
@@ -8126,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 68.58 154.94 0)
+		(at 39.37 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8134,7 +8174,7 @@
 		(dnp no)
 		(uuid "39fc5828-58cb-450e-9cff-0f520e845cd7")
 		(property "Reference" "#PWR013"
-			(at 68.58 158.75 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8183,7 @@
 			)
 		)
 		(property "Value" "3V3_S"
-			(at 68.58 151.13 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 154.94 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 154.94 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 154.94 0)
+			(at 39.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "TVS5B5CL"
 			(at 93.726 161.29 90)
 			(effects
 				(font
@@ -9749,7 +9789,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 39.37 76.2 90)
+		(at 66.04 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9757,7 +9797,7 @@
 		(dnp no)
 		(uuid "6d4ef193-cfb4-4421-892b-9629e2409add")
 		(property "Reference" "#FLG01"
-			(at 37.465 76.2 0)
+			(at 66.04 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9806,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.242 76.454 90)
+			(at 64.262 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9832,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -10455,7 +10495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 158.75 0)
 			(effects
 				(font
@@ -10589,7 +10629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 78.74 0)
 			(effects
 				(font
@@ -10830,7 +10870,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 76.2 0)
+		(at 66.04 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10838,7 +10878,7 @@
 		(dnp no)
 		(uuid "9466b300-05c1-4d09-a5d5-6f2f19579124")
 		(property "Reference" "#PWR042"
-			(at 39.37 80.01 0)
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,7 +10887,7 @@
 			)
 		)
 		(property "Value" "3V3_S"
-			(at 39.624 71.628 0)
+			(at 59.944 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +10895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10864,7 +10904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 76.2 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0604_2x30_P0.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:CON_MolexSlimStack_54363-0689"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -11618,7 +11658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 92.71 0)
 			(effects
 				(font
@@ -12533,8 +12573,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
-			(at 14.732 179.07 90)
+		(property "Value" "TVS5B5CL"
+			(at 19.558 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0604_2x30_P0.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:CON_MolexSlimStack_54363-0689"
 			(at 248.92 80.01 0)
 			(effects
 				(font
@@ -12910,7 +12950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "TVS5B5CL"
 			(at 92.202 155.194 90)
 			(effects
 				(font

@@ -298,6 +298,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|419100|939800|2d6943c9-81c4-424b-883e-f067a11ed57e|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "pin_to_pin|1447800|304800|c67288ef-cc80-481b-a4b3-b4bbd3ae25a4|682597b8-d42b-4fc6-8c99-9bcffcc2fa9b|/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4/704e1e38-2a40-4837-82db-8d871c4d1498|/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4/704e1e38-2a40-4837-82db-8d871c4d1498|/a5e22de5-0e9e-4e3b-9cf5-d999de47cef4",
         "\"Ths pin can be floated but the device has better thermal performance with this pin tied to GND.\" -Datasheet"
       ]
@@ -617,7 +621,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "BattBoardBOM",
+    "bom_export_filename": "BattBoardBOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -1,2 +1,5 @@
 *.pdf
 gerber/
+*.csv
+*.numbers
+

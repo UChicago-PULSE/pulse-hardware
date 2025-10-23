@@ -1753,12 +1753,6 @@
 		(uuid "a215be3a-729a-4d0f-8187-4e945d5929ea")
 	)
 	(junction
-		(at 256.54 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa5973a6-431f-4d14-830c-5fea3bcaf8d9")
-	)
-	(junction
 		(at 245.11 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1769,12 +1763,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b01e09f3-7b59-4fe8-951b-c9e4dd7efdf5")
-	)
-	(junction
-		(at 248.92 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b97a71-2407-4bbe-abfc-118e9f9796fa")
 	)
 	(junction
 		(at 87.63 31.75)
@@ -1813,12 +1801,6 @@
 		(uuid "c9507816-e61e-4765-86de-f5419c589abe")
 	)
 	(junction
-		(at 257.81 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf7289cb-4a47-4fd4-9b63-87f0f0d723ef")
-	)
-	(junction
 		(at 74.93 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1829,12 +1811,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc6d8b78-2553-4f31-a96a-43ce48f33d12")
-	)
-	(junction
-		(at 248.92 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de4c3d0d-ed07-44e2-8e38-7aac0613d1ac")
 	)
 	(junction
 		(at 132.08 49.53)
@@ -4412,73 +4388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 248.92 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31b10084-5e67-4c27-b87c-c3e584f18a5d")
-		(property "Reference" "TP9"
-			(at 251.46 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUTPUT"
-			(at 251.46 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 254 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c92f13c-53c5-4174-a3dc-6c140516d762")
-		)
-		(instances
-			(project "RealQuadcellAmp"
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 125.73 31.75 90)
 		(unit 1)
@@ -4676,73 +4585,6 @@
 			(project "RealQuadcellAmp"
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35ccd4fb-14a8-494b-93d6-e7cf2c044571")
-		(property "Reference" "TP3"
-			(at 260.35 29.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUTPUT"
-			(at 260.35 32.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 262.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 257.81 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07c0c7d4-357c-4a46-9192-d7a02d002729")
-		)
-		(instances
-			(project "RealQuadcellAmp"
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5853,73 +5695,6 @@
 			(project ""
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 248.92 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66b79f73-8baf-4132-b0b2-5b0677e30a9a")
-		(property "Reference" "TP12"
-			(at 251.46 94.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUTPUT"
-			(at 251.46 97.0279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 248.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4c9ae31-5107-4580-94e5-b39fbc7fb1b7")
-		)
-		(instances
-			(project "RealQuadcellAmp"
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7921,73 +7696,6 @@
 			(project ""
 				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 256.54 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7fa5ee3-01ad-4de3-94c2-7cae1905b565")
-		(property "Reference" "TP6"
-			(at 259.08 47.4979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUTPUT"
-			(at 259.08 50.0379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 261.62 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 256.54 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26eb2ee7-3ffd-48e1-be7f-9bf483f3fc42")
-		)
-		(instances
-			(project "RealQuadcellAmp"
-				(path "/04f52b3a-5976-42a8-8396-a028f6071297"
-					(reference "TP6")
 					(unit 1)
 				)
 			)

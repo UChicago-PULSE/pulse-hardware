@@ -2,3 +2,6 @@
 *.zip
 **fp-info-cache
 **/.DS_Store
+*.gbr
+*.gbrjob
+*.drl
